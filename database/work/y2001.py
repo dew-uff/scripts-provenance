@@ -1,0 +1,287 @@
+# coding: utf-8
+from datetime import datetime
+from snowballing.models import *
+from ..places import *
+
+
+ben2001a = DB(WorkUnrelated(
+    2001, "YAML Ain't Markup Language (YAML™) Version 1.1",
+    due="Unrelated to provenance",
+    display="ben",
+    authors="Ben-Kiki, Oren and Evans, Clark and Ingerson, Brian",
+    place=Web,
+    link="http://yaml.org/spec/1.1/",
+    entrytype="article",
+    scholar="http://scholar.google.com/scholar?cites=15542874545211952042&as_sdt=2005&sciodt=0,5&hl=en",
+    cluster_id="15542874545211952042",
+    scholar_ok=True,
+))
+
+beszedes2001a = DB(WorkUnrelated(
+    2001, "Dynamic slicing method for maintenance of large C programs",
+    due="Unrelated to provenance. May be used as a technique to collect provenance, though",
+    may_be_related_to=["slicing"],
+    display="beszedes",
+    authors="Beszedes, Árpád and Gergely, Tamás and Szabo, Z Mihaly and Csirik, Janos and Gyimothy, Tibor",
+    summary="Proposes a new forward global method for dynamic program slicing that can be applied to real size C programs",
+    place=CSMR,
+    file="Beszedes2001a.pdf",
+    entrytype="inproceedings",
+    scholar="http://scholar.google.com/scholar?cites=405635712063641090&as_sdt=2005&sciodt=0,5&hl=en",
+    pp="105--113",
+    organization="IEEE",
+    cluster_id="405635712063641090",
+    scholar_ok=True,
+))
+
+brandes2001a = DB(WorkUnrelated(
+    2001, "GraphML progress report structural layer proposal",
+    due="Unrelated to scripts, unrelated to provenance",
+    display="brandes",
+    authors="Brandes, Ulrik and Eiglsperger, Markus and Herman, Ivan and Himsolt, Michael and Marshall, M Scott",
+    place=GD,
+    summary="Proposes a XML format for drawing graphs",
+    file="Brandes2002a.pdf",
+    proceedings="LNCS 2265",
+    pp="501--512",
+    entrytype="inproceedings",
+    scholar="http://scholar.google.com/scholar?cites=17381868807504100479&as_sdt=2005&sciodt=0,5&hl=en",
+    organization="Springer",
+    cluster_id="17381868807504100479",
+    scholar_ok=True,
+))
+
+buneman2001a = DB(WorkUnrelated(
+    2001, "Why and where: A characterization of data provenance",
+    due="Unrelated to scripts. It deals with provenance in databases created by queries",
+    may_be_related_to=["database"],
+    star="[collection][x] Classifies provenance in why x where",
+    display="buneman",
+    authors="Buneman, Peter and Khanna, Sanjeev and Wang-Chiew, Tan",
+    summary="Proposes an approach to collect provenance created by database queries. Classifies provenance in 'why' provenance (as what influenced the result) and 'where' provenance (as the location in the source database from which the data was extracted)",
+    place=ICDT,
+    file="Buneman2001a.pdf",
+    pp="316--330",
+    entrytype="inproceedings",
+    scholar="http://scholar.google.com/scholar?cites=10136133368538130328&as_sdt=2005&sciodt=0,5&hl=en",
+    organization="Springer",
+    cluster_id="10136133368538130328",
+    scholar_ok=True,
+))
+
+chou2001a = DB(WorkUnrelated(
+    2001, "An empirical study of operating systems errors",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="chou",
+    authors="Chou, Andy and Yang, Junfeng and Chelf, Benjamin and Hallem, Seth and Engler, Dawson",
+    place=SOSP,
+    file="Chou2001a.pdf",
+    editors="Keith Marzullo and M.Satyanarayanan.",
+    pp="73--88",
+    isbn="1-58113-389-8",
+    local="Banff, Alberta, Canada",
+    doi="10.1145/502034.502042",
+    publisher="ACM",
+    entrytype="inproceedings",
+    cluster_id="7919453341044714778",
+    volume="35",
+    number="5",
+    scholar="http://scholar.google.com/scholar?cites=7919453341044714778&as_sdt=2005&sciodt=0,5&hl=en",
+    organization="ACM",
+    scholar_ok=True,
+))
+
+clements2001a = DB(WorkUnrelated(
+    2001, "Software product lines: Patterns and practice",
+    due="Unrelated to provenance",
+    display="clements",
+    authors="Clements, Paul and Northrop, Linda",
+    place=Book,
+    publisher="Addison Wesley Longman Publishing Co",
+    local="Boston, MA, EUA",
+    link="http://www.informit.com/store/software-product-lines-practices-and-patterns-9780201703320",
+    entrytype="article",
+    cluster_id="4019182560074797435",
+    scholar="http://scholar.google.com/scholar?cites=4019182560074797435&as_sdt=2005&sciodt=0,5&hl=en",
+    scholar_ok=True,
+))
+
+frew2001a = DB(WorkSnowball( # 136
+    2001, "Earth system science workbench: A data management infrastructure for earth science products",
+    snowball=datetime(2017, 3, 6),
+    display="essw",
+    authors="Frew, James and Bose, Rajendra",
+    summary="Uses perl scripting techniques and Java to store data provenance as XML documents",
+    place=SSDBM,
+    file="Frew2001a.pdf",
+    local="Fairfax, VA, U.S.A",
+    pp="180--189",
+    doi="10.1109/SSDM.2001.938550",
+    entrytype="inproceedings",
+    scholar="http://scholar.google.com/scholar?cites=15969098909434514574&as_sdt=2005&sciodt=0,5&hl=en",
+    organization="IEEE",
+    cluster_id="15969098909434514574",
+    scholar_ok=True,
+    citation_file="essw2001",
+    tracking="alert",
+))
+
+heydon2001a = DB(WorkUnrelated(
+    2001, "The Vesta approach to software configuration management",
+    due="Unrelated to provenance",
+    star="[collection][xx] May be used as an example of SCM tool that collects 'prospective' provenance",
+    display="heydon",
+    authors="Heydon, Allan and Levin, Roy and Mann, Timothy and Yu, Yuan",
+    summary="Proposes a SCM system that keeps track of dependencies and source used during the build",
+    place=TechReport,
+    file="Heydon2001a.pdf",
+    number="168",
+    local="Compaq Systems Research Center",
+    entrytype="book",
+    scholar="http://scholar.google.com/scholar?cites=13599009782832370694&as_sdt=2005&sciodt=0,5&hl=en",
+    publisher="Compaq. Systems Research Center [SRC]",
+    cluster_id="13599009782832370694",
+    scholar_ok=True,
+))
+
+lakshmanan2001a = DB(WorkUnrelated(
+    2001, "SchemaSQL: An extension to SQL for multidatabase interoperability",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="lakshmanan",
+    authors="Lakshmanan, Laks VS and Sadri, Fereidoon and Subramanian, Subbu N",
+    place=TODS,
+    file="Lakshmanan2001a.pdf",
+    pp="476--519",
+    number="4",
+    volume="26",
+    entrytype="article",
+    cluster_id="16041268840309147979",
+    publisher="ACM",
+    scholar="http://scholar.google.com/scholar?cites=16041268840309147979&as_sdt=2005&sciodt=0,5&hl=en",
+    scholar_ok=True,
+))
+
+lamport2001a = DB(WorkUnrelated(
+    2001, "Paxos made simple",
+    due="Unrelated to provenance",
+    display="lamport",
+    authors="Lamport, Leslie and others",
+    place=SIGACT,
+    file="Lamport2001a.pdf",
+    entrytype="article",
+    scholar="http://scholar.google.com/scholar?cites=12753876235558083852&as_sdt=2005&sciodt=0,5&hl=en",
+    number="4",
+    volume="32",
+    pp="18--25",
+    cluster_id="12753876235558083852",
+    scholar_ok=True,
+))
+
+leeuw2001a = DB(WorkUnrelated(
+    2001, "Reproducible Research. The Bottom Line",
+    due="Unrelated to provenance",
+    display="leeuw",
+    authors="De Leeuw, Jan",
+    place=TechReport,
+    local="University of California, Los Angeles, California",
+    file="Leeuw2001a.pdf",
+    entrytype="article",
+    cluster_id="13854401365357263581",
+    scholar="http://scholar.google.com/scholar?cites=13854401365357263581&as_sdt=2005&sciodt=0,5&hl=en",
+    scholar_ok=True,
+))
+
+marathe2001a = DB(WorkUnrelated(
+    2001, "Tracing lineage of array data",
+    due="May be used as a technique to capture provenance of arrays on script, but does not deal with general purpose scripts",
+    may_be_related_to=["slicing"],
+    display="marathe",
+    authors="Marathe, Arunprasad P",
+    summary="Proposes an algorithm to capture lineage of arrays",
+    place=JIIS,
+    file="Marathe2001a.pdf",
+    volume="17",
+    number="2--3",
+    pp="193--214",
+    entrytype="article",
+    scholar="http://scholar.google.com/scholar?cites=15062452939243864600&as_sdt=2005&sciodt=0,5&hl=en",
+    publisher="Springer",
+    cluster_id="15062452939243864600",
+    scholar_ok=True,
+))
+
+miller2001a = DB(WorkUnrelated(
+    2001, "Interactive Simultaneous Editing of Multiple Text Regions",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="miller",
+    authors="Miller, Robert C and Myers, Brad A",
+    place=ATC,
+    file="Miller2001a.pdf",
+    pp="161--174",
+    entrytype="inproceedings",
+    cluster_id="18230944214017779040",
+    scholar="http://scholar.google.com/scholar?cites=18230944214017779040&as_sdt=2005&sciodt=0,5&hl=en",
+    scholar_ok=True,
+))
+
+palsberg2001a = DB(WorkUnrelated(
+    2001, "Type-based analysis and applications",
+    due="Unrelated to provenance",
+    display="palsberg",
+    authors="Palsberg, Jens",
+    summary="Surveys work and softwares that performs type-based static analisys",
+    place=PASTE,
+    file="Palsberg2001a.pdf",
+    pp="20--27",
+    local="New York, NY, USA",
+    entrytype="inproceedings",
+    scholar="http://scholar.google.com/scholar?cites=13926801687243356185&as_sdt=2005&sciodt=0,5&hl=en",
+    organization="ACM",
+    cluster_id="13926801687243356185",
+    scholar_ok=True,
+))
+
+papadopoulos2001a = DB(WorkUnrelated(
+    2001, "NPACI Rocks: Tools and techniques for easily deploying manageable linux clusters",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="papadopoulos",
+    authors="Papadopoulos, Philip M and Katz, Mason J and Bruno, Greg",
+    place=CLUSTER,
+    file="Papadopoulos2001a.pdf",
+    pp="258--270",
+    entrytype="inproceedings",
+    cluster_id="7184934994901026125",
+    scholar="http://scholar.google.com/scholar?cites=7184934994901026125&as_sdt=2005&sciodt=0,5&hl=en",
+    scholar_ok="aprox",
+))
+
+raman2001a = DB(WorkUnrelated(
+    2001, "Potter's wheel: An interactive data cleaning system",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="raman",
+    authors="Raman, Vijayshankar and Hellerstein, Joseph M",
+    place=VLDB,
+    file="Raman2001a.pdf",
+    entrytype="inproceedings",
+    cluster_id="10349558671112969999",
+    volume="1",
+    scholar="http://scholar.google.com/scholar?cites=10349558671112969999&as_sdt=2005&sciodt=0,5&hl=en",
+    pp="381--390",
+    scholar_ok=True,
+))
+
+smith2001a = DB(WorkUnrelated(
+    2001, "The Alexandria Digital Library Project",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="smith",
+    authors="Frew, James and Freeston, Michael and Freitas, Nathan and Hill, Linda and Janee, Greg and Lovette, Kevin and Nideffer, Robert and Smith, Terence and Zheng, Qi",
+    place=NIT,
+    local="Beijing",
+    file="Smith2001a.pdf",
+    entrytype="inproceedings",
+    cluster_id="4360289606187941698",
+    scholar="http://scholar.google.com/scholar?cites=4360289606187941698&as_sdt=2005&sciodt=0,5&hl=en",
+    pp="61--73",
+    organization="Springer",
+    scholar_ok="aprox",
+))

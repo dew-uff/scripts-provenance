@@ -1,0 +1,49 @@
+kuklin2016a
+
+1
+Ushenin, K.S., Kuklin, E.Y., Byordov, D.A., Sozykin, A.V.
+Computational workflow system for simulation of living systems on supercomputers
+International Scientific Conference on Parallel Computing Technologies
+local=Arkhangelsk; Russia
+month=March
+proceedings = CEUR Workshop 1576
+pp=729--735
+2016
+
+2
+> davison2014a
+
+3
+Howe, B.
+Virtual Appliances, Cloud Computing, and Reproducible Research
+Computing in Science & Engineering
+volume=14
+number=4
+pp=36--41
+2012 
+
+4
+> guo2012b
+
+5
+Hivebench Electronic Lab notebook
+https://www.hivebench.com/ 
+
+6
+Fomel, S., Sava, P., Vlad, I., Liu, Y., Bashkardin, V.
+Madagascar: Open-source Software Project for Multidimensional Data Analysis and Reproducible Computational Experiments
+Journal of Open Research Software
+doi=10.5334/jors.ag
+2013
+
+7
+Paramiko: a Python implementation of SSHv2
+http://www.paramiko.org/ 
+
+8
+Jette, M.A., Yoo, A.B., Grondona, M.
+SLURM: Simple Linux Utility for Resource Management
+JSSPP
+proceedings=LNCS 2862
+pp=44--60
+2003

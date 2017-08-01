@@ -1,0 +1,31 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+}
+
+footer {
+	border-top: 1px solid black;
+	text-align: center
+}
+
+footer img {
+	margin: 10px;
+}
+
+pre {
+	width: 100%;
+}
+
+#githublogo {
+	fill: rgb(157, 157, 157);
+}
+
+
+a:hover #githublogo {
+	fill: white;
+}
+
+
+    

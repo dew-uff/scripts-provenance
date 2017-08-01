@@ -1,0 +1,277 @@
+Bates 2016
+
+1
+"Aldeco-Pérez and Moreau present a methodologyforincorporatingprovenanceintoapplicationsduringtheirdesignsuch that they satisfy the auditing requirements of the UK Data Protection Act [1].",
+        
+2
+"Bates et al. consider the challenges of managing data provenance between cloud deployments [2], and present a general distributed mechanism for the enforcement of regulatory policies such as ITAR [60] and HIPAA [10].",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "AuthenticatedChannel.Indistributedenvironments,provenance-awaresystems must provide a means of assuring authenticity and integrity of provenance as it is communicated over open networks [2, 38, 48, 66].",
+        "AccessControl:Whenusedtomediateaccessdecisions[2, 44, 45, 47],anattacker could tamper with provenance in order to gain unauthorized access, or to perform adenial-of-serviceattackonotherusersbyartiﬁciallyescalatingthesecuritylevel of data objects.",
+        
+3
+"Networks: Provenance metadata can also be associated with packets in order to better understand network events in distributed systems [3, 65, 66]. Coordinating multiple compromised hosts, an attacker may attempt to send unauthenticated messages to avoid provenance generation and to perform data exﬁltration.",
+        "The integrity and authenticity of provenance identiﬁers could also be protected via IPsec [29], SSL tunneling,2 or otherformsofencapsulation[3, 66].",
+        
+4
+"Additionally, Bates et al. [4] considered that much of the provenance collected by high-ﬁdelity systems is simply uninteresting; in other words, it is the collection of data that does not provide new information essential to system reconstruction or forensic analysis, for example.",
+        
+5
+"The Linux Provenance Modules (LPM) project [5] is an attempt to unify the operational needs of the disparate provenance communities through the design and implementation of a generalized framework for the development of automated, whole-system provenance collection on the Linux operating system.",
+        "Thisworkdrawsinpartfrom[5, 38, 48].",
+        
+6
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+7
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+8
+"While PASS was designed for benign environments [8], its approach of instrumenting the kernel for provenancecollectioncreatesanopportunitytoinsulatetheprovenancecaptureagent fromthedangersofuserspace.",
+        
+9
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+10
+"Bates et al. consider the challenges of managing data provenance between cloud deployments [2], and present a general distributed mechanism for the enforcement of regulatory policies such as ITAR [60] and HIPAA [10].",
+        
+11
+"These techniques should be able to be applied in tandem with Chapman et al.’s provenance factorization techniques that ﬁnd common subtrees and manipulate them to reduce the provenance size [11].",
+        ".Suchanapproachcanbecomplementary tootherproposalsfordatatransformationtoassuretheefﬁcientstorageofprovenance metadata [11] and the use of techniques such as provenance deduplication [61, 62].",
+        
+12
+"Propagatinglineageinformationasdatasetsarefusedandtransformedisoneofthe strongest motivations for provenance capabilities. Chiticariu et al.’s DBNotes providesa“post-Itnote”systemforrelationaldatainwhichannotationsarepropagated basedonlineage[12].",
+        
+13
+"]. LPM must provide a gateway for upgrading low integrity user spacedisclosuresbeforeloggingtheminthehighintegrityprovenancerecord.This is consistent with the Clark-Wilson Integrity model for upgrading or discarding low integrity inputs [13].",
+        
+14
+"Ensuring its efﬁcacy in a computer system, though, is an extremely challenging problem, to the extent that the Department of Homeland Security has included provenance as one of its Hard Problems in Computing [14].",
+        
+15
+"The LSM’s complete mediation property has beenformallyveriﬁed[15, 64];inotherwords,thereisanauthorizationhookpriorto every security-sensitive operation. Because every interaction with a controlled data type is considered security-sensitive, we know that a provenance hook resides on all control paths to the provenance-sensitive operations. LPM is therefore capable of collecting complete provenance on the host.",
+        "The correctness of LSM hook placement has been veriﬁed through both static and dynamic analysis techniques [15, 19, 27].",
+        
+16
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+17
+"From its initial deployment in the database community [17] to a more recent focus to its proposed use as an operating systems feature [42],",
+        "One of the earliest efforts in this space was Chimera [17], which provided a virtual data management system that allowed for tracking the derivations of data through computational procedures",
+        "The earliest disclosed provenance-aware systems were proposed for middleware, such as Chimera [17] and the Earth Science System Workbench [18]",
+        
+18
+"TheEarthScienceSystemWorkbench,usedforprocessingsatelliteimagery,also offered support for provenance annotations [18], as did the Collaboratory for the Multi-scaleChemicalSciences[46]andtheKeplersystem[41].",
+        "The earliest disclosed provenance-aware systems were proposed for middleware, such as Chimera [17] and the Earth Science System Workbench [18]",
+        
+19
+"The correctness of LSM hook placement has been veriﬁed through both static and dynamic analysis techniques [15, 19, 27].",
+        
+20
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+21
+"Gehani and Tariq present SPADE in response to requests for coarser-grained information and the the ability to experiment with different provenance attributes, novel storage and indexing models, and handling provenance from diverse sources [21]. SPADE is a java-based daemon that offers provenance reporter modules for Windows,Linux,OSX,andAndroid.Thereportersarebasedonavarietyofmethods of inference, including polling of basic user space utilities (e.g., ps for process info, lsof for network info), audit log systems (e.g., Window’s ETW, OSX’s BSM), and interpositionviauserspaceﬁlesystemslikeFUSE.Duetoitsmodulardesign,SPADE can be easily extended to support additional provenance streams.",
+        "DPAPI is a component of the PASSv2 project [43]. It’s intended purpose is to create provenance-aware applications whose provenance can be layered on top of informationcollectedbythePASSsystem,allowingsystemoperatorstoreasonholistically about activities at multiple system layers. Several exemplar applications for provenancelayeringaspartofthiseffort:Kepler,Lynx,andasetofgeneral-purpose Pythonwrappers.Similarly,theSPADEsystemofferssupportforprovenance layering by exposing a named pipe and generic domain-speciﬁc language for application layer provenance disclosure [21].",
+        "An attacker with root privilege could terminate the SPADE collection daemon [21] or modify environment variables to prevent Sprov from being linked [24]",
+        ".Toarriveatadeﬁnition,fourpastproposals were inspected that collect broadly scoped provenance: SPADE [21], LineageFS [52], PASS [42], and Hi-Fi [48].",
+        "LPM presents a minimally modiﬁed version of ImageMagick that upports layered provenance at no additional cost over other provenance-aware systems [21, 42], and does so in a manner that provides assurance of the integrity of the provenance log.",
+        "Forexample, in short-lived benchmark trials, each of these systems generated gigabytes of provenance over the course of just a few minutes [21, 42].",
+        
+22
+"While both of these systems require users to adopt a new query language, Glavic and Alonso [22] present PERM (Provenance Extension of the Relational Model), a system that uses query rewriting to annotate result tuples with provenance information, permitting provenance to be queried, stored, and optimized using standard relationaldatabasetechniqueswithoutimpactingnormaldatabaseoperations.",
+        
+23
+"The provenance of this celebrated portrait can be traced back almost 600years to its completion in 1432, with metadataintheformofmarkingsassociatedwithitsownerspaintedonthepainting’s protective shutters helping to establish the hands through which it has passed over the centuries [23].",
+        
+24
+"An attacker with root privilege could terminate the SPADE collection daemon [21] or modify environment variables to prevent Sprov from being linked [24]",
+        "Unfortunately, this introduces further security and interoperability problems; in order to enable provenance-aware systems, users currently need to disable their MAC policy [48], instrument applications [24, 66], gamble on experimental storage formats [42], or sacriﬁce other critical system functionality",
+        
+25
+"Onourprototypedeployments,weenabledSELinux’sMLSpolicy,thesecurity of which was formally modeled by Hicks et al. [25].",
+        
+26
+"DBNotes also has a visualization feature that demonstrates the journey taken by a piece of data through various databases and transformation steps. In related work, Holland et al. [26, 43] present PQL, another query model for data provenance provides a semistructured data and query model for the graph-centric nature of provenance",
+        
+27
+"The correctness of LSM hook placement has been veriﬁed through both static and dynamic analysis techniques [15, 19, 27].",
+        
+28
+". Jones et al. [28] proposeatechniquetouseprovenancetoaidindeterminingpotentialsourcesofinformation leaks",
+        
+29
+"The integrity and authenticity of provenance identiﬁers could also be protected via IPsec [29], SSL tunneling,2 or otherformsofencapsulation[3, 66].",
+        
+30
+"Whentheyareondifferenthosts,theonlyaddedrequirementshould beapartialorderingplacingeachsendbeforeallofitscorrespondingreceives.Lamport clocks [30] would satisfy this requirement",
+        "In addition to the hooks that correspond to existing security hooks, LPM also supports a hook introduced by Hi-Fi that is necessary to preserve Lamport timestamps on network messages [30].",
+        
+31
+"Duetotheconﬁnementproblem that persists in commodity operating systems [31], extraordinary lengths would need to be taken to harden these systems from attack.",
+        
+32
+"The BEEP systems resolves this problem through analysis and transformation of binary executables [32]",
+        "Pohly et al. [48], Ma et al. [36], and Lee et al. [32, 33] all demonstrate that their provenance-aware systems can be used to diagnose system intrusions such as malware and data exﬁltration",
+        "In spite of the fact that BEEP and LogGC are intended to aid in Advanced Persistent Threat (APT) detection, a compromised application could violate BEEP’s EP assumptions inordertocastdoubtontoothersystemusers[32, 33]",
+        ".Byleveragingthis approachalongwithothergarbagecollectiontechniques[32, 33],ProTracerreduces the burden of provenance storage to just tens of megabytes per day.",
+        
+33
+"The LogGC system extends BEEP by introducing a garbage collection ﬁltering mechanism to improve the forensic clarity of the causal graphs [33];",
+        "Pohly et al. [48], Ma et al. [36], and Lee et al. [32, 33] all demonstrate that their provenance-aware systems can be used to diagnose system intrusions such as malware and data exﬁltration",
+        "In spite of the fact that BEEP and LogGC are intended to aid in Advanced Persistent Threat (APT) detection, a compromised application could violate BEEP’s EP assumptions inordertocastdoubtontoothersystemusers[32, 33]",
+        ".Byleveragingthis approachalongwithothergarbagecollectiontechniques[32, 33],ProTracerreduces the burden of provenance storage to just tens of megabytes per day.",
+        
+34
+". Lyle and Martin [34] argue that trusted computing is usefulandimmediatelyapplicabletotheprovenancedomain",
+        "In distributed environments, provenance-aware hosts must attest the integrity of one another before sharing provenance metadata [34], or in layered provenance systems where there is no means to attest provenance disclosures [43]",
+        "Kernel-based provenance mechanisms [42, 48] and sketches for trusted provenance architectures [34, 38] fall short of providing a fully provenance-aware system for distributed, malicious environments.",
+        
+35
+".Ma et al.goontoadaptthesetechniquesWindowsandother proprietarysoftware[35],whereEPcanbeperformedbyperformregularexpression analysis of audit logs in order to identify autonomous units of work",
+        
+36
+"Pohly et al. [48], Ma et al. [36], and Lee et al. [32, 33] all demonstrate that their provenance-aware systems can be used to diagnose system intrusions such as malware and data exﬁltration",
+       "While it records provenance outside of the ﬁle system, its instrumentation of the kernel is ad hoc and unveriﬁed, making it possible that explicit data ﬂows are left unmonitored [36].",
+       "There are some promising methods of reducing the costs of collection. Ma et al.’s ProTracer system offers dramatic improvement in storage cost by making use of a hybrid audit-taint model for provenance collection [36].",
+          
+37
+"Muniswamy-Reddy et al.’s Disclosed Provenance API (DPAPI) [43] and Macko and Seltzer’s Core Provenance Library (CPL) [37] provide portable, multi-linguallibrariesthatapplicationprogrammerscouldusetodiscloseprovenanc",
+        
+38
+"To address the challenges discussed above, McDaniel et al. [38] developed the conceptofaprovenancemonitor,whereprovenanceauthoritiesaccepthost-levelprovenance data from validated monitors to assemble a trustworthy provenance record.",
+        "AuthenticatedChannel.Indistributedenvironments,provenance-awaresystems must provide a means of assuring authenticity and integrity of provenance as it is communicated over open networks [2, 38, 48, 66].",
+        "Kernel-based provenance mechanisms [42, 48] and sketches for trusted provenance architectures [34, 38] fall short of providing a fully provenance-aware system for distributed, malicious environments.",
+        "Thisworkdrawsinpartfrom[5, 38, 48].",
+        
+39
+"The generator is similar in design to the Metasploit Framework [39], in that you can choose an exploit, dropper, and payload to create a custom attack.",
+        
+40
+"Speciﬁcation-based approaches, which generated data provenance based on process documentation [40] alsoappearedintheliteratureatthistime.",
+        
+41
+"TheEarthScienceSystemWorkbench,usedforprocessingsatelliteimagery,also offered support for provenance annotations [18], as did the Collaboratory for the Multi-scaleChemicalSciences[46]andtheKeplersystem[41].",
+        
+42
+"From its initial deployment in the database community [17] to a more recent focus to its proposed use as an operating systems feature [42],",
+        "Capturing data provenance at the operating system layer offers a broad perspective into system activities, providing insight into all applications running on the host. Muniswamy-Reddy et al.’s Provenance-Aware Storage System (PASS) instruments the VFS layer of the Linux kernel to automatically collect, maintain, and provide search for data provenance [42]",
+        "Unfortunately, as PASS instruments the VFS layer [42], it is unable to monitor a variety of explicit data ﬂows within the system, such as shared memory and other forms of interprocess communication.",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "Exacerbating this problem is that, due to a lack of better alternatives, researchers oftenchoosetoimplementtheirprovenance-awaresystemsbyoverloadingothersystem components [42, 48].",
+        ".Toarriveatadeﬁnition,fourpastproposals were inspected that collect broadly scoped provenance: SPADE [21], LineageFS [52], PASS [42], and Hi-Fi [48].",
+        "LPM presents a minimally modiﬁed version of ImageMagick that upports layered provenance at no additional cost over other provenance-aware systems [21, 42], and does so in a manner that provides assurance of the integrity of the provenance log.",
+        "Forexample, in short-lived benchmark trials, each of these systems generated gigabytes of provenance over the course of just a few minutes [21, 42].",
+        "Kernel-based provenance mechanisms [42, 48] and sketches for trusted provenance architectures [34, 38] fall short of providing a fully provenance-aware system for distributed, malicious environments.",
+        
+43
+"DBNotes also has a visualization feature that demonstrates the journey taken by a piece of data through various databases and transformation steps. In related work, Holland et al. [26, 43] present PQL, another query model for data provenance provides a semistructured data and query model for the graph-centric nature of provenance",
+        "Muniswamy-Reddy et al.’s Disclosed Provenance API (DPAPI) [43] and Macko and Seltzer’s Core Provenance Library (CPL) [37] provide portable, multi-linguallibrariesthatapplicationprogrammerscouldusetodiscloseprovenanc",
+        "DPAPI is a component of the PASSv2 project [43]. It’s intended purpose is to create provenance-aware applications whose provenance can be layered on top of informationcollectedbythePASSsystem,allowingsystemoperatorstoreasonholistically about activities at multiple system layers. Several exemplar applications for provenancelayeringaspartofthiseffort:Kepler,Lynx,andasetofgeneral-purpose Pythonwrappers.Similarly,theSPADEsystemofferssupportforprovenance layering by exposing a named pipe and generic domain-speciﬁc language for application layer provenance disclosure [21].",
+        "Other systems have accomplished this by using an expanded printk buffer [52], writing directly to on-disk log ﬁles [43], or using FUSE [56].",
+        "Provenancelayeringisvitaltoobtaining acomprehensiveviewofsystemactivity;however,ratherthanprovidinganinsecure disclosuremechanismlikePASSv2[43],",
+        "Unfortunately, this introduces further security and interoperability problems; in order to enable provenance-aware systems, users currently need to disable their MAC policy [48], instrument applications [24, 66], gamble on experimental storage formats [42], or sacriﬁce other critical system functionality",
+        "AttestedDisclosure.Layeredprovenance,whereadditionalmetadataisdisclosed fromhigheroperationallayers,isadesirablefeatureinprovenance-awaresystems, asapplicationsareabletoreportworkﬂowsemanticsthatareinvisibletotheoperating system [43]",
+        "In distributed environments, provenance-aware hosts must attest the integrity of one another before sharing provenance metadata [34], or in layered provenance systems where there is no means to attest provenance disclosures [43]",
+        
+44
+".Provenance-basedaccess control schemes (PBAC) have been presented that leverage richer contextual informationthantraditionalMAClabels[44, 45, 47]",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "AccessControl:Whenusedtomediateaccessdecisions[2, 44, 45, 47],anattacker could tamper with provenance in order to gain unauthorized access, or to perform adenial-of-serviceattackonotherusersbyartiﬁciallyescalatingthesecuritylevel of data objects.",
+        
+45
+".Provenance-basedaccess control schemes (PBAC) have been presented that leverage richer contextual informationthantraditionalMAClabels[44, 45, 47]",
+        "AccessControl:Whenusedtomediateaccessdecisions[2, 44, 45, 47],anattacker could tamper with provenance in order to gain unauthorized access, or to perform adenial-of-serviceattackonotherusersbyartiﬁciallyescalatingthesecuritylevel of data objects.",
+        
+46
+"TheEarthScienceSystemWorkbench,usedforprocessingsatelliteimagery,also offered support for provenance annotations [18], as did the Collaboratory for the Multi-scaleChemicalSciences[46]andtheKeplersystem[41].",
+        
+47
+".Provenance-basedaccess control schemes (PBAC) have been presented that leverage richer contextual informationthantraditionalMAClabels[44, 45, 47]",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "AccessControl:Whenusedtomediateaccessdecisions[2, 44, 45, 47],anattacker could tamper with provenance in order to gain unauthorized access, or to perform adenial-of-serviceattackonotherusersbyartiﬁciallyescalatingthesecuritylevel of data objects.",
+        
+48
+"Pohly et al. [48], Ma et al. [36], and Lee et al. [32, 33] all demonstrate that their provenance-aware systems can be used to diagnose system intrusions such as malware and data exﬁltration",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "Exacerbating this problem is that, due to a lack of better alternatives, researchers oftenchoosetoimplementtheirprovenance-awaresystemsbyoverloadingothersystem components [42, 48].",
+        "Unfortunately, this introduces further security and interoperability problems; in order to enable provenance-aware systems, users currently need to disable their MAC policy [48], instrument applications [24, 66], gamble on experimental storage formats [42], or sacriﬁce other critical system functionality",
+        ".Toarriveatadeﬁnition,fourpastproposals were inspected that collect broadly scoped provenance: SPADE [21], LineageFS [52], PASS [42], and Hi-Fi [48].",
+        "AuthenticatedChannel.Indistributedenvironments,provenance-awaresystems must provide a means of assuring authenticity and integrity of provenance as it is communicated over open networks [2, 38, 48, 66].",
+        "Hi-Fidemonstratedthatmalwarecouldbeobservedthroughoutavarietyofelements ofamaliciousworm’slife-cycle.Forbrevity,wedonotdiscussfullsimulationresults, which are further discussed in [48].",
+        "Kernel-based provenance mechanisms [42, 48] and sketches for trusted provenance architectures [34, 38] fall short of providing a fully provenance-aware system for distributed, malicious environments.",
+        "Thisworkdrawsinpartfrom[5, 38, 48].",
+        
+49
+"sequencenumberintheIPoptionsﬁeld[49]ofeachoutboundpacket",
+        
+50
+"ScientiﬁcComputing:Anadversarymaywishtomanipulateprovenanceinorder tocommitfraud,ortoinjectuncertaintyintorecordstotriggera“Climategate”-like controversy [50].",
+        
+51
+"The recorder also accepts disclosed provenance from applications after verifying their correctness using the Integrity Measurements Architecture (IMA) [51].",
+        "Toaccomplish this, LPM Provenance Recorders make use of the Linux Integrity Measurement Architecture(IMA) [51].",
+        "Once booted, the kernel then measures the code for user space components (e.g., provenance recorder) before launching them, through the use of the Linux Integrity Measurement Architecture (IMA) [51].",
+        
+52
+"Other systems have accomplished this by using an expanded printk buffer [52], writing directly to on-disk log ﬁles [43], or using FUSE [56].",
+        "As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        ".Toarriveatadeﬁnition,fourpastproposals were inspected that collect broadly scoped provenance: SPADE [21], LineageFS [52], PASS [42], and Hi-Fi [48].",
+        
+53
+"An alternative to DSA signing would be HMAC [6], which offers better performance but requires pairwise keying and sacriﬁces the non-repudiation policy; BLS, which approachesthetheoreticalmaximumsecurityparameterperbyteofsignature[7];or online/ofﬂine signature schemes [9, 16, 20, 53].",
+        
+54
+". Tools such as VisTrails [54], which tracks the provenance of scientiﬁc visualizations, have established themselves as viable platforms in scientiﬁc computing communities.",
+        
+55
+".Compromisesarepossible against the kernel, but other techniques for protecting kernel integrity, including disk-level versioning [57] or a strong write-once read-many (WORM) storage system [55], can mitigate the effects of such compromises.",
+        
+56
+"Other systems have accomplished this by using an expanded printk buffer [52], writing directly to on-disk log ﬁles [43], or using FUSE [56].",
+        
+57
+".Compromisesarepossible against the kernel, but other techniques for protecting kernel integrity, including disk-level versioning [57] or a strong write-once read-many (WORM) storage system [55], can mitigate the effects of such compromises.",
+        
+58
+"The malware behaviors that we implementandtestaredrawnfromSymantec’stechnicaldescriptionsofactualLinux malware [58].",
+        
+59
+"Through use of Netﬁlter hooks [59], LPM embeds a DSAsignatureineveryoutboundnetworkpacket.Signingoccursimmediatelyprior totransmission,andveriﬁcationoccursimmediatelyafterreception,makingitimpossible for an adversary-controlled application running in user space to interfere.",
+        
+60
+"Bates et al. consider the challenges of managing data provenance between cloud deployments [2], and present a general distributed mechanism for the enforcement of regulatory policies such as ITAR [60] and HIPAA [10].",
+        
+61
+".Suchanapproachcanbecomplementary tootherproposalsfordatatransformationtoassuretheefﬁcientstorageofprovenance metadata [11] and the use of techniques such as provenance deduplication [61, 62].",
+        
+62
+".Suchanapproachcanbecomplementary tootherproposalsfordatatransformationtoassuretheefﬁcientstorageofprovenance metadata [11] and the use of techniques such as provenance deduplication [61, 62].",
+        
+63
+"Each of these approaches has drawbacks, so Hi-Fi instead uses a Linux kernel object known as a relay, which is designed speciﬁcally to address this problem [63].",
+        
+64
+"In all instances, provenance-aware systems are exclusively concerned with operations on controlled data types, which are identiﬁed by Zhang et al. as ﬁles, inodes, superblocks, socket buffers, IPC messages, IPC message queue, semaphores, and shared memory [64].",
+        "The LSM’s complete mediation property has beenformallyveriﬁed[15, 64];inotherwords,thereisanauthorizationhookpriorto every security-sensitive operation. Because every interaction with a controlled data type is considered security-sensitive, we know that a provenance hook resides on all control paths to the provenance-sensitive operations. LPM is therefore capable of collecting complete provenance on the host.",
+        
+65
+"As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "Networks: Provenance metadata can also be associated with packets in order to better understand network events in distributed systems [3, 65, 66]. Coordinating multiple compromised hosts, an attacker may attempt to send unauthenticated messages to avoid provenance generation and to perform data exﬁltration.",
+        
+66
+"As we have shown in this chapter, the application of data provenance is presently of enormous interest at different scopes and levels in a variety of disparate communities including scientiﬁc data processing, databases, software development, storage [42, 52], operating systems [48], access controls [44, 47], and distributed systems [2, 65, 66]",
+        "Unfortunately, this introduces further security and interoperability problems; in order to enable provenance-aware systems, users currently need to disable their MAC policy [48], instrument applications [24, 66], gamble on experimental storage formats [42], or sacriﬁce other critical system functionality",
+        "AuthenticatedChannel.Indistributedenvironments,provenance-awaresystems must provide a means of assuring authenticity and integrity of provenance as it is communicated over open networks [2, 38, 48, 66].",
+        "Networks: Provenance metadata can also be associated with packets in order to better understand network events in distributed systems [3, 65, 66]. Coordinating multiple compromised hosts, an attacker may attempt to send unauthenticated messages to avoid provenance generation and to perform data exﬁltration.",
+        "The integrity and authenticity of provenance identiﬁers could also be protected via IPsec [29], SSL tunneling,2 or otherformsofencapsulation[3, 66].",
+        "forensics investigator but must be carefully designed and implemented. Whilewefocusonthecollectionofprovenanceinthischapter,itisalsoimportant tobeabletoefﬁcientlyquerytheprovenanceonceitisProvenancequeriesregarding transitive causes/effects of a single system state or event can be answered by a recursive procedure that retrieves relevant portions of a provenance graph [66, 67].",
+        
+67
+"forensics investigator but must be carefully designed and implemented. Whilewefocusonthecollectionofprovenanceinthischapter,itisalsoimportant tobeabletoefﬁcientlyquerytheprovenanceonceitisProvenancequeriesregarding transitive causes/effects of a single system state or event can be answered by a recursive procedure that retrieves relevant portions of a provenance graph [66, 67].",
+        
+
+
+ Hassan et al. present Sprov, a modiﬁed version of the stdio library that captures provenance for ﬁle I/O system calls at the application layer.
+
+  Pohly et al. developed the Hi-Fi provenance system, designedtocollecthigh-ﬁdelitywhole-systemprovenance.Hi

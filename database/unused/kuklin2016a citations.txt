@@ -1,0 +1,24 @@
+1
+        "We developed LiFlow [1], a lightweight workﬂow automation system that provides scientists a convenient graphical user interface to prepare and execute a series of computational experiments on a parallel computing system with a single click.",
+        
+2
+        "These features can be achieved using Sumatra [2], an open source tool to support reproducible computational research.",
+        
+3
+        "One approach is based on executing experiments in a virtual environment, such as virtual machines or cloud [3].",
+        
+4
+        "This approach is used in the CDE system (Code, Data, and Environment packaging) [4].",
+        
+5
+        "Should also be mentioned electronic notebooks, such as Hivebench [5].",
+        
+6
+        "Some of them are aimed at a particular domain, for example Madagascar [6] is used to analyze seismic data and supports multidimensional data analysis; and Sumatra is used for numerical computations.",
+        
+7
+        "The prepared computational package is transferred to the user’s directory in the parallel computing system through the SSH protocol using the Paramiko [7] library.",
+        
+8
+        "Sumatra can interact with the SLURM Workload Manager [8], which handles the supercomputer.",
+        

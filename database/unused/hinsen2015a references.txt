@@ -1,0 +1,420 @@
+1
+Berman H, Henrick K, Nakamura H
+Announcing the worldwide Protein Data  Bank
+Nature Struct Biol
+volume=10
+number=12
+pp=980
+link=http://www.nature.com/nsmb/journal/v10/n12/full/nsb1203-980.html
+2003
+
+2
+The Dataverse project
+http://dataverse.org/
+
+3
+Dryad
+http://datadryad.org/
+
+4
+figshare
+http://figshare.com/
+
+5
+Zenodo
+http://zenodo.org/
+
+6
+Academic torrents
+http://academictorrents.com/
+
+7
+> merali2010a
+
+8
+Joppa LN, McInerny G, Harper R, et al.
+Computational science. Troubling trends in scientific software use
+Science
+volume=340
+number=6134)
+pp=814–815
+link=http://dx.doi.org/10.1126/science.1231535
+2013
+
+9
+Hoare CAR: The emperor’s old clothes
+CACM
+volume=24
+number=2
+pp=75–83
+1981
+
+10
+Priem J, Taraborelli D, Groth P, et al.: altmetrics: a manifesto
+http://altmetrics.org/manifesto/
+
+11
+Stodden V, Miguez S
+Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research
+Soc Sci Res Network
+2013
+
+12
+> stodden2014a
+
+13
+> shen2014a
+
+14
+Hinsen K: ActivePapers - computational science made reproducible and publishable
+http://www.activepapers.org/
+
+15
+The DOI system.
+http://www.doi.org/
+
+
+16
+Newton I
+Philosophiae Naturalis Principia Mathematica
+R Soc
+1686
+
+17
+Archivematica
+https://ww.archivematica.org/en/
+
+18
+Regehr J: A guide to undefined behavior in C and C++. 
+http://blog.regehr.org/archives/213
+
+19
+Kabsch W, Sander C
+Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features
+Biopolymers
+volume=22
+number=12
+pp=2577–2637
+link=http://dx.doi.org/10.1002/bip.360221211
+1983
+
+20
+Hekkelman M: DSSP 2.1.0
+http://swift.cmbi.ru.nl/gv/dssp/
+
+21
+Matthews B, Shaon A, Bicarregui J, et al.
+A Framework for Software Preservation
+Int J Digit Curation
+volume=5
+number=1
+pp=91–105
+2010
+
+22
+Haiyan M, Matthias W, Peter I, et al.
+A Case Study in Preserving a High Energy Physics Application
+TechReport
+local=DASPOS
+number=#2
+pp=1-9
+link=https://daspos.crc.nd.edu/images/workshop_reports/workshop2/DASPOS_Technical%20Report_2.pdf
+2014
+
+23
+> peng2011a
+
+24
+> donoho2010a
+
+25
+> stodden2012b
+
+26
+> hinsen2014a
+
+27
+Hinsen K: The approximation tower in computational science: Why testing scientific software is difficult
+Comput Sci Eng
+volume=17
+number=4
+pp=72–77
+2015
+
+28
+Research Object Community
+http://www.researchobject.org/
+
+29
+Wolfram Research
+Mathematica 2.0
+Unpublished
+1991
+
+30
+Project Jupyter
+http://www.jupyter.org/
+
+31
+> knuth1984a
+
+32
+Schulte E, Davison D
+Active documents with Org-mode
+Comput Sci Eng
+volume=13
+number=3
+pp=66–73
+link=http://www.cs.unm.edu/~eschulte/data/CISE-13-3-SciProg.pdf
+2011
+
+33
+> xie2013a
+
+34
+The Kepler Project
+https://kepler-project.org/
+
+35
+The Taverna workflow management system
+http://www.taverna.org.uk/
+
+36
+VisTrails
+http://www.vistrails.org/
+
+37
+Gabriel B, Cory B, Robert G, et al.
+Enhancing reproducibility and collaboration via management of R package cohorts
+arXiv
+link=http://arxiv.org/pdf/1501.02284.pdf
+2015
+
+38
+Van Gorp P, Grefen P
+Supporting the internet-based evaluation of research software with cloud infrastructure
+Softw Syst Model
+volume=11
+number=1
+pp=11–28
+2012
+
+39
+Gent I, Kotthoff L: recomputation.org home page.
+http://recomputation.org/
+
+40
+Boettiger C
+An introduction to Docker for reproducible research, with examples from the R environment
+arXiv
+link=http://arxiv.org/abs/1410.0846
+2014
+
+41
+Meng H, Kommineni R, Pham Q, et al.
+An invariant framework for conducting reproducible computational science
+Journal of Computational Science
+volume=9
+pp=137-142
+2015
+
+42
+exec&share
+http://www.execandshare.org/
+
+43
+Collage Authoring Environment
+https://collage.elsevier.com/
+
+44
+Lindholm T, Yellin F
+The Java Virtual Machine Specification
+Book
+publisher=Prentice Hall
+link=http://docs.oracle.com/javase/specs/jvms/se6/html/VMSpecTOC.doc.html
+1999
+
+45
+ECMA Standard 335: Common Language Infrastructure CLI
+http://www.ecma-international.org/publications/standards/Ecma-335.htm
+
+46
+JAR file specification
+https://docs.oracle.com/javase/8/docs/technotes/guides/jar/jar.html
+
+47
+Diethelm K
+The limits of reproducibility in numerical simulation
+Comput Sci Eng
+volume=14
+number=1
+pp=64–72
+2012
+
+48
+Gronenschild EHBM, Habets P, Jacobs HIL, et al.
+The effects of FreeSurfer version, workstation type, and Macintosh operating system version on anatomical volume and cortical thickness measurements
+PLoS One
+volume=7
+number=6
+pp=e38234
+link=http://www.ncbi.nlm.nih.gov/pmc/articles/3365894
+2012
+
+49
+Glatard T, Lewis LB, Ferreira da Silva R, et al.
+Reproducibility of neuroimaging analyses across operating systems
+Front Neuroinform
+volume=9
+pp=12
+link=http://www.ncbi.nlm.nih.gov/pmc/articles/4408913
+2015
+
+50
+Jezequel F, Langlois P, Revol N
+First steps towards more numerical reproducibility
+ESAIM: Proceedings and Surveys
+volume=45
+pp=229-238
+2014
+
+51
+Demmel J, Nguyen HD
+Fast reproducible floating-point summation
+IEEE Symposium on Computer Arithmetic
+local=Austin, Texas, USA
+pp=163-172
+2013
+
+52
+Revol N, Theveny P
+Numerical reproducibility and parallel computations: Issues for interval algorithms
+IEEE Trans Comput
+volume=63
+number=8
+pp=1–1
+2014
+
+53
+Portable Native client: The “pinnacle” of speed, security, and portability
+http://blog.chromium.org/2013/11/portable-native-client-pinnacle-of.html
+
+54
+> lattner2004a
+
+55
+Hinsen K
+A data and code model for reproducible research and executable papers
+volume=4
+pp=579–588
+Pro Comput Sci
+2011
+
+56
+The HDF Group. Hierarchical data format version 5
+http://www.hdfgroup.org/HDF5
+
+57
+Scientific IT Services of ETH Zürich. JHDF5, HDF5 for Java
+http://wiki-bsse.ethz.ch/pages/viewpage.action?pageId=26609113
+
+58
+Wikipedia. Make (software)— Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/Make_(software)
+
+59
+Millman KJ, Aivazis M
+Python for scientists and engineers
+Comput Sci Eng
+volume=13
+number=2
+pp=9–12
+2011
+
+60
+Python Software Foundation. The Python language
+http://www.python.org/
+
+61
+Collette A: Python and HDF5. O’Reilly Media
+http://shop.oreilly.com/product/0636920030249.do
+
+62
+NumPy development team. NumPy
+http://www.numpy.org/
+
+63
+Hinsen K, Hu S, Kneller GR, et al.
+A comparison of reduced coordinate sets for describing protein structure
+J Chem Phys
+volume=139
+number=12
+pp=124115
+2013
+
+64
+Chevrot G, Hinsen K, Kneller GR
+Model-free simulation approach to molecular diffusion tensors
+volume=139
+number=15
+pp=154110
+J Chem Phys
+2013
+
+65
+Hinsen K
+MOSAIC: a data model and file formats for molecular simulations
+J Chem Inf Model
+volume=54
+number=1
+pp=131–137
+2014
+
+66
+Hinsen K: ImmutablePy 0.1 in ActivePapers format. figshare
+http://dx.doi.org/10.6084/m9.figshare.692144
+
+67
+Hinsen K: pyMosaic 0.3.1. Zenodo
+https://zenodo.org/record/11648
+
+68
+Hinsen K: ASTRAL-SCOPe subset 2.04 in ActivePapers format. Zenodo
+http://dx.doi.org/10.5281/zenodo.11086
+
+69
+Hinsen K, Shuangwei Hu, Kneller GR, et al.: A comparison of reduced coordinate sets for describing protein structure. figshare.
+http://dx.doi.org/10.6084/m9.figshare.798825
+
+70
+Chevrot G, Hinsen K, Kneller GR: Model-free simulation approach to molecular diffusion tensors: Water. figshare. 
+http://dx.doi.org/10.6084/m9.figshare.808595
+
+71
+Chevrot G, Hinsen K, Kneller GR: Model-free simulation approach to molecular diffusion tensors: Lysozyme. figshare. 
+http://dx.doi.org/10.6084/m9.figshare.808594
+
+72
+Hinsen K: pyMosaic 0.1.1 in ActivePapers format. figshare. 
+http://dx.doi.org/10.6084/m9.figshare.705829
+
+73
+Hinsen K: pyMosaic 0.2.0. Zenodo.
+http://dx.doi.org/10.5281/zenodo.7648
+
+74
+Hinsen K: pyMosaic 0.3.0. Zenodo. 
+http://dx.doi.org/10.5281/zenodo.10735
+
+75
+Nested VM - binary translation for Java. 
+http://nestedvm.ibex.org/
+
+76
+Katz DS, Choi ST, Lapp H, et al.
+Summary of the first Workshop on Sustainable Software for Science: Practice and experiences (WSSSPE1)
+J Open Research Software
+volume=2
+pp=e6
+2014
+ 

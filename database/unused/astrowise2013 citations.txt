@@ -1,0 +1,53 @@
+-----------------------------------------
+http://link.springer.com/article/10.1007/s10686-011-9276-8
+
+1
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        "everal provenance models do exist in literature today. Systems such as StarFlow [7], Chimera [8], Kepler [1], Karma [13], and ZOOM [5] have developed mechanisms for provenance recording and retrieval.",
+        
+2
+        "Kepler [14] too, has the Smart Rerun Manager (SRM) to handle all the tasks associated with the efficient rerun of a workflow which was developed from the VisTrails cache management algorithm [2].",
+        
+3
+        "Astro-WISE1 [3, 15] is a pipeline-centric data analysis system with the following features: Dependency tracking of both control-flow and data; command-line tools and an interface for exploring and sharing dependencies; use of dependency information to create analysis pipelines and a seamless interface with Python. Astro-WISE keeps track of all inputs, outputs and changes to a pipeline during a data-flow.",
+        
+4
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        "Such a graph is called a lineage graph. Using where-provenance described in [4] lineage-graphs can be visualized as bipartite graphs linking parts of the output with parts of the input.",
+        
+5
+        "everal provenance models do exist in literature today. Systems such as StarFlow [7], Chimera [8], Kepler [1], Karma [13], and ZOOM [5] have developed mechanisms for provenance recording and retrieval.",
+        
+6
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        
+7
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        "everal provenance models do exist in literature today. Systems such as StarFlow [7], Chimera [8], Kepler [1], Karma [13], and ZOOM [5] have developed mechanisms for provenance recording and retrieval.",
+        
+8
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        "everal provenance models do exist in literature today. Systems such as StarFlow [7], Chimera [8], Kepler [1], Karma [13], and ZOOM [5] have developed mechanisms for provenance recording and retrieval.",
+        
+9
+        "However, there are few exceptions, discussed in [9] that begun to emerge with techniques to track provenance beyond their scope, but these tend to be ad-hoc solutions to specific problems.",
+        
+10
+        "However, recently the Open Provenance Model [10] has been developed as a consensus exchange format for representing provenance graphs.",
+        
+11
+        "Although research prototypes propose a strict conversion [11] of data to a new format, history tracking is lost when old object ceases to exist",
+        
+12
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        
+13
+        "The problem of tracing lineage of data has been extensively studied in databases [4, 6] and in workflows [1, 7, 8, 12, 13] in the context of providing derivation history of data.",
+        "everal provenance models do exist in literature today. Systems such as StarFlow [7], Chimera [8], Kepler [1], Karma [13], and ZOOM [5] have developed mechanisms for provenance recording and retrieval.",
+        
+14
+        "Kepler [14] too, has the Smart Rerun Manager (SRM) to handle all the tasks associated with the efficient rerun of a workflow which was developed from the VisTrails cache management algorithm [2].",
+        
+15
+        "Astro-WISE1 [3, 15] is a pipeline-centric data analysis system with the following features: Dependency tracking of both control-flow and data; command-line tools and an interface for exploring and sharing dependencies; use of dependency information to create analysis pipelines and a seamless interface with Python. Astro-WISE keeps track of all inputs, outputs and changes to a pipeline during a data-flow.",
+        

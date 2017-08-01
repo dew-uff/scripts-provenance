@@ -1,0 +1,79 @@
+1
+        "An example of the need for this type of facility could be the Internet Measurement Conference[1], which requires candidates for the best-paper award to make their datasets public.",
+        
+2
+        "In this work we present a new tool called lbsh (pronounced “Pound-Shell”)[2] that allows researchers to have the ﬂexibility of using multiple independent tools and environments while fully and seamlessly documenting their experiments and meta-data. lbsh is so named because it creates an automated lab-book (lb) from within a user’s shell (sh)",
+        "This goal has already been achieved and we discuss this later in Section 5.1. lbsh is open source, is freely available via its website[2], and users are encouraged (though not required) to provide feedback via its online usage questionnaire, forums, and bug tracker.",
+        
+3
+        "In addition, the ACM SIGMOD[3] conference requests that authors include details and meta-data about their experimentation that makes the derivationofdataunderstandable, andessentiallyequates to the type of data in a lbsh-style lab-book.",
+        
+4
+        "Inmanynaturalsciences, provenanceandreproducibility are facilitated by researchers’ lab-books [10, 4].",
+        "The importance of reproducibility and scientiﬁc rigor has been very seriously addressed by most scientiﬁc disciplines through the use of lab-books [10, 4].",
+        
+5
+        "Chimera[8], Kepler[5], myGrid[21], CMCS[11], and ESSW[9] implement workﬂow environments to allow scientists to specify their experiments.",
+        
+6
+        "There exist several notable surveys of this type of work [18, 6, 20].",
+        
+7
+        "This includes cases where a user issues commands to their user shell [15, 12], any subshells such as R, Matlab, Perl, Python, etc. [14, 16, 7], or a combination of these environments.",
+        
+8
+        "Chimera[8], Kepler[5], myGrid[21], CMCS[11], and ESSW[9] implement workﬂow environments to allow scientists to specify their experiments.",
+        
+9
+        "Chimera[8], Kepler[5], myGrid[21], CMCS[11], and ESSW[9] implement workﬂow environments to allow scientists to specify their experiments.",
+        
+10
+        "Inmanynaturalsciences, provenanceandreproducibility are facilitated by researchers’ lab-books [10, 4].",
+        "The importance of reproducibility and scientiﬁc rigor has been very seriously addressed by most scientiﬁc disciplines through the use of lab-books [10, 4].",
+        
+11
+        "Chimera[8], Kepler[5], myGrid[21], CMCS[11], and ESSW[9] implement workﬂow environments to allow scientists to specify their experiments.",
+        
+12
+        "This includes cases where a user issues commands to their user shell [15, 12], any subshells such as R, Matlab, Perl, Python, etc. [14, 16, 7], or a combination of these environments.",
+        
+13
+        "Our near term plans are to integrate with the tool SubVersion [13].",
+        
+14
+        "This includes cases where a user issues commands to their user shell [15, 12], any subshells such as R, Matlab, Perl, Python, etc. [14, 16, 7], or a combination of these environments.",
+        "This user primarily uses the statistical analysis tool R [14], and as a result his commands are executed through a subprocess’ shell (rather than [15]).",
+        
+15
+        "This includes cases where a user issues commands to their user shell [15, 12], any subshells such as R, Matlab, Perl, Python, etc. [14, 16, 7], or a combination of these environments.",
+        "This user primarily uses the statistical analysis tool R [14], and as a result his commands are executed through a subprocess’ shell (rather than [15]).",
+        
+16
+        "This includes cases where a user issues commands to their user shell [15, 12], any subshells such as R, Matlab, Perl, Python, etc. [14, 16, 7], or a combination of these environments.",
+        
+17
+        "The lbsh monitor is written in C++, it uses the Boost [17] regular expression library, and it has been tested and deployed on Linux, OS X, and FreeBSD.",
+        
+18
+        "For the purpose of this work, we echo the deﬁnition used in [18]: “... we deﬁne data provenance as information that helps determine the derivation history of a data product, starting from its original sources.”",
+        "There exist several notable surveys of this type of work [18, 6, 20].",
+        
+19
+        "Thelineinterpreterisresponsiblefordecipheringstandard termcap [19] commands issued by the underlying shell, processing higher level semantics (such as identifying and stripping oﬀ prompts from the output), and determiningiftheoutputisfromaninteractivecommandline process, or if the terminal was captured.",
+        
+20
+        "There exist several notable surveys of this type of work [18, 6, 20].",
+        
+21
+        "Chimera[8], Kepler[5], myGrid[21], CMCS[11], and ESSW[9] implement workﬂow environments to allow scientists to specify their experiments.",
+        
+
+
+
+--------------------
+
+Isolate experiments into lab-books
+All commands logged in a lbsh session are recorded and stored in a lab-book
+
+User-shell monitor: logs commands and meta-data into the automated lab-book
+Set of perl modules: facilitate the processing of the lab-book

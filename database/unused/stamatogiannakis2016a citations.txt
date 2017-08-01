@@ -1,0 +1,90 @@
+1
+"The ProvBench [1] eﬀort focuses on collecting reference traces to help assess provenance storage and query processing time.",
+        
+2
+".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        
+3
+"Most such systems [12,8,18,3] tap (one way or another) into information derived from system calls.",
+        "UnixBench is comprised of multiple parts that measure diﬀerent aspects of a system’s performance. Its main focus is to test how a system performs in basic operations such as ﬁle I/O, IPC, process creation, and system call invocation. Such operations are often tapped to extract provenance information [12,8,18,3],",
+        "This is the approach taken in [18,3] which impose a very low runtime overhead (<4%).",
+        ". It should be noted that [18] excludes the storage runtime overhead from performance measurements, while [3] uses an in-memory database to reduce it.",
+        "Depending on whether the deployment will be permanent or not, one may choose to invest on deploying tools like Hi-Fi [18] or LPM [3] instead of using the tool used in our study",
+        ".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        "E.g. [18] uses the compilation of the Linux kernel as a benchmark and the Postmarkmailserverbenchmark.Inadditiontothat,[3]usestheBLASTbenchmark which is based on biological sequencing.",
+        
+4
+"Automated provenance capture systems4 which collect provenance information with minimal or no modiﬁcation to a given application are important solutions for tracking and exposing provenance [4].",
+        "Automated provenance capture is complementary to disclosed provenance systems such as workﬂow management systems, version control systems, or databases, which require active engineering of the software to enable them to capture provenance [4].",
+        
+5
+"In their provenance primer [5], Carata et al. identify two dimensions of overhead: a. temporal overhead,whichisthefocusofthiswork,andb.spatialoverhead,whichisassociated with the cost of storing the captured provenance",
+        "This focus on spatial overhead could be partially explained by the fact that for many disclosed provenance systems, the runtime overhead is already low [5].",
+        
+6
+".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        
+7
+"Firth and Missier [7] have proposed to synthetically create provenance graphs.",
+        
+8
+"Most such systems [12,8,18,3] tap (one way or another) into information derived from system calls.",
+        "UnixBench is comprised of multiple parts that measure diﬀerent aspects of a system’s performance. Its main focus is to test how a system performs in basic operations such as ﬁle I/O, IPC, process creation, and system call invocation. Such operations are often tapped to extract provenance information [12,8,18,3],",
+        ".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        
+9
+"In particular, we compare three representative methods—systemevent trace analysis, compile-time static instrumentation, and dynamic binary instrumentation—usingtheirimplementationsforSRI’sopensourceSPADEv2 [9] provenance middleware.",
+        "The SPADEv2 [9] provenance middleware aims to track the provenance of data that arises from multiple sources, possibly distributed over the wide area, and at varied levels of abstraction.",
+        "We used SPADEv2’s Domain-Speciﬁc Language Reporter [9] (DSL reporter) to integrate DataTracker with SPADEv2. DSL reporter is middleware to allow the quick integration of new provenance sources with the SPADEv2 kernel.",
+        
+10
+"Glavic [10] observes that provenance can be intensive both in terms of computation and required storage.",
+        
+11
+"OPM can then be easily converted to the W3C PROV recommendation [11].",
+        
+12
+"Most such systems [12,8,18,3] tap (one way or another) into information derived from system calls.",
+        "UnixBench is comprised of multiple parts that measure diﬀerent aspects of a system’s performance. Its main focus is to test how a system performs in basic operations such as ﬁle I/O, IPC, process creation, and system call invocation. Such operations are often tapped to extract provenance information [12,8,18,3],",
+        ".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        
+13
+"DataTracker [21] is a tool that captures provenance using Dynamic Taint Analysis (DTA). The analysis is applied as Dynamic Binary Instrumentation (DBI) using the Intel Pin [15] and libdft [13] frameworks.",
+        
+14
+"LLVMTrace utilizes the LLVM framework [14] to automatically add provenance instrumentation to applications at compile-time, using a custom compiler optimization pass [22].",
+        
+15
+"DataTracker [21] is a tool that captures provenance using Dynamic Taint Analysis (DTA). The analysis is applied as Dynamic Binary Instrumentation (DBI) using the Intel Pin [15] and libdft [13] frameworks.",
+        
+16
+"Recent eﬀorts [16] attempt to eliminate this trade-oﬀ by switching between DTA and lightweight logging.",
+        
+17
+"Theoutputof strace isparsedtogeneratetheappropriateOpenProvenance Model (OPM) [17] provenance element",
+        "A converter transforms DataTracker’s intermediate provenance representation to the OPM-based [17] language of DSL-reporter.",
+        
+18
+"Most such systems [12,8,18,3] tap (one way or another) into information derived from system calls.",
+        "UnixBench is comprised of multiple parts that measure diﬀerent aspects of a system’s performance. Its main focus is to test how a system performs in basic operations such as ﬁle I/O, IPC, process creation, and system call invocation. Such operations are often tapped to extract provenance information [12,8,18,3],",
+        "This is the approach taken in [18,3] which impose a very low runtime overhead (<4%).",
+        ". It should be noted that [18] excludes the storage runtime overhead from performance measurements, while [3] uses an in-memory database to reduce it.",
+        "Depending on whether the deployment will be permanent or not, one may choose to invest on deploying tools like Hi-Fi [18] or LPM [3] instead of using the tool used in our study",
+        ".TherearemanyotherimplementationssuchasPASS[12], ES3 [8], OPUS [2], Hi-Fi [18], Linux Provenance Modules [3] and PLUS [6].",
+        "E.g. [18] uses the compilation of the Linux kernel as a benchmark and the Postmarkmailserverbenchmark.Inadditiontothat,[3]usestheBLASTbenchmark which is based on biological sequencing.",
+        
+19
+"Simmhan et al. [19] include only spatial overhead as a dimension in their provenance taxonomy.",
+        
+20
+"Our analysis is based on UnixBench [20], a widely used benchmark suite.",
+        "For our experiments, we use the UnixBench [20] benchmark suite.",
+        
+21
+"DataTracker [21] is a tool that captures provenance using Dynamic Taint Analysis (DTA). The analysis is applied as Dynamic Binary Instrumentation (DBI) using the Intel Pin [15] and libdft [13] frameworks.",
+        "In [21], sets of <ﬁle descriptor, oﬀset> pairs are used for tracking the provenance of each memory location.",
+        
+22
+"LLVMTrace utilizes the LLVM framework [14] to automatically add provenance instrumentation to applications at compile-time, using a custom compiler optimization pass [22].",
+        
+

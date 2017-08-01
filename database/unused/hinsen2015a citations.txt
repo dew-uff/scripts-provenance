@@ -1,0 +1,253 @@
+1
+        ". An early example is the Protein Data Bank1, which publishes and archives structures of biological macromolecules.",
+        "The Protein Data Bank (PDB)1 updates its electronic records to correct mistakes in the representation of the data and to adapt the data to changes in the PDB’s data model",
+        "They were constructed by downloading complete protein structures from the Protein Data Bank1 and selecting parts that have specific structural features",
+        
+2
+        "Some scientific institutions also propose digital repositories for their members, e.g. as part of the Dataverse community2.",
+        
+3
+        "Only the recent advent of digital repositories accepting any type of scientific data3–5 and peer-to-peer networks6 for scientific data has finally made the publication of scientific data accessible to any scientist willing to do so, all the more since these repositories generally do not charge any fees for publication.",
+        "Many scientists prefer to use the latest generation of uncurated digital repositories3–5",
+        
+4
+        "Only the recent advent of digital repositories accepting any type of scientific data3–5 and peer-to-peer networks6 for scientific data has finally made the publication of scientific data accessible to any scientist willing to do so, all the more since these repositories generally do not charge any fees for publication.",
+        "Many scientists prefer to use the latest generation of uncurated digital repositories3–5",
+        "This download mechanism supports Zenodo5 and figshare4 at the moment.",
+        
+5
+        "Only the recent advent of digital repositories accepting any type of scientific data3–5 and peer-to-peer networks6 for scientific data has finally made the publication of scientific data accessible to any scientist willing to do so, all the more since these repositories generally do not charge any fees for publication.",
+        "Concerning the permanence of the contents, each repository applies its own policy. Zenodo5, for example, does not allow any modification of published datasets, but allows a dataset to be marked as obsolete with a reference to its successor.",
+        "Many scientists prefer to use the latest generation of uncurated digital repositories3–5",
+        "This download mechanism supports Zenodo5 and figshare4 at the moment.",
+        "Zenodo5 provides the most generous limit of 2 GB per file.",
+        
+6
+        "Only the recent advent of digital repositories accepting any type of scientific data3–5 and peer-to-peer networks6 for scientific data has finally made the publication of scientific data accessible to any scientist willing to do so, all the more since these repositories generally do not charge any fees for publication.",
+        
+7
+        "The increasing number of mistakes found in published scientific findings based on non-trivial computations7,8 has made evident the necessity of making computational science more transparent by publishing software and datasets along with any descriptions of the results obtained from them.",
+        "The reproducibility of computational approaches in science has received significant attention recently as a consequence of several highly visible computational studied that turned out to be mistaken7,8, causing a credibility crisis in computational science.",
+        
+8
+        "The increasing number of mistakes found in published scientific findings based on non-trivial computations7,8 has made evident the necessity of making computational science more transparent by publishing software and datasets along with any descriptions of the results obtained from them.",
+        "The reproducibility of computational approaches in science has received significant attention recently as a consequence of several highly visible computational studied that turned out to be mistaken7,8, causing a credibility crisis in computational science.",
+        
+9
+        "As C.A.R. Hoare famously said9, “There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies.” This observation applies equally to computational science, where the vast majority of published results have no obvious deficiencies, but are obtained using software that is much too complicated for anyone, authors and readers alike, to be certain about its correctness.",
+        
+10
+        "While publishing software and other electronic datasets is now technically possible, and initiatives have been started to create incentives for scientists to invest the additional effort required for making such material available10, much more work remains to be done to ensure that published software and datasets can actually be understood, verified, and reused by other scientists.",
+        
+11
+        "Most current efforts in this direction (see e.g. Ref. 11–13) start from the status quo of computation in science and propose smallstep improvements in order to facilitate adoption by the scientific community.",
+        
+12
+        "Most current efforts in this direction (see e.g. Ref. 11–13) start from the status quo of computation in science and propose smallstep improvements in order to facilitate adoption by the scientific community.",
+        
+13
+        "Most current efforts in this direction (see e.g. Ref. 11–13) start from the status quo of computation in science and propose smallstep improvements in order to facilitate adoption by the scientific community.",
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        
+14
+        "This article presents the lessons learned from developing a new computational framework, called ActivePapers14, and from using it for several research projects in the field of biomolecular simulation.",
+        "An implementation of the original ActivePapers platform is available from the ActivePapers Web site14.",
+        
+15
+        "With the transition to electronic publishing, the role of the permanent reference is fulfilled by a Digital Object Identifier (DOI)15, which is defined by the international standard ISO 26324:2012.",
+        
+16
+        "A modern physicist would not recognize the theory of classical mechanics in Newton’s “Philosophiæ Naturalis Principia Mathematica”16 without prior training in Latin and in the history of science.",
+        
+17
+        "Science librarians have developed tools (e.g. 17) and documented best practices for the preservation of digital artifacts.",
+        
+18
+        "Since many of today’s popular programming languages are not defined with precise semantics (see e.g. Ref. 18 for the languages C and C++), (1) must in practice be replaced by the specific compiler or interpreter being used.",
+        
+19
+        "As an example, the DSSP method for defining secondary-structure elements in proteins19 was published more than thirty years ago and is still widely used today.",
+        
+20
+        "The example of DSSP is also interesting in that the most widely used software implementing DSSP today20 does not in fact implement the exact method published in the original paper",
+        
+21
+        "One focus is the definition of the features of software that can or should be preserved21.",
+        
+22
+        "Other projects (e.g. 22) start by trying to preserve the software behind a given scientific study in order to explore the issues that need to be addressed.",
+        
+23
+        "This is the main goal of the Reproducible Research movement, which has been gaining traction over the last years23–25.",
+        
+24
+        "This is the main goal of the Reproducible Research movement, which has been gaining traction over the last years23–25.",
+        
+25
+        "This is the main goal of the Reproducible Research movement, which has been gaining traction over the last years23–25.",
+        
+26
+        "The state of the art in computational technology does not permit such a separation at this time, but I have outlined possible solutions to this problem in Ref. 26.",
+        
+27
+        "Moreover, bit-level replicability is indispensable for software testing27.",
+        
+28
+        "The notion of an ActivePaper bears many resemblances with the concept of a Research Object that has recently been proposed28.",
+        
+29
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        
+30
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        "Work on integrating the ActivePapers Python edition with the Jupyter project30 (formerly the IPython notebook) is underway.",
+        
+31
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        
+32
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        
+33
+        "The computational notebook approach13, pioneered by Mathematica29 and recently popularized by the Jupyter project (formerly known as the IPython notebook)30, builds on earlier developments in literate programming31, which have also been applied to computational science directly32,33.",
+        
+34
+        "Similar remarks apply to workflow management systems such as Kepler34, Taverna35, or VisTrails36",
+        
+35
+        "Similar remarks apply to workflow management systems such as Kepler34, Taverna35, or VisTrails36",
+        
+36
+        "Similar remarks apply to workflow management systems such as Kepler34, Taverna35, or VisTrails36",
+        
+37
+        "Attempts to record a computational environment in a form that can be restored on a different computer are still rare. Ref. 37 describes how this goal can be achieved for programs in the R language, extending that language’s package and repository mechanisms by package libraries, package cohorts, and validated repositories.",
+        "It is also interesting to note the main difference: the tools switchr and GRANbase described in Ref. 37 start from the R language’s existing mechanisms and extend it with functionality required by the scientific record, whereas ActivePapers starts from existing mechanisms for publishing electronic artifacts and extends them to include software.",
+        
+38
+        "The most comprehensive approach to archiving scientific software in an executable form is based on virtual machine technology38–41.",
+        
+39
+        "The most comprehensive approach to archiving scientific software in an executable form is based on virtual machine technology38–41.",
+        
+40
+        "The most comprehensive approach to archiving scientific software in an executable form is based on virtual machine technology38–41.",
+        
+41
+        "The most comprehensive approach to archiving scientific software in an executable form is based on virtual machine technology38–41.",
+        
+42
+        "Finally, the Exec&Share server42 and Elsevier’s Collage Authoring System43 propose the creation of “companion sites” to journal articles, which contain both software and datasets.",
+        
+43
+        "Finally, the Exec&Share server42 and Elsevier’s Collage Authoring System43 propose the creation of “companion sites” to journal articles, which contain both software and datasets.",
+        
+44
+        "But bytecode can also be the starting point for the definition of a bytecode platform, such as the Java Virtual Machine (JVM)44 or the Common Language Infrastructure (CLI)45.",
+        
+45
+        "But bytecode can also be the starting point for the definition of a bytecode platform, such as the Java Virtual Machine (JVM)44 or the Common Language Infrastructure (CLI)45.",
+        "The second popular bytecode platform, the ECMA standard CLI45, can be considered a more modern implementation of the basic JVM idea, with a change in priorities. The CLI platform was designed by Microsoft and implemented as the .NET framework for Windows.",
+        
+46
+        "The JVM’s approach to distribution and deployment is that both libraries and application programs are packaged as JAR files, which can contain JVM bytecode files but also additional resources such as data files read by the software46.",
+        
+47
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+48
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+49
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+50
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+51
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+52
+        "This attitude is slowly changing because of the problems becoming ever more visible in several domains of scientific research (see e.g. 47–49). Reproducibility in floating-point arithmetic has become an active topic in computer science research (see e.g. 50–52).",
+        
+53
+        "A third bytecode platform, Google’s Portable Native Client (PNaCl) system53, is so recent that it cannot be evaluated based on practical experience.",
+        
+54
+        "However, PNaCl uses a more low-level code representation than the JVM or CLI, which is defined by the LLVM project54,and a less precisely defined runtime environment, in order to facilitate the adaptation of software written in traditional programming languages such as C and C++.",
+        
+55
+        "The original ActivePapers architecture55, which was subsequently implemented in the “ActivePapers JVM edition”, was a proof-ofconcept design intended to show that it is possible with existing technology to meet all the requirements defined above.",
+        
+56
+        "An ActivePaper is a file in HDF5 format56.",
+        
+57
+        "Its only dependencies are (1) a Java Virtual Machine implementation, (2) the HDF5 library, and (3) JHDF557, a Java interface to the HDF5 library.",
+        
+58
+        "It is the inverse of the approach taken by automation tools such as make58, which execute programs according to a manually prepared definition of the dependencies between their results.",
+        
+59
+        "In order to gain experience with the ActivePapers approach in practice, a second implementation was developed for the Scientific Python ecosystem59",
+        
+60
+        "Its dependencies are the Python language60, the HDF5 library, the h5py library61 for interfacing HDF5 to Python, and the NumPy library62 which is a dependency of h5py",
+        
+61
+        "Its dependencies are the Python language60, the HDF5 library, the h5py library61 for interfacing HDF5 to Python, and the NumPy library62 which is a dependency of h5py",
+        
+62
+        "Its dependencies are the Python language60, the HDF5 library, the h5py library61 for interfacing HDF5 to Python, and the NumPy library62 which is a dependency of h5py",
+        
+63
+        "The ActivePapers Python edition has been used for several research projects in the field of biomolecular simulation, some of which have already been published63–65.",
+        
+64
+        "The ActivePapers Python edition has been used for several research projects in the field of biomolecular simulation, some of which have already been published63–65.",
+        
+65
+        "The ActivePapers Python edition has been used for several research projects in the field of biomolecular simulation, some of which have already been published63–65.",
+        
+66
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        
+67
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        
+68
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        "As an example, reference 68 is a database of partial protein structures.",
+        
+69
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        
+70
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        
+71
+        "Among the published ActivePapers, there are software libraries66,67, a database of protein structures68, and combinations of datasets and code that document computational studies69–71.",
+        "However, the input data for one study71 contains ten Molecular Dynamics (MD) trajectories for lysozyme in solvent, and requires 10 GB of storage even in compressed form.",
+        
+72
+        "Additional published ActivePapers contain obsolete versions of the pyMosaic library72–74.",
+        
+73
+        "Additional published ActivePapers contain obsolete versions of the pyMosaic library72–74.",
+        
+74
+        "Additional published ActivePapers contain obsolete versions of the pyMosaic library72–74.",
+        
+75
+        "While compilation of C to JVM bytecode is possible (see e.g. 75), porting real C code represents an important effort and the results are often not satisfactory in terms of performance.",
+        
+76
+        "Computational tools must in fact evolve with the progress of technology in order to remain useful to the communities that develop and apply them76.",
+
+
+ActivePapers records version of all libraries that were used
+ActivePapers keeps references to other ActivePapers through DOIs and downloads them from Zenodo nd figshare
+
+Supports replacing datasets generated by programs stored in an ActivePaper by dummy datasets
+All content accessed by an ActivePaper must be defined in the ActivePaper itself or in another ActivePaper
+Stores Bytecode and data in HDF5

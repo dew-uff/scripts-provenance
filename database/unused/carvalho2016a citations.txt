@@ -1,0 +1,75 @@
+1
+"This is witnessed by a number of initiatives that were launched to bring some of the rich features that traditionally come with scientiﬁc workﬂow systems to manage scripts, see e.g., [1]–[4].",
+        "For example, McPhilips et al. [1] developed YesWorkﬂow, an environment for extracting a workﬂow-like graph that depicts the main components that compose a script and their data dependencies based on comments that annotate the script.",
+        "To do so, we adopt the YesWorkﬂow tool [1], [4].",
+        "We can thus pose Datalog queries against this ﬁle to reveal data ﬂow and dependencies within a script. Such queries, as mentioned in [1], can, for instance, allowtheusertolisttheactivitiesdeﬁnedinthescriptandtheir descriptions (when provided by the curator) or the activities that invoke a particular module or external program.",
+        "We adopted YesWorkﬂow [1], [4] to generate the abstract workﬂow visualizations before creating the executable workﬂow (step 1 of our methodology).",
+        
+
+2
+"This is witnessed by a number of initiatives that were launched to bring some of the rich features that traditionally come with scientiﬁc workﬂow systems to manage scripts, see e.g., [1]–[4].",
+        "On the other hand, the provenance traces captured using noWorkﬂow are ﬁne-grained, and therefore cumbersome, for the user who would like to understand the lineage of the script results [2].",
+        
+3
+"This is witnessed by a number of initiatives that were launched to bring some of the rich features that traditionally come with scientiﬁc workﬂow systems to manage scripts, see e.g., [1]–[4].",
+        "Murta et al. [3] proposed noWorkﬂow, which also captures provenance traces of script executions.",
+        
+4
+"This is witnessed by a number of initiatives that were launched to bring some of the rich features that traditionally come with scientiﬁc workﬂow systems to manage scripts, see e.g., [1]–[4].",
+        "To do so, we adopt the YesWorkﬂow tool [1], [4].",
+        "We adopted YesWorkﬂow [1], [4] to generate the abstract workﬂow visualizations before creating the executable workﬂow (step 1 of our methodology).",
+        
+5
+"To address the above issues and complement the landscape of solutions proposed by the community for promoting the reuse and reproducibility of scripts, we present in this paper a methodology for converting scripts into reproducible Workﬂow Research Objects [5] (WRO).",
+        "To meet the requirements identiﬁed in Section III, we devised a methodology for converting a script into reproducible workﬂow research objects [5], [8].",
+        "These richly annotation objects are called workﬂow-centric research objects [5].",
+        "Workﬂow Research Objects [5] (WRO) are a speciﬁc kind of Research Objects that can be viewed as an aggregation of resources that bundles a workﬂow speciﬁcation and additional information to preserve the workﬂows and their context.",
+        
+6
+"In our case, a suite of scripts was designed by physiochemists [6]; its inputs are the protein structure (obtained from the RCSB PDB protein data bank3), the simulation parameters and force ﬁeld ﬁles.",
+
+7
+"As stressed by [7], provenance that is provided by the execution of a workﬂow corresponds to a workﬂow trace, which can be processed as an acyclic digraph, in which nodes are activities and/or data, and edges denote relationships among activities and data",
+        "We follow the deﬁnition of [7]: ”reproducibility denotes the ability for a third party who has access to the description of the original experiment and its results to reproduce those results using a possibly different setting, with the goal of conﬁrming or disputing the original experimenter’s claims.” [7] also differentiates reproducibility from repeatability, for which results must be the same, and no changes are made anywhere.",
+        "Part of related work was already discussed in the text, e.g., the work of [7] for workﬂow equivalenc",
+        "Our preliminary work towards this goal is based on [7], and their PDIFF algorithm that compares workﬂow traces, produced by their SWFMS environment, e-Science Central.",
+        
+8
+"To meet the requirements identiﬁed in Section III, we devised a methodology for converting a script into reproducible workﬂow research objects [5], [8].",
+        "The Workﬂow Research Object model allows curators to aggregate resources and explicitly specify the relationship between these resources and the workﬂow in a machinereadable format using a suite of ontologies [8].",
+        
+9
+"A Research Object [9] provides the means to specify a kind of container that gathers resources of different types and provides a digital analogue of the ’Materials and Methods’ section of a research paper.",
+
+10
+"Once the curator speciﬁes the implementation of each activity in Wa, a concrete workﬂow speciﬁcation We that is conform to a given scientiﬁc workﬂow system can be created.Withoutlossofgenerality,weusedtheTavernasystem [10], although our solution can be adapted to other scientiﬁc workﬂow systems.",
+
+11
+"Another (more system-speciﬁc) example of the construction of executable workﬂows from source code is pursued in [11].",
+
+12
+"Examples include HyperFlow [12], StarFlow [13] and Swift [14].",
+
+13
+"Examples include HyperFlow [12], StarFlow [13] and Swift [14].",
+        
+14
+"Examples include HyperFlow [12], StarFlow [13] and Swift [14].",
+
+15
+"The work of [15] proposes an executable visual-based representation of a workﬂow",
+
+16
+"This was extended by [16] to allow scientists two alternative ways of working with workﬂows: script-based and visual-based representations",
+        "[16] argues that, in some cases, scripts are preferable to specify workﬂows since scientists may want to look at code.",
+
+17
+"Yet another possibility to compare workﬂows appears in [17]",
+        
+
+Annotations describe the operations performed by the workflow, links to other resources, such as the provenance of the results obtained by executing the workflow
+Integrations: YesWorkflow, Taverna
+
+
+
+

@@ -1,0 +1,2500 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PinS - Provenance in Scripts</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">PinS</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="taxonomy.html">Taxonomy</a></li>
+            <li class="active"><a href="approaches.html">Approaches</a></li>
+            <li><a href="selected.html">Related Graph</a></li>
+            <li><a href="graph.html">Full Graph</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://github.com/dew-uff/pins"><span class="hidden-xs-down"> View on GitHub </span><svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-mark-github" aria-hidden="true"><path id="githublogo" fill="rgb(157, 157, 157)" fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <div class="container">
+      <div class="starter-template">
+
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading0">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="false" aria-controls="collapse0">
+            Astro-WISE
+            </a>
+          </h4>
+        </div>
+        <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+          <div class="panel-body">
+            
+        <p>
+            Astro-WISE (<a class="opener" href="#" data-panel="0" title="@inproceedings{mwebaze2009a,
+  address = {Indianapolis, USA},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {International Conference on Network-Based Information Systems},
+  pages = {475--480},
+  publisher = {IEEE},
+  title = {{A}stro-wise: {T}racing and using lineage for scientific data processing},
+  year = {2009}
+}
+
+">mwebaze2009a</a>, <a class="opener" href="#" data-panel="0" title="@inproceedings{mwebaze2011a,
+  address = {Stockholm, Sweden},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {263--270},
+  publisher = {IEEE},
+  title = {{D}ynamic {P}ipeline {C}hanges in {S}cientific {D}ata {P}rocessing},
+  year = {2011}
+}
+
+">mwebaze2011a</a>) is a python framework that astronomers can <span class="goal">use to collect and integrate provenance in their tools and experiments</span>.
+            Thus, in order to capture provenance with Astro-WISE, it is necessary to <span class="strategy collection">instrument</span> the code.
+        </p>
+        <p>
+            <span class="collection">
+                Astro-WISE uses a object oriented programming approach for capturing provenance. It defines descriptors that can be used within classes to declare attributes.
+                These descriptors specify that the framework should trace the lineage of the attributes.
+                To do so, the descriptors must declare dependencies to other traced classes or to file accesses and paramenters.
+                <span class="evolution">
+                    Astro-WISE enforces the immutability of the attributes and uses a unique object identifier and version for them. Thus, it allows some basic evolution tracking.
+                    Instead of comparing the source code for versioning, Astro-WISE compares the bytecode (<a class="opener" href="#" data-panel="0" title="@inproceedings{mwebaze2011a,
+  address = {Stockholm, Sweden},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {263--270},
+  publisher = {IEEE},
+  title = {{D}ynamic {P}ipeline {C}hanges in {S}cientific {D}ata {P}rocessing},
+  year = {2011}
+}
+
+">mwebaze2011a</a>).
+                    Each class keeps a reference to its predecessors for versioning.
+                </span>
+                Each class in Astro-WISE must specify a make method that specifies file targets, their dependencies, and transformation comands that create the derived product.
+            </span>
+        <p class="reproducibility">
+            <span class="cache">
+                Astro-WISE supports the re-computation of targets by checking which dependencies have changed.
+            </span>
+            <span class="diff">
+                It also supports comparing the dependencies of two targets as lineage trees to check what has changed.
+            </span>
+        </p>
+        <p class="analysis">
+            <span class="visualization">
+                Astro-WISE presents the dependencies of a target file as a textual lineage tree in a Web visualization tool. This tree is equivalent to a data-view graph with nodes representing data.
+            </span>
+            <span class="query">
+                In addition to the visualization tool, Astro-WISE provides python functions as an extended query language to query the database. These functions are internally transformed into SQL queries for the <span class="storage"> relational database </span>
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{mwebaze2011a,
+  address = {Stockholm, Sweden},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {263--270},
+  publisher = {IEEE},
+  title = {{D}ynamic {P}ipeline {C}hanges in {S}cientific {D}ata {P}rocessing},
+  year = {2011}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{mwebaze2009a,
+  address = {Indianapolis, USA},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {International Conference on Network-Based Information Systems},
+  pages = {475--480},
+  publisher = {IEEE},
+  title = {{A}stro-wise: {T}racing and using lineage for scientific data processing},
+  year = {2009}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading1">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            Becker and Chambers
+            </a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+          <div class="panel-body">
+            
+        <p>
+            Becker and Chambers (<a class="opener" href="#" data-panel="1" title="@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+">becker1988a</a>) propose a facility for S that captures provenance for <span class="goal">comprehension and validating reported results</span>.
+            <span class="collection">
+                They modified S interpreter for supporting execution provenance collection. Thus, it applies the <span class="strategy">overriding</span> strategy.
+                <span class="storage">
+                    During provenance collection, they produce an audit file that contains all of the statements evaluated with a list of objects that were referred to or were assigned a value in the statements.
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                For analysis, they read the audit file and produce a data structure that allows users to run lineage queries interactively for understanding what happened during the data analysis section.
+                Becker and Chambers (<a class="opener" href="#" data-panel="1" title="@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+">1988</a>) support functions for running these queries.
+                They also support plotting relationships between statements as a process-centric graph.
+            </span>.
+        </p>
+        <p>
+            <span class="reproducibility">
+                The provenance can also be used to generate an executable script that incorporates statements needed to produce a specied list of statements.
+                Becker and Chambers (<a class="opener" href="#" data-panel="1" title="@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+">1988</a>) collect random number generators by including artificial statements in the audit file that specifies the seed.
+            </span>.
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading2">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            Bochner, Gude, and Schreiber
+            </a>
+          </h4>
+        </div>
+        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+          <div class="panel-body">
+            
+        <p>
+            Bochner, Gude, and Scheireber (<a class="opener" href="#" data-panel="2" title="@inproceedings{bochner2008a,
+  address = {Salt-Lake City, USA},
+  author = {Bochner, Carsten and Gude, Roland and Schreiber, Andreas},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {229--240},
+  publisher = {Springer},
+  title = {{A} python library for provenance recording and querying},
+  year = {2008}
+}
+
+">bochner2008a</a>) propose a library to collect provenance in Python scripts to <span class="goal">check for compliance with applicable regulations</span>.
+            <span class="collection">
+                This library requires users to <span title="Defines a recording protocol to record the process documentation">annotate</span> what and how they want to capture.
+                Thus, it applies the instrumentation strategy for gathering execution provenance.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                During user-defined provenance collection, the library connects to remote storage services for storing provenance as XML documents.
+            </span>
+            <span class="analysis" title="Defines protocols to query using XQuery and XPath">
+                Hence, it supports provenance querying with XQuery and XPath
+            </span>.
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{bochner2008a,
+  address = {Salt-Lake City, USA},
+  author = {Bochner, Carsten and Gude, Roland and Schreiber, Andreas},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {229--240},
+  publisher = {Springer},
+  title = {{A} python library for provenance recording and querying},
+  year = {2008}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading3">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            CPL
+            </a>
+          </h4>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+          <div class="panel-body">
+            
+        <p>
+            Core Provenance Library (CPL) (<a class="opener" href="#" data-panel="3" title="@inproceedings{macko2012a,
+  address = {Boston, MA, USA},
+  author = {Macko, Peter and Seltzer, Margo},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{A} General-{P}urpose {P}rovenance {L}ibrary},
+  year = {2012}
+}
+
+">macko2012a</a>) is a <span title="multi-lingual library that programmers can incorporate into a variaty of tools to collect and integrate provenance">library</span> with implementations for C, C++, Perl, Java and Python that programmers and scientists can <span class="goal">use to collect and integrate provenance in their tools and experiments</span>.
+            Thus, in order to capture provenance with CPL, it is necessary to <span class="strategy collection">instrument</span> the code.
+        </p>
+        <p>
+            <span class="collection">
+                CPL provides functions for 
+                <span title="cpl_attach initializes the library and attaches the process to the appropriate storage backend">
+                    initializing the library; connecting to the provenance storage backend
+                </span>;
+                <span title="cpl_create_object creates new objects">
+                    creating provenance objects
+                </span>;
+                <span title="cpl_lookup_object access existing object. If there are multiple objects with the same namespace, name and type, lookup returns the most recent">accessing existing objects</span>;
+                <span title="cpl_data_flow creates dataflow when an object uses data from another object">
+                    creating dataflow for objects that use data from others
+                </span>; 
+                <span title="cpl_control indicates that an object influences the execution of another without passing data">
+                    creating control flow for objects that influence others without passing data
+                </span>;
+                <span title="cpl_add_property attaches key/value pairs to objects">
+                    attaching properties to the object
+                </span>; 
+                <span title="cpl_detach should be called before the application exits">
+                    finishing the execution to store provenance.
+                </span>
+                <span title="There are special namespaces and functions for shared objects, such as files: cpl_lookup_file">
+                    It also provides similar functions to deal with shared objects such as files and functions to collect deployment provenance.
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                When CPL creates a provenance object, it assigns two identifiers to it: an object ID for identification in the machine, and the MAC address of the machine to enable <span title="Externally, it uses a combination of 3 fields: namespace of application, name of object, type of object">sharing objects with provenance over the network</span>.
+            </span>
+            <span class="evolution">
+                Additional to these identifiers, CPL annotates all provenance records with a trial identifier to track provenance evolution.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                CPL can store provenance on either on relational databases or on a graph database. It supports MySQL and PostgreSQL as relational databases and 4store as a graph database. 
+            </span>
+            <span class="analysis">
+                For analysis, it supports provenance visualization on Orbiter (<a class="reference" href="#macko2011a" title="@inproceedings{macko2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Macko, Peter and Seltzer, Margo},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {M}ap {O}rbiter: {I}nteractive {E}xploration of {L}arge {P}rovenance {G}raphs},
+  year = {2011}
+}
+
+">macko2011a</a>), and provenance queries in SPARQL and SQL.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{macko2012a,
+  address = {Boston, MA, USA},
+  author = {Macko, Peter and Seltzer, Margo},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{A} General-{P}urpose {P}rovenance {L}ibrary},
+  year = {2012}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading4">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+            CXXR
+            </a>
+          </h4>
+        </div>
+        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+          <div class="panel-body">
+            
+        <p>
+            CXXR (<a class="opener" href="#" data-panel="4" title="@inproceedings{runnalls2012a,
+  address = {Santa Barbara, CA, USA},
+  author = {Runnalls, Andrew and Silles, Chris},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {237--239},
+  publisher = {Springer},
+  title = {{P}rovenance tracking in {R}},
+  year = {2012}
+}
+
+">runnalls2012a</a> <a class="opener" href="#" data-panel="4" title="@inproceedings{silles2010a,
+  address = {Troy, NY, USA},
+  author = {Silles, Chris A and Runnalls, Andrew R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {64--72},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{P}rovenance-awareness in {R}},
+  year = {2010}
+}
+
+">silles2010a</a>) is a project that aims to remake fundamental parts of the standard R interpreter from C into C++, and enhance it with R data objects and provenance tracking.
+            The goal of provenance tracking is to <span class="goal">provide an understanding of object derivations</span> by providing functions to obtain variables ancestors (i.e. which objects it depends on), descendants (i.e. which objects depends on it), and pedigree (i.e. the sequence of commands that led to its binding).
+            Since it changes the standard R interpreter, it applies the <span class="strategy">overriding</span> strategy.
+        </p>
+        <p>
+            <span class="collection">
+                For provenance tracking, it attaches read and write monitors to <span title="scrips or Read-Evaluate-Print-Loops (REPL)">R global environments</span>. 
+                Reading, creating or overwriting variable bindings in these environments trigger the monitors, which collect timestamp, expressions and children bindings of variable bindings. 
+                <span title="B1 is a parent of B2 (B2 is a child of B1) if B1 was read in the course of evaluating the top-level expression that gave rise to binding B2">
+                    A binding is a child of another when it uses its parent value during its evaluation. 
+                </span>
+                CXXR adds every new variable binding into a set of variables that the interpreter saw.
+                This way, it avoids repeating provenance collection in loops.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                <span title="Do not add variables created as a result of a forced evaluation of lazy expression">
+                    CXXR considers that top-level commands are provenance processes, and variables bindings are provenance entities.
+                </span>
+                Hence, it does not consider the result of function calls as provenance entities. However, for some <span title="xenogenetic functions">functions whose behavior is not is not fully define (e.g. reading user input or file content)</span>, CXXR creates the resulting value as a binding.
+                Yet, as CXXR tracks only top-level provenance in the global environment, it is possible to evade provenance through local environments in stateful function calls.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                For provenance analysis, CXXR allows users to call functions during the program execution, as it does not store provenance.
+                Silles and Runnalls (<a class="opener" href="#" data-panel="4" title="@inproceedings{silles2010a,
+  address = {Troy, NY, USA},
+  author = {Silles, Chris A and Runnalls, Andrew R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {64--72},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{P}rovenance-awareness in {R}},
+  year = {2010}
+}
+
+">2010</a>) describe two provenance retrieval functions: <em>provenance(x)</em> returns the timestamp of the binding x, the expression responsible for its current state and a list of both ancestors and descendants; and <em>pedigree(x)</em> returns the full sequence of commands that influenced the current binding of x, with all ancestors sorted by binding creation.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{silles2010a,
+  address = {Troy, NY, USA},
+  author = {Silles, Chris A and Runnalls, Andrew R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {64--72},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{P}rovenance-awareness in {R}},
+  year = {2010}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@phdthesis{silles2014a,
+  address = {University of Kent},
+  author = {Silles, Christopher Anthony},
+  school = {University of Kent},
+  title = {{P}rovenance-aware {C}XX{R}},
+  year = {2014}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{runnalls2011b,
+  author = {Runnalls, Andrew R},
+  journal = {Computational Statistics},
+  number = {3},
+  pages = {427--442},
+  publisher = {Springer},
+  title = {{A}spects of {C}XX{R} internals},
+  volume = {26},
+  year = {2011}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{runnalls2011a,
+  address = {Miama Beach, FL, USA},
+  author = {Runnalls, Andrew R and Silles, Chris A},
+  booktitle = {Joint Statistical Meetings},
+  pages = {1--9},
+  publisher = {AMSTAT},
+  title = {C{X}XR: {A}n ideas hatchery for future {R} development},
+  year = {2011}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{runnalls2012a,
+  address = {Santa Barbara, CA, USA},
+  author = {Runnalls, Andrew and Silles, Chris},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {237--239},
+  publisher = {Springer},
+  title = {{P}rovenance tracking in {R}},
+  year = {2012}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading5">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+            Datatrack
+            </a>
+          </h4>
+        </div>
+        <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+          <div class="panel-body">
+            
+        <p> 
+            Datatrack (<a class="opener" href="#" data-panel="5" title="@inproceedings{eichinski2016a,
+  address = {Baltimore, Maryland, USA},
+  author = {Eichinski, Philip and Roe, Paul},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {1--8},
+  publisher = {IEEE},
+  title = {{D}atatrack: {A}n {R} package for managing data in a multi-stage experimental workflow},
+  year = {2016}
+}
+
+"> eichinski2016a </a>) is a package that collects provenance from R scripts to support their <span class="goal"> management </span>.
+            It provides wrapper functions for accessing files that allows users to <span class="strategy"> instrument </span> the code, describing dependencies and annotating data objects. 
+        </p>
+        <p class="collection">
+            Instead of using the default R functions for opening files, users need to use Datatrack ones for capturing provenance. Thus, it uses inclusive, internal, executable annotations.
+            Such functions receive the file name, a list of dependencies, parameters, and annotations as arguments. Users can use arbritary dependencies and annotations to describe the experiment.
+            All dependencies are treated as data dependencies and connected by their names.
+            These wrapper functions also collect the date that the data object were accessed, and a stack trace of function calls.
+            In addition to the execution provenance, Datatrack also records the script paramenters, and deployment information, such as the operation system version, R version, and loaded packages with their versions.
+            Finally, Datatrack also integrates with git to get the source code version and manage the definition provenance.
+        </p>
+        <p class="storage">
+            Datatrack stores provenance and versioning metadata in a CSV file under the project directory.
+            It rellies on git to store multiple versions of source and data.
+            <span class="evolution"> This way, it supports the evolution of experiments </span>
+        </p>
+        <p class="analysis">
+            For analysis, datatrack produces a data-centric graph with all files and user-declared dependencies. This graph presents nodes representing data and edges representing dependencies. In a single data node, it presents multiple trial versions.
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{eichinski2016a,
+  address = {Baltimore, Maryland, USA},
+  author = {Eichinski, Philip and Roe, Paul},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {1--8},
+  publisher = {IEEE},
+  title = {{D}atatrack: {A}n {R} package for managing data in a multi-stage experimental workflow},
+  year = {2016}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading6">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+            ES3
+            </a>
+          </h4>
+        </div>
+        <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+          <div class="panel-body">
+            
+        <p>
+            Earth System Science Server (ES3) (<a class="opener" href="#" data-panel="6" title="@article{frew2008a,
+  author = {Frew, James and Metzger, Dominic and Slaughter, Peter},
+  doi = {10.1002/cpe.1247},
+  journal = {Concurrency and Computation: Practice and Experience},
+  link = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.559.9467\&rep=rep1\&type=pdf},
+  number = {5},
+  pages = {485--496},
+  publisher = {Wiley Online Library},
+  title = {{A}utomatic capture and reconstruction of computational provenance},
+  volume = {20},
+  year = {2008}
+}
+
+">frew2008a</a>; <a class="opener" href="#" data-panel="6" title="@phdthesis{valeur2005a,
+  author = {Valeur, H{\aa}var},
+  link = {http://urn.ub.uu.se/resolve?urn= urn:nbn:no:ntnu:diva-1341},
+  pages = {91},
+  publisher = {Institutt for datateknikk og informasjonsvitenskap},
+  school = {Norwegian University of Science and Technology, Trondheim},
+  title = {{T}racking the lineage of arbitrary processing sequences},
+  year = {2005}
+}
+
+">valeur2005a</a>) captures provenance for <span class="goal">comprehending</span> Earth science data products.
+            <span class="collection">
+                It collects execution provenance from binary files through diverse strategies.
+                For scripts, it supports either monitoring the interpreter binary or capturing directly from scripts through alternative plugins that support instrumentations.
+                ES3 applies three strategies for execution provenance collection: <span class="strategy">passive monitoring, overriding and instrumentation</span>.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                ES3 uses a probulator to monitor transparently the execution. The probulator comprises two applications: 
+                a logger that instruments, monitors and logs the execution;
+                and a transmitter that transmits the collected provenance for storage.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                The logger uses plugins for capturing provenance.
+                Frew et al. (<a class="opener" href="#" data-panel="6" title="@article{frew2008a,
+  author = {Frew, James and Metzger, Dominic and Slaughter, Peter},
+  doi = {10.1002/cpe.1247},
+  journal = {Concurrency and Computation: Practice and Experience},
+  link = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.559.9467\&rep=rep1\&type=pdf},
+  number = {5},
+  pages = {485--496},
+  publisher = {Wiley Online Library},
+  title = {{A}utomatic capture and reconstruction of computational provenance},
+  volume = {20},
+  year = {2008}
+}
+
+">2008</a>) propose two plugins for ES3.
+                The default one uses <span class="tool">strace</span> to trace system calls in a process and capture the process name, its arguments, the sequence of children processes, accessed files, and standard input, output, and errors.
+                Since system call traces can be overwhelming, users can configure filter files with patterns that can be safely ignored during the collection, such as shared library accesses.
+                Hence, the default plugin uses both the <span class="strategy">passive monitoring and the instrumentation strategy</span>.
+                The second plugin is specific to IDL.
+                It preprocesses IDL scripts, replacing certain calls to IDL built-in functions and inserts calls to ES3 for logging.
+                Thus, the second plugin uses the <span class="strategy">overriding</span> strategy for provenance collection. Both loggers produce files with provenance as results.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                After logging the provenance, the transmitter parses the files produced by the loggers;
+                assigns universally unique identifier to every provenance object; converts these provenance objects into standard ES3 execution reports in XML 
+                and transfer these XML documents to a <span title="ES3 core">web server</span> that stores them in an XML database.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                For analysis, ES3 supports querying ancestors and descendants of provenance objects with XQuery.
+                Additionally, it supports producing provenance graphs in GraphML format.
+                The visualizations produce by ES3 combine both data files, arguments, and transformations as nodes.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{frew2010a,
+  address = {Troy, NY, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {27--33},
+  publisher = {Springer},
+  title = {{A}utomatic {P}rovenance {C}ollection and {P}ublishing in a {S}cience {D}ata {P}roduction {E}nvironment -- {E}arly {R}esults},
+  year = {2010}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{frew2008a,
+  author = {Frew, James and Metzger, Dominic and Slaughter, Peter},
+  doi = {10.1002/cpe.1247},
+  journal = {Concurrency and Computation: Practice and Experience},
+  link = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.559.9467\&rep=rep1\&type=pdf},
+  number = {5},
+  pages = {485--496},
+  publisher = {Wiley Online Library},
+  title = {{A}utomatic capture and reconstruction of computational provenance},
+  volume = {20},
+  year = {2008}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@phdthesis{valeur2005a,
+  author = {Valeur, H{\aa}var},
+  link = {http://urn.ub.uu.se/resolve?urn= urn:nbn:no:ntnu:diva-1341},
+  pages = {91},
+  publisher = {Institutt for datateknikk og informasjonsvitenskap},
+  school = {Norwegian University of Science and Technology, Trondheim},
+  title = {{T}racking the lineage of arbitrary processing sequences},
+  year = {2005}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{frew2008b,
+  address = {Salt Lake City, UT, USA},
+  author = {Frew, James and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  link = {https://pdfs.semanticscholar.org/e16f/7aa1b63e29255a2fe8f9fb1159fb50f90e61.pdf},
+  pages = {200--207},
+  publisher = {Springer},
+  title = {{E}s3: {A} demonstration of transparent provenance for scientific computation},
+  year = {2008}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{frew2004a,
+  address = {Palo Alto, CA},
+  author = {Frew, James},
+  booktitle = {Earth Science Technology Conference},
+  link = {https://esto.ndc.nasa.gov/conferences/estc2004/papers/a4p3.pdf},
+  pages = {1--5},
+  publisher = {NASA},
+  title = {{E}arth {S}ystem {S}cience {S}erver ({E}S3): {L}ocal {I}nfrastructure for {E}arth {S}cience {P}roduct {M}anagement},
+  year = {2004}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{frew2011a,
+  address = {Portland, OR, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {Scientific and Statistical Database Management},
+  link = {http://ipaw2012.bren.ucsb.edu/images/3/39/68090244.pdf},
+  pages = {244--252},
+  publisher = {Springer},
+  title = {{P}rovenance-enabled automatic data publishing},
+  year = {2011}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading7">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            ESSW
+            </a>
+          </h4>
+        </div>
+        <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+          <div class="panel-body">
+            
+        <p>
+            Earth System Science Workbench (ESSW) (<a class="opener" href="#" data-panel="7" title="@inproceedings{frew2001a,
+  address = {Fairfax, VA, U.S.A},
+  author = {Frew, James and Bose, Rajendra},
+  booktitle = {Scientific and Statistical Database Management},
+  doi = {10.1109/SSDM.2001.938550},
+  pages = {180--189},
+  publisher = {IEEE},
+  title = {{E}arth system science workbench: {A} data management infrastructure for earth science products},
+  year = {2001}
+}
+
+">frew2001a</a>) uses provenance for describing scientific experiments and providing a better <span class="goal">comprehension and data management for them</span>.
+            <span class="collection">
+                It proposes wrapping experiments in instrumented Perl scripts for provenance collection.
+                Thus, it uses the <span class="strategy">instrumentation</span> strategy to collect provenance.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                ESSW provides a set of wrapper functions in Perl. 
+                These wrappers manipulate science objects log metadata.
+                ESSW provides functions to create science objects based on files, functions to link them to others, and functions to store them in an XML document during execution.
+                ESSW transforms the links between these objects into lineage graphs. Hence, users are required to annotate their code specifying what and how to collect provenance.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                ESSW parses the XML document created by a trial and store <span title="Adds a new record to the Experiment table for each run (trial). Input, steps and outputs are collected and stored at the ScienceObject table. A metadata field in the ScienceObject table contains the full XML document with its metadata. Relationships are stored in a ScienceObjectLink table.">science objects and relationships in a relational database (MySQL)</span>.
+                For file objects, ESSW stores their MD5 hashes in the relational database and their content in a <span title="ND-WORM">separate content database</span>.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                After storing the science objects in the database, it is possible to perform SQL queries over them for analysis.
+                Additionally, ESSW provides a web interface for querying metadata of science objects and visualizing their lineage graph.
+                It uses GraphViz to produce a static combined view that presents both data files and experiment processes as nodes. 
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{frew2001a,
+  address = {Fairfax, VA, U.S.A},
+  author = {Frew, James and Bose, Rajendra},
+  booktitle = {Scientific and Statistical Database Management},
+  doi = {10.1109/SSDM.2001.938550},
+  pages = {180--189},
+  publisher = {IEEE},
+  title = {{E}arth system science workbench: {A} data management infrastructure for earth science products},
+  year = {2001}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading8">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            IncPy
+            </a>
+          </h4>
+        </div>
+        <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+          <div class="panel-body">
+            
+        <p>
+            IncPy (<a class="opener" href="#" data-panel="8" title="@inproceedings{guo2010a,
+  address = {Troy, NY, USA},
+  author = {Guo, Philip J and Engler, Dawson R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--10},
+  publisher = {Springer},
+  title = {{T}owards {P}ractical {I}ncremental {R}ecomputation for {S}cientists: {A}n {I}mplementation for the {P}ython {L}anguage},
+  year = {2010}
+}
+
+">guo2010a</a>, <a class="opener" href="#" data-panel="8" title="@inproceedings{guo2011b,
+  address = {Toronto, ON, Canada},
+  author = {Guo, Philip J and Engler, Dawson},
+  booktitle = {ACM International Symposium on Software Testing and Analysis},
+  pages = {287--297},
+  publisher = {ACM},
+  title = {{U}sing automatic persistent memoization to facilitate data analysis scripting},
+  year = {2011}
+}
+
+">guo2011b</a>) collects provenance to <span class="goal">support cache invalidation</span>. 
+            <span class="collection">
+                It modifies the Python interpreter to enhance Python with automatic provenance collection and memoization of long running function executions.
+            </span>
+            <span class="cache">
+                When the modified interpreter invokes a function that has a memoized result, it observes the function provenance to check whether the function has the same arguments and dependencies of the memoized results.
+                The interpreter uses the memoized results only when it safe to do so.
+            </span>
+            <span class="collection">
+                Since IncPy modifies how the interpreter handles functions for memoization, it collects provenance through the <span class="strategy">overriding</span> strategy.
+            </span>
+        </p>
+        <p>
+            <span class="collection" title="Is not designed to track fine-grained changes in code or data. If even one line in a function or dataset changes, IncPy deletes cache entries that depend on that code or data">
+                For each function execution, IncPy collects the function name, function definition, passed arguments, global variables, input files, code dependencies (e.g. functions executed inside the cached one), output files, return values, terminal output and function duration.
+                As function definition, it collects the function bytecode to avoid spacing, commentaries, and other cosmetic changes to break memoization.
+                It uses <span class="tool">cPickle</span> to serialize entire arguments, global variables, and return values recursively.
+            </span>
+        </p>
+        <p>
+            <span class="cache">
+                It uses the function name, function definition, passed arguments, global variables, input files, and code dependencies to identify the memoized value.
+                Thus, if an argument, global variable or input file changes, IncPy will not use the memoized results.
+                If the user changes the memoized function definition or the definition of any function that has the memoized function in their stack (e.g. a function called by the memoized one), IncPy automatically deletes previous cache entries.
+                When IncPy uses memoized values for a function, it makes the function just copy output files, print terminal output cache and return cached return values.
+            </span>
+        </p>
+        <p>
+            <span class="cache collection" title="Does not mark function as impure if it just writes text to terminal or just write to the filesystem, unless the script opens the file for appending or opens the file before the function execution">
+                IncPy only memoizes deterministic pure functions (i.e. functions that do not change global states and always produce the same results for the same input).
+                It determines whether a function is pure or not by tracking where variables were defined and collecting dependencies of global variables, and arguments.
+                Note that a call can be considered pure for some arguments and impure by others.
+                IncPy considers calls that access random number generators and system clock as non-deterministic.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                Since it captures provenance with the Python interpreter, IncPy cannot track impurity, dependencies or non-determinism in C/C++ extensions and external executables.
+                Additionally, it does not handle non-determinism from network accesses.
+                Thus, it allows users to annotate which functions they always or never want to memoize.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                IncPy stores the memoization when the function is about to exit.
+                It allows users to continue interrupted executions. At the function exit moment, it collects the function duration and checks if it took more than one second to run.
+                IncPy only caches functions that take more than one seconds to run.
+                Additionally, it tracks the time it takes to store the cache on the disk.
+                If it is longer than the call duration, it assumes that it is faster to compute the function again than to use the cached results, and it removes the cache. 
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@phdthesis{guo2012c,
+  address = {Stanford University},
+  author = {Guo, Philip Jia},
+  school = {Stanford University},
+  title = {{S}oftware tools to facilitate research programming},
+  year = {2012}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{guo2011b,
+  address = {Toronto, ON, Canada},
+  author = {Guo, Philip J and Engler, Dawson},
+  booktitle = {ACM International Symposium on Software Testing and Analysis},
+  pages = {287--297},
+  publisher = {ACM},
+  title = {{U}sing automatic persistent memoization to facilitate data analysis scripting},
+  year = {2011}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{guo2010a,
+  address = {Troy, NY, USA},
+  author = {Guo, Philip J and Engler, Dawson R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--10},
+  publisher = {Springer},
+  title = {{T}owards {P}ractical {I}ncremental {R}ecomputation for {S}cientists: {A}n {I}mplementation for the {P}ython {L}anguage},
+  year = {2010}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading9">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            Lancet
+            </a>
+          </h4>
+        </div>
+        <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+          <div class="panel-body">
+            
+        <p>
+            Lancet (<a class="opener" href="#" data-panel="9" title="@article{stevens2013a,
+  author = {Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A},
+  journal = {Frontiers in Neuroinformatics},
+  link = {http://journal.frontiersin.org/article/10.3389/fninf.2013.00044/full},
+  number = {44},
+  pages = {44},
+  publisher = {Frontiers},
+  title = {{A}n automated and reproducible workflow for running and analyzing neural simulations using {L}ancet and {I}Python {N}otebook},
+  volume = {7},
+  year = {2013}
+}
+
+">stevens2013a</a>) is a Python library that supports defining <span title="allows scientists to spend less time worrying about the implementation">declarative specifications</span> for experiments and collects provenance of executions <span class="goal">for reproducing the experiments</span>.
+            <span class="collection">
+                Thus, users need to <span class="strategy">instrument</span> and rewrite their code to collect provenance with Lancet.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                With Lancet, users declare arguments, commands, and launchers.
+                <span title="Arguments specify the parameter space to be covered by a set of runs">
+                    Arguments express <em>what they aim to achieve</em>, with the platform and tool-independent specifications.
+                    An argument specification can define multiple arguments sets for parameter sweeping.
+                </span>
+                <span title="Commands can be extended to other tools through subclasses">
+                    Commands express <em>how they aim to achieve</em>, with platform-independent, but tool-dependent specifications.
+                    A command specification handles the interface to an external tool and supports defining how to run the tool on multiple platforms.
+                </span>
+                Finally, launchers express <em>where they want to execute</em> the task with platform-dependent, but tool-independent notations.
+                A launcher specification combines arguments to commands and launch jobs on the desired platform.
+                Lancet provides launchers to run locally or in parallel on a Grid Engine.
+            </span>
+        </p>
+        <p>
+            <span class="collection reproducibility">
+                When the <span title="Integrates with pandas to visualize results">launchers execute</span>, Lancet records the Python version, the Lancet version, operating system information and other useful metadata as deployment provenance.
+                In addition, Lancet records the launcher representation along with argument data as definition provenance.
+                The launcher representation is enough for recreating it for reproducibility. 
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                Lancet stores the collected provenance to a file. Lancet allows users to include annotations with library versions, comments and metadata descriptions in the provenance file. 
+                Lancet also offers a function to help writing version control information to this file, maintaining an explicit log of all parameters used in the experiment history. 
+            </span>
+            <span class="analysis" title="It is also possible to inspect and browse previously runned params">
+                For provenance analysis, users can inspect the provenance file.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{stevens2013a,
+  author = {Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A},
+  journal = {Frontiers in Neuroinformatics},
+  link = {http://journal.frontiersin.org/article/10.3389/fninf.2013.00044/full},
+  number = {44},
+  pages = {44},
+  publisher = {Frontiers},
+  title = {{A}n automated and reproducible workflow for running and analyzing neural simulations using {L}ancet and {I}Python {N}otebook},
+  volume = {7},
+  year = {2013}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading10">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            Magni
+            </a>
+          </h4>
+        </div>
+        <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+          <div class="panel-body">
+            
+        <p>
+            Magni (<a class="opener" href="#" data-panel="10" title="@inproceedings{oxvig2016a,
+  address = {Austin, TX, USA},
+  author = {Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben},
+  booktitle = {Python in Science Conference},
+  pages = {45--50},
+  publisher = {SciPy},
+  title = {{S}toring {R}eproducible {R}esults from {C}omputational {E}xperiments using {S}cientific {P}ython {P}ackages},
+  year = {2016}
+}
+
+">oxvig2016a</a>) is a library that captures provenance from Python scripts for <span class="goal">reproducibility</span> through the <span class="strategy"> instrumentation </span> strategy.
+        </p>
+        <p class="collection">
+            It requires users to instrument the code with functions specifying which data should it collect.
+            In addition to the user-defined data, when Magni creates a database for a trial, it collects the git revision number, the datetime, the information about Conda environment (optional), information about magni itself, and about the platform. Additionally, it captures the main source code and the stack trace.
+        </p>
+        <p class="storage">
+            Magni supports storing the provenance either in a JSON file or in a HDF5 database.
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{oxvig2016a,
+  address = {Austin, TX, USA},
+  author = {Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben},
+  booktitle = {Python in Science Conference},
+  pages = {45--50},
+  publisher = {SciPy},
+  title = {{S}toring {R}eproducible {R}esults from {C}omputational {E}xperiments using {S}cientific {P}ython {P}ackages},
+  year = {2016}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading11">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            Michaelides et al.
+            </a>
+          </h4>
+        </div>
+        <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+          <div class="panel-body">
+            
+        <p>
+            Michaelides et al. (<a class="opener" href="#" data-panel="11" title="@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+">michaelides2016a</a>) capture provenance from scripts expressed visually using Blockly for <span class="goal">reproducibility</span>.
+            <span class="storage reproducibility">
+                They store the provenance in Intermediate Notation for Provenance and Workflow Reproducibility (INPWR) format. INPWR is a format based on PROV that can turn back into Blockly visual scripts for re-execution.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                They apply the <span class="strategy">overriding</span> strategy by augmenting functions that execute blocks in the <em>StarJR</em> interpreter.
+                During the collection, they collect executed blocks in Blockly as tasks with their start and end time, type (e.g. sequence and if expression), value, and value type.
+                Since executed blocks produce provenance tasks, this approach unwinds loop structures.
+                With the reproducibility goal, Michaelides et al. (<a class="opener" href="#" data-panel="11" title="@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+">2016</a>) replace user input blocks with literal values that represent the input made.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                In addition to transforming INPWR into executable and editable Blockly, Michaelides et al. (<a class="opener" href="#" data-panel="11" title="@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+">2016</a>) also use the PROV-Template system to convert INPWR into PROV.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading12">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+            noWorkflow
+            </a>
+          </h4>
+        </div>
+        <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+          <div class="panel-body">
+            
+        <p>
+            noWorkflow (<a class="opener" href="#" data-panel="12" title="@inproceedings{murta2014a,
+  address = {Cologne, Germany},
+  author = {Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {71--83},
+  publisher = {Springer},
+  title = {no{W}orkflow: capturing and analyzing provenance of scripts},
+  year = {2014}
+}
+
+">murta2014a</a>; <a class="opener" href="#" data-panel="12" title="@inproceedings{pimentel2016a,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {16--28},
+  publisher = {Springer},
+  title = {{T}racking and analyzing the evolution of provenance from scripts},
+  year = {2016}
+}
+
+">pimentel2016a</a>, <a class="opener" href="#" data-panel="12" title="@inproceedings{pimentel2016b,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {199--203},
+  publisher = {Springer},
+  title = {{F}ine-grained provenance collection over scripts through program slicing},
+  year = {2016}
+}
+
+">pimentel2016b</a>, <a class="opener" href="#" data-panel="12" title="@inproceedings{pimentel2015a,
+  address = {Edinburgh, Scotland},
+  author = {Pimentel, Jo{\~a}o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{C}ollecting and analyzing provenance on interactive notebooks: when {I}Python meets no{W}orkflow},
+  year = {2015}
+}
+
+">pimentel2015a</a>) captures provenance from Python scripts for <span class="goal">comprehension</span>.
+            <span class="collection">
+                It requires no changes in the scripts for provenance collection. noWorkflow collects deployment, definition, and execution provenance.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                noWorkflow collects environment variables and uses the importlib to collect imported modules as deployment provenance.
+                It traverses the AST to collect script and functions as definition provenance.
+                For execution provenance, noWorkflow applies the overriding and the passive monitoring strategies.
+                It overrides the open function to capture all file accesses, and it traces the execution with a Profiler to obtain executed functions with parameters and return values.
+                Optionally, noWorkflow also supports reading the bytecode and defining a Tracer for collecting variables and dependencies.
+            </span>
+        </p>
+        <p>
+            <span class="evolution">
+                In addition to the trial provenance, noWorkflow also tracks the trial evolution by associating each trial provenance with an identifier and using this identifier to track which trials were based on it.
+                <span class="management analysis">
+                    noWorkflow supports restoring previous trials and visualizing the history.
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                noWorkflow stores files in a content database structured by SHA1 hash codes and provenance in an SQLite database.
+            </span>
+            <span class="analysis">
+                Thus, it supports SQL queries for analysis.
+                In addition to SQL queries, noWorkflow provides a series of command lines for listing and comparing trials, activations, modules and environment variables.
+                It also provides a command to export a trial provenance to Prolog with predefined rules, allowing users to run Prolog queries.
+                Additionally, noWorkflow provides a web visualization tool that presents an activation graph.
+                The activation graph presents the sequence of activations in a trial.
+                For fine-grained provenance visualization, noWorkflow exports a dataflow as a dot file that presents all variable dependencies.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                noWorkflow integrates to IPython, defining diverse IPython magics for provenance collection and querying in IPython cells. In this integration, noWorkflow also implements methods for visualizations in Jupyter. 
+                Thus, it is possible to load noWorkflow objects for visualizing activation and dataflow graphs.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{murta2014a,
+  address = {Cologne, Germany},
+  author = {Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {71--83},
+  publisher = {Springer},
+  title = {no{W}orkflow: capturing and analyzing provenance of scripts},
+  year = {2014}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{pimentel2016b,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {199--203},
+  publisher = {Springer},
+  title = {{F}ine-grained provenance collection over scripts through program slicing},
+  year = {2016}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{pimentel2016a,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {16--28},
+  publisher = {Springer},
+  title = {{T}racking and analyzing the evolution of provenance from scripts},
+  year = {2016}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{pimentel2015a,
+  address = {Edinburgh, Scotland},
+  author = {Pimentel, Jo{\~a}o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{C}ollecting and analyzing provenance on interactive notebooks: when {I}Python meets no{W}orkflow},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading13">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            Provenance Curious
+            </a>
+          </h4>
+        </div>
+        <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+          <div class="panel-body">
+            
+        <p>
+            Provenance Curious (<a class="opener" href="#" data-panel="13" title="@inproceedings{huq2013a,
+  address = {Genoa, Italy},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  booktitle = {International Conference on Extending Database Technology},
+  pages = {765--768},
+  publisher = {ACM},
+  title = {{P}rovenance{C}urious: a tool to infer data provenance from scripts},
+  year = {2013}
+}
+
+">huq2013a</a>, <a class="opener" href="#" data-panel="13" title="@phdthesis{huq2013b,
+  author = {Huq, Mohammad Rezwanul},
+  school = {University of Twente},
+  title = {{A}n inference-based framework for managing data provenance},
+  year = {2013}
+}
+
+">huq2013b</a>, <a class="opener" href="#" data-panel="13" title="@article{huq2013c,
+  address = {Washington, DC, USA},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  number = {11},
+  pages = {5113--5130},
+  publisher = {IEEE},
+  title = {{A}n inference-based framework to manage data provenance in {G}eoscience {A}pplications},
+  volume = {51},
+  year = {2013}
+}
+
+">huq2013c</a>) collects the definition provenance from Python scripts for <span class="goal">comprehending</span> the experiment.
+            <span class="collection">
+                It traverses the AST and applies graph rewriting rules to generate a summarized dataflow graph. Then, it applies the <span class="strategy">post mortem</span> strategy to infer provenance through probabilistic models.
+            </span>
+        </p>
+        <p>
+            <span class="visualuzation summarization" title="Supports customizations in the graph, such as grouping processes">
+                After extracting the graph, it applies graph-rewriting rules to reduce the number of nodes and edges and supports user customizations for grouping processes. 
+            </span>
+            <span class="storage analysis">
+                Provenance curious stores the resulting graph in an SQLite database and provides an inference engine that allows users to input values and debug the model to check if it represents the provenance.
+            </span>
+            <span class="distribution analysis visualuzation">
+                It also generates GraphML files for visualization and distribution.
+            </span> 
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@phdthesis{huq2013b,
+  author = {Huq, Mohammad Rezwanul},
+  school = {University of Twente},
+  title = {{A}n inference-based framework for managing data provenance},
+  year = {2013}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{huq2013a,
+  address = {Genoa, Italy},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  booktitle = {International Conference on Extending Database Technology},
+  pages = {765--768},
+  publisher = {ACM},
+  title = {{P}rovenance{C}urious: a tool to infer data provenance from scripts},
+  year = {2013}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{huq2013c,
+  address = {Washington, DC, USA},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  number = {11},
+  pages = {5113--5130},
+  publisher = {IEEE},
+  title = {{A}n inference-based framework to manage data provenance in {G}eoscience {A}pplications},
+  volume = {51},
+  year = {2013}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading14">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+            pypet
+            </a>
+          </h4>
+        </div>
+        <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+          <div class="panel-body">
+            
+        <p>
+            pypet (<a class="opener" href="#" data-panel="14" title="@article{meyer2016a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Frontiers in Neuroinformatics},
+  link = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996826/},
+  pages = {1--16},
+  publisher = {Frontiers Media SA},
+  title = {pypet: {A} Python {T}oolkit for {D}ata {M}anagement of {P}arameter {E}xplorations},
+  volume = {10},
+  year = {2016}
+}
+
+">meyer2016a</a>) is a Python library that supports defining declarative parameter specifications for experiments and <span class="goal"> manages </span> the experiment execution for finding the best parameter combination.
+            <span class="collection">
+                Thus, users need to <span class="strategy">instrument</span> and rewrite their code to collect provenance with pypet.
+            </span>
+        </p>
+        <p class="collection">
+            With pypet, users declare trajectories with parameters and use a experiment environment to execute a function with such parameters.
+            It collects the execution results for each input combination.
+            Pypet also integrates with <a class="opener" href="#" data-panel="19" title="@article{davison2012a,
+  author = {Davison, Andrew},
+  journal = {Computing in Science \& Engineering},
+  number = {4},
+  pages = {48--56},
+  publisher = {AIP Publishing},
+  title = {{A}utomated capture of experiment context for easier reproducibility in computational research},
+  volume = {14},
+  year = {2012}
+}
+
+">Sumatra</a> or standalone version control systems to track the evolution and the definition provenance of experiments.
+        </p>
+        <p class="storage">
+            Pypet stores the collected provenance in HDF5 files.
+        <p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{meyer2015a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Neuroscience},
+  number = {Suppl 1},
+  pages = {P184},
+  publisher = {BioMed Central},
+  title = {pypet: a python toolkit for simulations and numerical experiments},
+  volume = {16},
+  year = {2015}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{meyer2016a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Frontiers in Neuroinformatics},
+  link = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996826/},
+  pages = {1--16},
+  publisher = {Frontiers Media SA},
+  title = {pypet: {A} Python {T}oolkit for {D}ata {M}anagement of {P}arameter {E}xplorations},
+  volume = {10},
+  year = {2016}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading15">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+            RDataTracker
+            </a>
+          </h4>
+        </div>
+        <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+          <div class="panel-body">
+            
+        <p>
+            RDataTracker (<a class="opener" href="#" data-panel="15" title="@inproceedings{lerner2014a,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--4},
+  publisher = {USENIX},
+  title = {R{D}ata{T}racker: collecting provenance in an interactive scripting environment},
+  year = {2014}
+}
+
+">lerner2014a</a>) is an R library that collects data provenance for <span class="goal">comprehension</span> in R scripts or console sessions.
+            <span class="collection">
+                <span title='source("ddg-library.r");ddg.init("daily-solar-radiation.r", "ddg", enable.console=TRUE);...;ddg.save()'>
+                    With RDataTracker, users need to annotate their scripts to specify when to start and finish the collection.
+                </span> 
+                When the library is active, it traces the execution and collects variables and statements dependencies. 
+                It combines the passive monitoring and the instrumentation strategies for execution provenance collection.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                RDataTracker traces the execution of commands and function calls. 
+                During the tracing, it collects the runtime state, including call stack and variables bindings to capture detailed provenance information. 
+                <span class="summarization" title='ddg.start("read.data");...;ddg.finish("read.data")'>
+                    In addition to the automatic collection, RDataTracker enables enhancing provenance with instrumentations that indicate important parts of the execution and instrumentations that create abstraction units for summarizations.
+                </span>
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                The result of provenance collection in RDataTracker is a data derivation graph that presents procedural and data nodes.
+                <span title="Connected with control flow edges; Yellow">
+                    Procedural nodes represent start and end of procedural blocks and operational steps (i.e. statements).
+                </span>
+                <span title="Connected to procedural nodes with input and output edges; Purple">
+                    On the other hand, data nodes represent simple data, files, URLs, and errors.
+                </span>
+                Procedural nodes appear sequentially linked in the graph. Data nodes appear with input and output edges to procedural nodes.
+                The graph browser supports collapsing and expanding some procedural nodes, such as abstraction units and procedural blocks.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{lerner2014b,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--3},
+  publisher = {Springer},
+  title = {P{O}ST{E}R: {R}Data{T}racker and {D}DG {E}xplorer},
+  year = {2014}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{lerner2014a,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--4},
+  publisher = {USENIX},
+  title = {R{D}ata{T}racker: collecting provenance in an interactive scripting environment},
+  year = {2014}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading16">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+            Sacred
+            </a>
+          </h4>
+        </div>
+        <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+          <div class="panel-body">
+            
+        <p>
+            Sacred (<a class="opener" href="#" data-panel="16" title="@inproceedings{greff2015a,
+  address = {Lille, France},
+  author = {Greff, Klaus and Schmidhuber, J{\&quot;u}rgen},
+  booktitle = {AutoML Workshop},
+  pages = {1--6},
+  publisher = {International Machine Learning Society},
+  title = {{I}ntroducing {S}acred: {A} Tool to {F}acilitate {R}eproducible {R}esearch},
+  year = {2015}
+}
+
+">greff2015a</a>) is a Python library for <span class="goal">configuring, organizing, logging and reproducing experiments</span>.
+            Sacred requires users to <span class="strategy collection">instrument</span> the code specifying config parameters and main functions.
+        </p>
+        <p>
+            <span class="collection">
+                Sacred provides decorators for instrumenting config, main and other functions.
+                The main function decorator also servers as a command line argument parser that allows users to variate configurations.
+                Before the execution, Sacred collects the source code, the configured parameters, the module dependencies, resources and artifacts (files) and information about the host.
+                To support randomness reproducibility, it also defines and captures random seeds for random and numpy modules.
+                After the execution, it collects the stdout, status code, start and stop times, the main function result and fail-traces.
+            </span>
+        </p>
+        <p>
+            <span class="storage evolution">
+                Sacred stores the provenance in MongoDB.
+                It has a simple integrated version control system that stores all file contents and keeps references to them through MD5 hashes and name in collections of MongoDB.
+            </span>
+            <span class="analysis">
+                For analysis, Sacred provides a Web and a desktop tool that presents a log of executions with their configurations and results.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{greff2015a,
+  address = {Lille, France},
+  author = {Greff, Klaus and Schmidhuber, J{\"u}rgen},
+  booktitle = {AutoML Workshop},
+  pages = {1--6},
+  publisher = {International Machine Learning Society},
+  title = {{I}ntroducing {S}acred: {A} Tool to {F}acilitate {R}eproducible {R}esearch},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading17">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+            SisGExp
+            </a>
+          </h4>
+        </div>
+        <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+          <div class="panel-body">
+            
+        <p>
+            SisGExp (<a class="opener" href="#" data-panel="17" title="@inproceedings{cruz2016a,
+  address = {McLean, VA, USA},
+  author = {da Cruz, Sergio Manuel Serra and do Nascimento, Jos{\'e} Antonio Pires},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {214--217},
+  publisher = {Springer},
+  title = {{S}is{G}Exp: {R}ethinking {L}ong-{T}ail {A}gronomic {E}xperiments},
+  year = {2016}
+}
+
+">cruz2016a</a>) is a web application that allows scientists to <span class="goal"> manage </span> experiments by registering R scripts with input data. It applies the <span class="strategy"> instrumentation </span> strategy for provenance collection.
+        </p>
+        <p class="collection">
+            For collecting provenance with SisGExp, users need to register R scripts, specifying input data and output targets, and other settings. The system also collects who registered the experiment.
+            After registering the experiments, users can set the scripts to run with Kepler to collect execution time and output data. It uses a generic Meta-Workflow for the script execution.
+        </p>
+        <p>
+            <span class="storage">SisGExp stores the provenance data in a PostgreSQL database</span> <span class="analysis"> and allows users to run SQL queries or to visualize logs in the web application. </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{cruz2016a,
+  address = {McLean, VA, USA},
+  author = {da Cruz, Sergio Manuel Serra and do Nascimento, Jos{\'e} Antonio Pires},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {214--217},
+  publisher = {Springer},
+  title = {{S}is{G}Exp: {R}ethinking {L}ong-{T}ail {A}gronomic {E}xperiments},
+  year = {2016}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading18">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+            StarFlow
+            </a>
+          </h4>
+        </div>
+        <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+          <div class="panel-body">
+            
+        <p>
+            StarFlow (<a class="opener" href="#" data-panel="18" title="@inproceedings{angelino2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {I}ntegration {R}equires {R}econciliation},
+  year = {2011}
+}
+
+">angelino2011a</a>; <a class="opener" href="#" data-panel="18" title="@inproceedings{angelino2010a,
+  address = {Troy, NY, USA},
+  author = {Angelino, Elaine and Yamins, Daniel and Seltzer, Margo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {236--250},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{S}tar{F}low: {A} script-centric data analysis environment},
+  year = {2010}
+}
+
+">angelino2011a</a>) collects provenance of Python scripts for <span class="goal">understanding file dependencies, abstracting workflows and running functions in parallel</span>. 
+            It assumes that users may want to understand experiments even before running them.
+            <span class="collection">
+                For understanding, it considers that dynamic analysis is helpful but not fundamental. 
+                Thus, it combines dynamic runtime analysis, static analysis, and annotations to collect provenance propagation.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                StarFlow allows users to annotate functions to represent function inputs as dependencies of function outputs. 
+                It supports specifying dependencies statically through named arguments or dynamically through decorators that specify which argument represents each dependency. 
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                During static analysis, StarFlow uses the Python last module to extract most control flow, functional dependency, and annotations as definition provenance.
+                In addition to control flow and functional dependency, StarFlow also observes all <em>import</em> statements to collect module dependencies as deployment provenance. 
+                StarFlow considers the dependency provenance self-contained in the scripts.
+                Thus, sharing the code also shares dependencies.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                During dynamic analysis, StarFlow applies the passive monitoring strategy by setting a <span title="sys.settrace">Python tracing function</span> that walks the function stack to collect execution provenance.
+                The tracing function extract function calls with their stack and identifies which files each function access. 
+                StarFlow supports logging the execution provenance, comparing to results of static analysis to check for consistency, or creating dependencies not captured by annotations.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                StarFlow uses the static dependency information to produce a pipeline graph.
+                StarFlow produces this pipeline graph by collating functions according to their annotations.
+                For instance, suppose there are three annotated functions: <em>step1</em>, <em>step2</em>, and <em>step3</em>.
+                The function <em>step1</em> has an annotation that specifies that it reads <em>input1.dat</em> and writes <em>intermediate.dat</em>.
+                The function <em>step2</em> reads <em>intermediate.dat</em> and writes <em>output.dat</em>.
+                Finally, <em>step3</em> reads <em>intermediate.dat</em> and <em>input2.dat</em> and writes <em>graph.png</em>.
+                With this information, StarFlow produces an executable pipeline where <em>step1</em> executes before <em>step2</em> and <em>step3</em>; and these two steps execute in parallel.
+                After creating this pipeline graph, StarFlow can distribute function executions to a cluster and coordinate the dependency transference.
+                Additionally, StarFlow can use the dependency information to determine which functions should be re-executed. For instance, by changing <em>input2.dat</em>, StarFlow just need to re-execute <em>step3</em>.
+            </span>
+        </p>
+        <p>
+            <span class="sweeping">
+                Since StarFlow runs over Python scripts and enables parallelization through static analysis, it supports defining abstract workflows as scripts that create other scripts with static annotations.
+                Then, it provides some special functions for coordinating the execution of these generated scripts.
+                Users can use abstract workflows for parameter sweeping.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                Executing the StarFlow pipeline in parallel is optional. 
+                Since it uses Python scripts, users can determine themselves the execution order through common function calls. 
+                In this case, users can use the collected provenance for understanding. 
+                When using provenance for understanding, using function annotations is optional as well, since the dynamic analysis is able to collect all executed functions as dependencies.
+            </span>
+        </p>
+        <p>
+            <span class="storage">
+                StarFlow stores provenance on the disk in a serializable format. 
+                It supports storing CSV, XML and RDF consistent with the OPM format. 
+            </span>
+            <span class="analysis">
+                For analysis, StarFlow provides a set of Python command-line tools for navigating dependencies <span title="DownstreamLinks()">downstream</span> and <span title="UpstreamLinks()">upstream</span>, <span title="ShowUpdates(): Describes what Python funtions to execute, and in what order, to update dependency targets relative to the source">determining the script pipeline</span> and producing provenance graphs.
+                Provenance graphs in StarFlow show files, annotated functions and non-annotated function (i.e. functions collected through dynamic analysis) as nodes.
+            </span>
+        </p>
+        <p>
+            <span class="integration">
+                Angelino et al. (<a class="opener" href="#" data-panel="18" title="@inproceedings{angelino2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {I}ntegration {R}equires {R}econciliation},
+  year = {2011}
+}
+
+">2011</a>) integrate StarFlow to PASS through the DBAPI provided by the second version of PASS.
+                This integration combines system provenance (i.e. files and processes) with script specific provenance (i.e. function calls, annotation).
+                Additionally, it allows StarFlow provenance to be stored in PASS database.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{angelino2010a,
+  address = {Troy, NY, USA},
+  author = {Angelino, Elaine and Yamins, Daniel and Seltzer, Margo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {236--250},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{S}tar{F}low: {A} script-centric data analysis environment},
+  year = {2010}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{angelino2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {I}ntegration {R}equires {R}econciliation},
+  year = {2011}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading19">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+            Sumatra
+            </a>
+          </h4>
+        </div>
+        <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+          <div class="panel-body">
+            
+        <p>
+            Sumatra (<a class="opener" href="#" data-panel="19" title="@article{davison2012a,
+  author = {Davison, Andrew},
+  journal = {Computing in Science \& Engineering},
+  number = {4},
+  pages = {48--56},
+  publisher = {AIP Publishing},
+  title = {{A}utomated capture of experiment context for easier reproducibility in computational research},
+  volume = {14},
+  year = {2012}
+}
+
+">davison2012a</a>) uses provenance to support <span class="goal">reproducibility</span>.
+            <span class="reproducibility"> 
+                It provides commands for re-executing trials and comparing previous trial results. 
+            </span>
+            <span class="collection">
+                Sumatra collects deployment, definition and execution provenance before and after each trial.
+            </span> 
+            <span class="evolution">
+                Additionally, it keeps the evolution provenance and supports tagging trials.
+            </span>
+        </p>
+        <p>
+            <span class="collection" title="Steps: (i) Create new record; (2) Check changes in code; (3) Store diffs; (4) Find dependencies; (5) Look for environment characteristics; (6) Run simulation; (7) Store time; (8) Find new files; (9) Add tags; (10) Save record">
+                When a user runs a program or script with Sumatra, it collects hardware information, operating system version, and binary executable version as deployment provenance; it collects input files as definition provenance; and it collects output files, terminal output, program arguments and execution duration as execution provenance. Sumatra applies the post-mortem strategy for execution provenance collection, as it identifies files that existed before the execution and compares to new files. For Python scripts, Sumatra also collects imported modules with their versions as deployment provenance and the script definition as definition provenance.
+            </span>
+        </p>
+        <p>
+            <span class="storage evolution">
+                Sumatra uses both a version control system and a relational database (SQLite) to store provenance content.
+                It stores metadata in the SQLite database and files in the version control system.
+            </span>
+            <span class="evolution">
+                Using version control systems gives Sumatra the ability to track provenance evolution.
+            </span>
+        </p>
+        <p>
+            <span class="reproducibility analysis">
+                Sumatra has the goal of supporting reproducibility. 
+                Thus, it provides a web application and command line tools that list trials, summarizes them, compares them, and supports describing previous executions.
+                Additionally, Sumatra provides a command line tools for repeating trials using the same arguments.
+                This command checks if there are changes on the collected data before running.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{davison2012a,
+  author = {Davison, Andrew},
+  journal = {Computing in Science \& Engineering},
+  number = {4},
+  pages = {48--56},
+  publisher = {AIP Publishing},
+  title = {{A}utomated capture of experiment context for easier reproducibility in computational research},
+  volume = {14},
+  year = {2012}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{davison2014a,
+  author = {Davison, Andrew P and Mattioni, Michele and Samarkanov, Dmitry and Tele{'n}czuk, B},
+  journal = {Book},
+  publisher = {CRC Press},
+  title = {{S}umatra: a toolkit for reproducible research},
+  volume = {57},
+  year = {2014}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading20">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="false" aria-controls="collapse20">
+            Tariq, Ali, and Gehani
+            </a>
+          </h4>
+        </div>
+        <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+          <div class="panel-body">
+            
+        <p>
+            Tariq, Ali, and Gehani (<a class="opener" href="#" data-panel="20" title="@inproceedings{tariq2012a,
+  address = {Boston, MA, USA},
+  author = {Tariq, Dawood and Ali, Maisem and Gehani, Ashish},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--5},
+  publisher = {USENIX},
+  title = {{T}owards {A}utomated {C}ollection of {A}pplication-{L}evel {D}ata {P}rovenance},
+  year = {2012}
+}
+
+">tariq2012a</a>) use the LLVM framework to add provenance instrumentation at compilation time for <span class="goal">comprehension</span>.
+            <span class="collection">
+                It modifies function calls in programs compiled by an LLVM compiler to insert instrumentation for provenance collection.
+                Thus, it applies the overriding strategy.
+                This approach collects function calls, arguments and return values as execution provenance.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                This approach can be used for scripting language that uses LLVM compilers (<a href="https://blog.pyston.org/" class="web_reference">DROPBOX, 2016</a>). 
+                However, it only accesses primitive types, since the LLVM has no information about language-specific data structures.
+                While this limitation does not prevent lineage collection, it may prevent the understanding in some scripting languages that use language specific data structures to wrap primitive types.
+            </span>
+        </p>
+        <p>
+            <span class="storage filter">
+                Tariq, Ali, and Gehani (<a class="opener" href="#" data-panel="20" title="@inproceedings{tariq2012a,
+  address = {Boston, MA, USA},
+  author = {Tariq, Dawood and Ali, Maisem and Gehani, Ashish},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--5},
+  publisher = {USENIX},
+  title = {{T}owards {A}utomated {C}ollection of {A}pplication-{L}evel {D}ata {P}rovenance},
+  year = {2012}
+}
+
+">tariq2012a</a>) produce an OPM graph that presents function calls as activities, as the result of this approach.
+                They either print out the result to the standard output or launches a server and send the results to SPADE through TCP sockets.
+                Since the provenance of all function calls can be overwhelming, they support using SPADE filters declared by users to filter out provenance records during collection.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{tariq2012a,
+  address = {Boston, MA, USA},
+  author = {Tariq, Dawood and Ali, Maisem and Gehani, Ashish},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--5},
+  publisher = {USENIX},
+  title = {{T}owards {A}utomated {C}ollection of {A}pplication-{L}evel {D}ata {P}rovenance},
+  year = {2012}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading21">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
+            Variolite
+            </a>
+          </h4>
+        </div>
+        <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+          <div class="panel-body">
+            
+        <p>
+            Variolite (<a class="opener" href="#" data-panel="21" title="@inproceedings{kery2017a,
+  address = {Denver, USA},
+  author = {Kery, Mary Beth and Horvath, Amber and Myers, Brad},
+  booktitle = {Conference on Human Factors in Computing Systems},
+  pages = {1--12},
+  publisher = {ACM},
+  title = {{V}ariolite: {S}upporting {E}xploratory {P}rogramming by {D}ata {S}cientists},
+  year = {2017}
+}
+
+">kery2017a</a>) is a Atom plugin that allows scientists to <span class="goal">manage</span> their scripts' variants by selecting parts they want to change.
+            It applies the <span class="collection strategy">post-mortem</span> strategy to collect the output of variant execution and associate it to the variant version.
+        </p> 
+        <p class="collection">
+            Variolite wraps the execution of the scripts to record parameters used, and inputs/outputs from the run.
+            <span class="storage">
+                It saves this data in JSON files separate from the code.
+                Variolite lets the user decide whether they want to store copies of the results or just pointers.
+            </span>
+            When the user runs the code, Variolite creates a commit with the variant and the provenance.
+            Users can also tag versions to tell what their execution where about.
+        </p>
+        <p class="reproducibility evolution">
+            Variolite allows users to navigate on previous versions by checking their outputs and restoring their versions.
+            It keeps tracks on all branchs of variants in the code.
+            Variolite keeps revision trees for both the files and variant boxes. File variants use references to varint boxes.
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{kery2017a,
+  address = {Denver, USA},
+  author = {Kery, Mary Beth and Horvath, Amber and Myers, Brad},
+  booktitle = {Conference on Human Factors in Computing Systems},
+  pages = {1--12},
+  publisher = {ACM},
+  title = {{V}ariolite: {S}upporting {E}xploratory {P}rogramming by {D}ata {S}cientists},
+  year = {2017}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading22">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+            VCR
+            </a>
+          </h4>
+        </div>
+        <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+          <div class="panel-body">
+            
+        <p>
+            Gavish and Donoho (<a class="opener" href="#" data-panel="22" title="@article{gavish2011a,
+  author = {Gavish, Matan and Donoho, David},
+  journal = {Procedia Computer Science},
+  pages = {637--647},
+  publisher = {Elsevier},
+  title = {{A} universal identifier for computational results},
+  volume = {4},
+  year = {2011}
+}
+
+">gavish2011a</a>) propose using provenance to create a VCR (Verifiable Computational Result) identifiable by a VRI (Verifiable Result Identifier) as a link to a repository.
+            <span class="storage reproducibility">
+                This repository has both the goal of storing provenance and supporting data and metadata analysis.
+                Results created under the same conditions should carry the same VRI.
+                Thus, users can apply provenance for <span class="goal">repeatability checking</span>.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                For capturing provenance in scripts, they propose a plugin with implementations for R, Matlab, and Python. 
+                The plugin includes four commands for provenance tracking and transference to a repository: <em>verifiable</em>, <em>chronicled</em>, <em>repository</em>, and <em>loadvcr</em>.
+                Users need to <span class="strategy">instrument</span> their scripts with these commands.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                The <em>verifiable</em> command assigns a VRI (Verifiable Result Identifier) to a variable, turning it into a VCR (i.e. a monitored object with a verifiable computational result).
+                The <em>chronicled</em> command records the function activation tree with function durations.
+                The <em>loadvcr</em> command imports a VCR generated be a previous computation.
+                Finally, the <em>repository</em> command indicates the provenance repository URL.
+                During the execution, the VCR plugin sends the provenance to the repository.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{gavish2011a,
+  author = {Gavish, Matan and Donoho, David},
+  journal = {Procedia Computer Science},
+  pages = {637--647},
+  publisher = {Elsevier},
+  title = {{A} universal identifier for computational results},
+  volume = {4},
+  year = {2011}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading23">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="false" aria-controls="collapse23">
+            versuchung
+            </a>
+          </h4>
+        </div>
+        <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+          <div class="panel-body">
+            
+
+         <p>
+            versuchung (<a class="opener" href="#" data-panel="23" title="@article{dietrich2015a,
+  author = {Dietrich, Christian and Lohmann, Daniel},
+  journal = {SIGOPS Operating Systems Review},
+  number = {1},
+  pages = {51--60},
+  publisher = {ACM},
+  title = {{T}he dataref versuchung: {S}aving time through better internal repeatability},
+  volume = {49},
+  year = {2015}
+}
+
+">dietrich2015a</a> is a framework that allows users to orchestrate executable Python experiments and collect provenance from the dependencies and aggregate data and metadata.
+            The goal of provenance tracking is to <span class="goal">support the replicability</span> of the experiment by <span class="strategy">instrumenting</span> it to collect input sources, output targets, and actual data.
+        </p>
+        <p class="collection">
+            For collecting provenance, users need to specify their experiments using the versuchung embeded DSL (inheriting classes, calling special functions).
+            This allows them to specify input sources (i.e., git repository, parameters), output targets (i.e., files, databases), and resulting data.
+            Versuchung also collects the start and end time of the experiment.
+            Versuchung provides functions for monitoring shell commands and the machine environment, such as the network activity, and the processor utilization.
+        </p>
+        <p class="storage">
+            Versuchung calculates a hash based on the input parameters and creates a metadata file named after this hash in a artifact directory. This metadata file contains a plain-text representation of a Python data structure with all the collected information.
+        </p>
+        <p class="analysis">
+            The framework itself can be used to load the metadata file for analysis. Thus, its execution creates a chained Experiment.
+        </p>
+        <p>
+            versuchung in bundled with dataref, a latex package that allows users to describe data points and annotate them with metadata to describe experiments in the document. Dataref also allows users to validate data points through assertions.
+        </p>
+
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@article{dietrich2015a,
+  author = {Dietrich, Christian and Lohmann, Daniel},
+  journal = {SIGOPS Operating Systems Review},
+  number = {1},
+  pages = {51--60},
+  publisher = {ACM},
+  title = {{T}he dataref versuchung: {S}aving time through better internal repeatability},
+  volume = {49},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading24">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="false" aria-controls="collapse24">
+            WISE
+            </a>
+          </h4>
+        </div>
+        <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+          <div class="panel-body">
+            
+        <p>
+            Workflow Instrumentation for Structure Extraction (WISE) (<a class="opener" href="#" data-panel="24" title="@mastersthesis{acuna2015b,
+  author = {Acu{\~n}a, Ruben},
+  school = {ARIZONA STATE UNIVERSITY},
+  title = {{U}nderstanding {L}egacy {W}orkflows through {R}untime {T}race {A}nalysis},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+">acuna2015b</a>; <a class="opener" href="#" data-panel="24" title="@article{acuna2015c,
+  author = {Acu{\~n}a, Ruben and Chomilier, Jacques and Lacroix, Zo{\'e}},
+  journal = {Journal of Integrative Bioinformatics},
+  number = {3},
+  pages = {277--277},
+  title = {{M}anaging and {D}ocumenting {L}egacy {S}cientific {W}orkflows},
+  volume = {12},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+">acuna2015c</a>; <a class="opener" href="#" data-panel="24" title="@inproceedings{acuna2015a,
+  address = {New York, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e} and Bazzi, Rida A},
+  booktitle = {International Conference on Cloud Computing},
+  pages = {114--121},
+  publisher = {IEEE},
+  title = {{I}nstrumentation and {T}race {A}nalysis for {A}d-{H}oc {P}ython {W}orkflows in {C}loud {E}nvironments},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+">acuna2015a</a>; <a class="opener" href="#" data-panel="24" title="@inproceedings{acuna2016a,
+  address = {Laguna Hills, California, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e}},
+  booktitle = {International Conference on Semantic Computing},
+  pages = {9--16},
+  publisher = {IEEE},
+  title = {{E}xtracting {S}emantics from {L}egacy {S}cientific {W}orkflows},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2016}
+}
+
+">acuna2016a</a>) captures execution provenance from Python scripts to support dataflow <span class="goal">comprehension</span>, allowing users to recreate experiments with workflow systems.
+            <span class="collection analysis">
+                WISE produces provenance graphs in two steps: automatic instrumentation and <span title="The trace is used to created a provenance graph, which is examined for equivalent regions (collected into a single unit).">provenance summarization</span>.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                The automatic <span class="strategy">instrumentation</span> step applies the overriding strategy by modifying the original script source code to include overridden versions of built-in methods.
+                These overridden methods log events to produce a trace with interactions between the script and the file system.
+                As it modifies source codes, WISE backups all scripts before instrumenting them.
+                WISE instruments not only the main script, but it also follows imports recursively.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                WISE uses the overridden methods to record internal and external events. 
+                Internal events represent the script accessing a file. External events represent system calls or data operations (e.g. copying a file). 
+                External events allow identifying which tools the script use. 
+                During the collection of these events, WISE also performs the post-mortem strategy, by comparing files that existed before the events to files found after. 
+                Thus, it is possible to define the outputs of these tools for the provenance graph. WISE requires users to define input files for each tool manually, should the tool do not use the filename in its arguments.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                After collecting the provenance, WISE produces a graph and summarizes it.
+                The graph presents events as nodes and files as edges.
+                In addition to the event nodes, the graph contains three special nodes: source, library, and sink.
+                The source node produces the initial input to the program.
+                The library nodes produce all files that existed in the directory before the script execution.
+                Finally, the sink nodes depend on every file that exists at the end of the execution.
+                WISE represents two types of file dependencies: direct and indirect.
+                Direct dependencies occur when the event use the exact filename in the invocation.
+                Indirect dependencies occur when the event uses a substring to refer to the file.
+                WISE combines all events that correspond to the execution of the same programs for situations in which the user uses pipes or parallel.
+            </span>
+        </p>
+        <p>
+            <span class="summarization">
+                For summarization, WISE identifies nodes with the same character (invocation or dataflow) and combines them into regions to remove repetitions from the dataflow.
+                WISE includes collectors and dispensers as extra nodes in the graph to keep the execution and dataflow structure equivalent to the previous one.
+                For better comprehension, WISE optionally applies skeletonization as an extra step to remove details.
+                Skeletonizations break the workflow equivalence.
+            </span>
+            <span class="storage" title="Use GraphML to store graph and graphviz for visualization in hierarchical layout mode; Stores tools and associated usage profiles (parameters that are give) in a resource library; Filesystem is recorded as a snapshot of MD5 hashes for each fie in the workflow's folder">
+                WISE produces a GraphML file with the final graph.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@mastersthesis{acuna2015b,
+  author = {Acu{\~n}a, Ruben},
+  school = {ARIZONA STATE UNIVERSITY},
+  title = {{U}nderstanding {L}egacy {W}orkflows through {R}untime {T}race {A}nalysis},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{acuna2015c,
+  author = {Acu{\~n}a, Ruben and Chomilier, Jacques and Lacroix, Zo{\'e}},
+  journal = {Journal of Integrative Bioinformatics},
+  number = {3},
+  pages = {277--277},
+  title = {{M}anaging and {D}ocumenting {L}egacy {S}cientific {W}orkflows},
+  volume = {12},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{acuna2016a,
+  address = {Laguna Hills, California, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e}},
+  booktitle = {International Conference on Semantic Computing},
+  pages = {9--16},
+  publisher = {IEEE},
+  title = {{E}xtracting {S}emantics from {L}egacy {S}cientific {W}orkflows},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2016}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{acuna2015a,
+  address = {New York, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e} and Bazzi, Rida A},
+  booktitle = {International Conference on Cloud Computing},
+  pages = {114--121},
+  publisher = {IEEE},
+  title = {{I}nstrumentation and {T}race {A}nalysis for {A}d-{H}oc {P}ython {W}orkflows in {C}loud {E}nvironments},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading25">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="false" aria-controls="collapse25">
+            YesWorkflow
+            </a>
+          </h4>
+        </div>
+        <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+          <div class="panel-body">
+            
+        <p>
+            YesWorkflow (<a class="opener" href="#" data-panel="25" title="@article{mcphillips2015a,
+  author = {McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others},
+  doi = {10.2218/ijdc.v10i1.370},
+  journal = {International Journal of Digital Curation},
+  number = {1},
+  pages = {298--313},
+  title = {{Y}es{W}orkflow: a user-oriented, language-independent tool for recovering workflow information from scripts},
+  volume = {10},
+  year = {2015}
+}
+
+">mcphillips2015a</a>, <a class="opener" href="#" data-panel="25" title="@inproceedings{mcphillips2015b,
+  address = {Edinburgh, Scotland},
+  author = {McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud{\&quot;a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{R}etrospective provenance without a runtime provenance recorder},
+  year = {2015}
+}
+
+">mcphillips2015b</a>) collects definition provenance based on simple user annotations embedded inside comments of any programming language for <span class="goal">comprehension</span>.
+            <span class="collection">
+                It uses the annotations to build a workflow model that represents the script.
+                These annotations should specify program blocks with ports, and channels to connect the blocks.
+                While such simple annotations allow a low entry bar for adoption, they may not represent what the scripts really do.
+                For capturing the definition provenance from theses annotations, YesWorkflow parses the script.
+            </span>
+        </p>
+        <p>
+            <span class="collection">
+                In addition to definition provenance, YesWorkflow also collects execution provenance through the <span class="strategy">post mortem</span> strategy.
+                YesWorkflow supports using URI templates in channels to define input and output files.
+                The URI templates are based on the idea that many scientists already use directory structures and file names to organize data produced by scripts.
+                After the script execution, YesWorkflow checks which files match the URI templates and collect them as execution provenance.
+            </span>
+        </p>
+        <p>
+            <span class="analysis">
+                YesWorkflow exports the resulting provenance to PROV, Datalog, and GraphViz dot files.
+                For graph visualization, it supports three formats: process-centric, data-centric and combined view.
+                The process-centric format presents blocks as nodes and channels as edges.
+                The data-centric format presents channels as nodes and blocks as edges.
+                Finally, the combined view presents both blocks and channels as nodes.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{mcphillips2015b,
+  address = {Edinburgh, Scotland},
+  author = {McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{R}etrospective provenance without a runtime provenance recorder},
+  year = {2015}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@article{mcphillips2015a,
+  author = {McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others},
+  doi = {10.2218/ijdc.v10i1.370},
+  journal = {International Journal of Digital Curation},
+  number = {1},
+  pages = {298--313},
+  title = {{Y}es{W}orkflow: a user-oriented, language-independent tool for recovering workflow information from scripts},
+  volume = {10},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading26">
+          <h4 class="panel-title">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="false" aria-controls="collapse26">
+            YW*NW
+            </a>
+          </h4>
+        </div>
+        <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+          <div class="panel-body">
+            
+        <p>
+            YW*NW (<a class="opener" href="#" data-panel="26" title="@inproceedings{dey2015a,
+  address = {Edinburgh, Scotland},
+  author = {Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud{\&quot;a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{L}inking prospective and retrospective provenance in scripts},
+  year = {2015}
+}
+
+">dey2015a</a>; <a class="opener" href="#" data-panel="26" title="@inproceedings{pimentel2016c,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud{\&quot;a}scher, Bertram},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {161--165},
+  publisher = {Springer},
+  title = {{Y}in \& {Y}ang: demonstrating complementary provenance from no{W}orkflow \& {Y}es{W}orkflow},
+  year = {2016}
+}
+
+">pimentel2016c</a>) combines <span class="collection">YesWorkflow definition provenance collection with noWorkflow fine-grained execution provenance collection</span> to <span class="goal">abstract the workflow representation to only what users consider important</span>.
+            <span class="analysis">
+                It uses datalog inference rules to match YesWorkflow channels to noWorkflow variables.
+                Thus, it supports querying both YesWorkflow and noWorkflow data with datalog.
+            </span>
+        </p>
+    
+            <div>
+            <pre style="display:inline-block;width=100px;">@inproceedings{pimentel2016c,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud{\"a}scher, Bertram},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {161--165},
+  publisher = {Springer},
+  title = {{Y}in \& {Y}ang: demonstrating complementary provenance from no{W}orkflow \& {Y}es{W}orkflow},
+  year = {2016}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@techreport{pimentel2016d,
+  author = {Pimentel, Jo{\~a}o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud{\"a}scher, Bertram},
+  link = {github.com/gems-uff/yin-yang-demo},
+  title = {{Y}in \& {Y}ang {D}emo {G}it{H}ub},
+  year = {2016}
+}
+
+</pre>
+<pre style="display:inline-block;width=100px;">@inproceedings{dey2015a,
+  address = {Edinburgh, Scotland},
+  author = {Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{L}inking prospective and retrospective provenance in scripts},
+  year = {2015}
+}
+
+</pre>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+
+            </div>
+        </div>
+    </div> 
+    <footer class="footer">
+      <img height="50" alt="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o" title="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o" src="images/ic.jpg">
+      <img height="50" alt="New York University - Tandom School of Engineering" title="New York University - Tandom School of Engineering" src="images/nyu.png">
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

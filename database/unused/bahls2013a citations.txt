@@ -1,0 +1,111 @@
+1
+        "The actual scholarship is the complete software development environment and the complete set of instructions which generated the ﬁgures” [1] [11].",
+        
+2
+        "The data was available to the community [7] which allowed other researchers to investigate and after all heavily criticize their publication as its results could not be reproduced [2].",
+        "We want to explore this scenario on the basis of [2] for which Sweave sources are available while the data set is access-restricted.",
+        
+3
+        "We pursue the idea of a data restore model that is based on ﬁne-grained data referencing as described in earlier works [3] where further background and motivation is explained more thoroughly",
+        "The data content is more accessible and interpretable to machines which sets the stage for a variety of new applications, e.g. for data retrieval [3].",
+        
+4
+        "We will investigate the design and development of a data and code ontology in future work for which we take into account recommendation (C) in [23] and other [20] [4] [15] [26] for the purpose of replicability in computational research.",
+        
+5
+        "Either way, source code should be picked up as part of the publication material whenever possible [5]3.",
+        
+6
+        "This could also help solve some of the problems in using linked data for scientiﬁc purposes [6]12, which will be the basis of the model.",
+        
+7
+        "The data was available to the community [7] which allowed other researchers to investigate and after all heavily criticize their publication as its results could not be reproduced [2].",
+        
+8
+        "At the same time, they presented a modiﬁed version of the statistical model they had applied and managed to produce the previous ﬁndings again while admitting that“the results are now less clear-cut and [they lost] statistical signiﬁcance”[8]",
+        
+9
+        "At this point, metadata on provenance and other documentation should be collected which can be supported through scientiﬁc workﬂow systems[9].",
+        
+10
+        "Apparently, these issues are faced in many other areas of computational research too [18] [16] [31] [10] which can be understood as a problem of insuﬃcient documentation.",
+        
+11
+        "The actual scholarship is the complete software development environment and the complete set of instructions which generated the ﬁgures” [1] [11].",
+        
+12
+        "Whichever data management solution is applied eventually should ﬁt to the researchers’ workﬂows and practices in order to be eﬀective and thus accepted [12].",
+        
+13
+        "Source code for computational research does not need to be executable in order to make a valuable contribution to transparency as it is a detailed documentation of the processing and a valuable resource as such, which is part of the argumentation in [13]",
+        
+14
+        "With the increasing use of statistics software [14] these problems emerge in empirical research in general where more and more statisticians promote the use of literate programming techniques [22] [29] which combine report text and coding in single executable scripts in a way that clariﬁes the link between research code, the ﬁgures produced, and the ﬁndings naturally.",
+        
+15
+        "We will investigate the design and development of a data and code ontology in future work for which we take into account recommendation (C) in [23] and other [20] [4] [15] [26] for the purpose of replicability in computational research.",
+        
+16
+        "Apparently, these issues are faced in many other areas of computational research too [18] [16] [31] [10] which can be understood as a problem of insuﬃcient documentation.",
+        
+17
+        "With the ongoing linked open data movement, awareness and knowledge about semantic technologies and the RDF data model has found its way to many application domains, among which the domain of statistical data[17].",
+        
+18
+        "Apparently, these issues are faced in many other areas of computational research too [18] [16] [31] [10] which can be understood as a problem of insuﬃcient documentation.",
+        
+19
+        "Furthermore, by using the Linked Science Ontology [19] abstract research processes can be modelled and represented.",
+        
+20
+        "In support of this view [20] investigated reproducibility in econometrics and pointed out how software tools can be used to organize data, code, and documentation in this domain.",
+        "The use of versioning systems could help identify individual releases at detailed level [20] which should integrate seamlessly with the data restore model.",
+        "In the following, we explain the concept of data templates by taking the example of two data sets from the sources of [20].",
+        "We also inserted the two restore calls above in the source code of our example paper ([20]) right before the load-data calls respectively, and running Sweave on it produced a report identical to the published articl",
+        "We will investigate the design and development of a data and code ontology in future work for which we take into account recommendation (C) in [23] and other [20] [4] [15] [26] for the purpose of replicability in computational research.",
+        
+21
+        "In both of the examples above, the authors made use of the literate programming tool Sweave [21] so that their reports can be generated again, from data processing to generating the report document, under the premise that the data is given and the system environment allows for correct execution.",
+        "Tools like Sweave [21] or Knitr2 are already accepted as helpful means to reproduce analyses and document its steps [22] [29] and therefore suitable for the reproduction of research results.",
+        
+22
+        "With the increasing use of statistics software [14] these problems emerge in empirical research in general where more and more statisticians promote the use of literate programming techniques [22] [29] which combine report text and coding in single executable scripts in a way that clariﬁes the link between research code, the ﬁgures produced, and the ﬁndings naturally.",
+        "Tools like Sweave [21] or Knitr2 are already accepted as helpful means to reproduce analyses and document its steps [22] [29] and therefore suitable for the reproduction of research results.",
+        "Since literate programming already is a prominent approach to replicability in the computational statistics community [22] (particularly supports recommendation (A)) we want to demonstrate how the plugin can further strengthen this concept.",
+        
+23
+        "A comprehensive review of the JMCB1 data+code archive revealed that provenance information for the data used is often incomplete and that submitted code does not reproduce the results either [23].",
+        "In the following, we want to develop the ideas of a referencing technique and take into account the recommendations fromulated by [23] which we refer to using parentheses (A-J).",
+        "McCullough et al. recommend the use of ASCII encoding (D) for the beneﬁt of re-usability, we therefore want to exclude binary formats from our discussion.",
+        "We have formulated requirements on the basis of the recommendations in [23] and further followed the idea of ﬁne-grained data referencing in our data restore model.",
+        "We will investigate the design and development of a data and code ontology in future work for which we take into account recommendation (C) in [23] and other [20] [4] [15] [26] for the purpose of replicability in computational research.",
+        
+24
+        "Nevertheless, the achievements in this area seem promising, and the opportunities for application such as [24] are great.",
+        
+25
+        "In computational research, this remains unveriﬁed in many cases due to various reasons [25].",
+        
+26
+        "We will investigate the design and development of a data and code ontology in future work for which we take into account recommendation (C) in [23] and other [20] [4] [15] [26] for the purpose of replicability in computational research.",
+        
+27
+        "If re-execution of experiments is the goal, it is necessary to capture information on the entire system environment used in order to make sure respective processes can be performed under the same parameters [27] [28]",
+        
+28
+        "If re-execution of experiments is the goal, it is necessary to capture information on the entire system environment used in order to make sure respective processes can be performed under the same parameters [27] [28]",
+        
+29
+        "With the increasing use of statistics software [14] these problems emerge in empirical research in general where more and more statisticians promote the use of literate programming techniques [22] [29] which combine report text and coding in single executable scripts in a way that clariﬁes the link between research code, the ﬁgures produced, and the ﬁndings naturally.",
+        "Tools like Sweave [21] or Knitr2 are already accepted as helpful means to reproduce analyses and document its steps [22] [29] and therefore suitable for the reproduction of research results.",
+        
+30
+        "In this regard, [30] illustrates how the problem of software dependencies for computational research could be solved with the help of build scripts such as make ﬁles.",
+        
+31
+        "Apparently, these issues are faced in many other areas of computational research too [18] [16] [31] [10] which can be understood as a problem of insuﬃcient documentation.",
+        
+32
+        "One of them is the plain fact that the supporting data is often unavailable to others which gives rise for a more organized and open data management practice [32].",
+        
+

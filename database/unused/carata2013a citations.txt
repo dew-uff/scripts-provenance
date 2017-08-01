@@ -1,0 +1,18 @@
+1
+        "Capturing provenance metadata by observing the data production process (an approach taken by systems like ES3 [1] or PASS [2]) is limited in terms of recovering theexactsemanticsofeachoperationacrossmultipleabstraction levels (application, OS, network).",
+        
+2
+        "Capturing provenance metadata by observing the data production process (an approach taken by systems like ES3 [1] or PASS [2]) is limited in terms of recovering theexactsemanticsofeachoperationacrossmultipleabstraction levels (application, OS, network).",
+        
+3
+        "Workﬂow management systems are particularly suitable for this approach, and implementationslikeKepler[3]orVisTrails[4]takeadvantage of the data ﬂow and dependencies disclosed in the workﬂow’s deﬁnition to automatically determine provenance.",
+        
+4
+        "Workﬂow management systems are particularly suitable for this approach, and implementationslikeKepler[3]orVisTrails[4]takeadvantage of the data ﬂow and dependencies disclosed in the workﬂow’s deﬁnition to automatically determine provenance.",
+        
+5
+        "Such APIs have already been proposed,eitheraspartofobserved-provenancesystems, as is the case of DPAPI [5], or as general purpose provenance libraries - the case of CPL [6].",
+        
+6
+        "Such APIs have already been proposed,eitheraspartofobserved-provenancesystems, as is the case of DPAPI [5], or as general purpose provenance libraries - the case of CPL [6].",
+        
