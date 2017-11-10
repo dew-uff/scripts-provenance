@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="622" version="1.1" width="1440" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><marker id="id2" markerHeight="10" markerWidth="7" orient="auto" refY="5"><path d="M0,10 L7,5 0,0" fill="black" stroke="black" /></marker></defs><text fill="black" text-anchor="middle" x="80" y="40">J.Sci. Stat. Comput.<title>acronym: J.Sci. Stat. Comput.
+name: SIAM Journal on Scientific and Statistical Computing
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=18309143093492440675&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="53" y="44"><title>Auditing of data analyses
+Becker, Richard A and Chambers, John M
+
+@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="80" y="71"><title>Auditing of data analyses
+Becker, Richard A and Chambers, John M
+
+@article{becker1988a,
+  author = {Becker, Richard A and Chambers, John M},
+  journal = {SIAM Journal on Scientific and Statistical Computing},
+  number = {4},
+  pages = {747--760},
+  publisher = {SIAM},
+  title = {{A}uditing of data analyses},
+  volume = {9},
+  year = {1988}
+}
+
+</title><tspan x="80" y="59">Becker</tspan><tspan x="80" y="71">and Cha</tspan><tspan x="80" y="83">mbers</tspan></text></a><text fill="black" text-anchor="middle" x="160" y="40">SSDBM<title>acronym: SSDBM
+name: Scientific and Statistical Database Management
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=15969098909434514574&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="133" y="44"><title>Earth system science workbench: A data management infrastructure for earth science products
+Frew, James and Bose, Rajendra
+
+@inproceedings{frew2001a,
+  address = {Fairfax, VA, U.S.A},
+  author = {Frew, James and Bose, Rajendra},
+  booktitle = {Scientific and Statistical Database Management},
+  doi = {10.1109/SSDM.2001.938550},
+  pages = {180--189},
+  publisher = {IEEE},
+  title = {{E}arth system science workbench: {A} data management infrastructure for earth science products},
+  year = {2001}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="160" y="71"><title>Earth system science workbench: A data management infrastructure for earth science products
+Frew, James and Bose, Rajendra
+
+@inproceedings{frew2001a,
+  address = {Fairfax, VA, U.S.A},
+  author = {Frew, James and Bose, Rajendra},
+  booktitle = {Scientific and Statistical Database Management},
+  doi = {10.1109/SSDM.2001.938550},
+  pages = {180--189},
+  publisher = {IEEE},
+  title = {{E}arth system science workbench: {A} data management infrastructure for earth science products},
+  year = {2001}
+}
+
+</title><tspan x="160" y="71">ESSW</tspan></text></a><text fill="black" text-anchor="middle" x="240" y="40">ESTC<title>acronym: ESTC
+name: Earth Science Technology Conference
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=8060440168451594977&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="213" y="44"><title>Earth System Science Server (ES3): Local Infrastructure for Earth Science Product Management
+Frew, James
+
+@inproceedings{frew2004a,
+  address = {Palo Alto, CA},
+  author = {Frew, James},
+  booktitle = {Earth Science Technology Conference},
+  link = {https://esto.ndc.nasa.gov/conferences/estc2004/papers/a4p3.pdf},
+  pages = {1--5},
+  publisher = {NASA},
+  title = {{E}arth {S}ystem {S}cience {S}erver ({E}S3): {L}ocal {I}nfrastructure for {E}arth {S}cience {P}roduct {M}anagement},
+  year = {2004}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="240" y="71"><title>Earth System Science Server (ES3): Local Infrastructure for Earth Science Product Management
+Frew, James
+
+@inproceedings{frew2004a,
+  address = {Palo Alto, CA},
+  author = {Frew, James},
+  booktitle = {Earth Science Technology Conference},
+  link = {https://esto.ndc.nasa.gov/conferences/estc2004/papers/a4p3.pdf},
+  pages = {1--5},
+  publisher = {NASA},
+  title = {{E}arth {S}ystem {S}cience {S}erver ({E}S3): {L}ocal {I}nfrastructure for {E}arth {S}cience {P}roduct {M}anagement},
+  year = {2004}
+}
+
+</title><tspan x="240" y="71">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="320" y="40">Thesis<title>acronym: Thesis
+name: Thesis
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10082802369182678775&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="293" y="44"><title>Tracking the lineage of arbitrary processing sequences
+Valeur, H&#229;var
+
+@phdthesis{valeur2005a,
+  author = {Valeur, H{\aa}var},
+  link = {http://urn.ub.uu.se/resolve?urn= urn:nbn:no:ntnu:diva-1341},
+  pages = {91},
+  publisher = {Institutt for datateknikk og informasjonsvitenskap},
+  school = {Norwegian University of Science and Technology, Trondheim},
+  title = {{T}racking the lineage of arbitrary processing sequences},
+  year = {2005}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="320" y="71"><title>Tracking the lineage of arbitrary processing sequences
+Valeur, H&#229;var
+
+@phdthesis{valeur2005a,
+  author = {Valeur, H{\aa}var},
+  link = {http://urn.ub.uu.se/resolve?urn= urn:nbn:no:ntnu:diva-1341},
+  pages = {91},
+  publisher = {Institutt for datateknikk og informasjonsvitenskap},
+  school = {Norwegian University of Science and Technology, Trondheim},
+  title = {{T}racking the lineage of arbitrary processing sequences},
+  year = {2005}
+}
+
+</title><tspan x="320" y="71">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="400" y="40">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5386952245854088621&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="373" y="44"><title>A python library for provenance recording and querying
+Bochner, Carsten and Gude, Roland and Schreiber, Andreas
+
+@inproceedings{bochner2008a,
+  address = {Salt-Lake City, USA},
+  author = {Bochner, Carsten and Gude, Roland and Schreiber, Andreas},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {229--240},
+  publisher = {Springer},
+  title = {{A} python library for provenance recording and querying},
+  year = {2008}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="400" y="71"><title>A python library for provenance recording and querying
+Bochner, Carsten and Gude, Roland and Schreiber, Andreas
+
+@inproceedings{bochner2008a,
+  address = {Salt-Lake City, USA},
+  author = {Bochner, Carsten and Gude, Roland and Schreiber, Andreas},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {229--240},
+  publisher = {Springer},
+  title = {{A} python library for provenance recording and querying},
+  year = {2008}
+}
+
+</title><tspan x="400" y="53">Bochner</tspan><tspan x="400" y="65">, Gude,</tspan><tspan x="400" y="77">and Sch</tspan><tspan x="400" y="89">reiber</tspan></text></a><text fill="black" text-anchor="middle" x="400" y="160">CCPE<title>acronym: CCPE
+name: Concurrency and Computation: Practice and Experience
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=15191121959942270763&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="373" y="164"><title>Automatic capture and reconstruction of computational provenance
+Frew, James and Metzger, Dominic and Slaughter, Peter
+
+@article{frew2008a,
+  author = {Frew, James and Metzger, Dominic and Slaughter, Peter},
+  doi = {10.1002/cpe.1247},
+  journal = {Concurrency and Computation: Practice and Experience},
+  link = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.559.9467\&amp;rep=rep1\&amp;type=pdf},
+  number = {5},
+  pages = {485--496},
+  publisher = {Wiley Online Library},
+  title = {{A}utomatic capture and reconstruction of computational provenance},
+  volume = {20},
+  year = {2008}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="400" y="191"><title>Automatic capture and reconstruction of computational provenance
+Frew, James and Metzger, Dominic and Slaughter, Peter
+
+@article{frew2008a,
+  author = {Frew, James and Metzger, Dominic and Slaughter, Peter},
+  doi = {10.1002/cpe.1247},
+  journal = {Concurrency and Computation: Practice and Experience},
+  link = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.559.9467\&amp;rep=rep1\&amp;type=pdf},
+  number = {5},
+  pages = {485--496},
+  publisher = {Wiley Online Library},
+  title = {{A}utomatic capture and reconstruction of computational provenance},
+  volume = {20},
+  year = {2008}
+}
+
+</title><tspan x="400" y="191">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="400" y="280">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=490109257561340733&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="373" y="284"><title>Es3: A demonstration of transparent provenance for scientific computation
+Frew, James and Slaughter, Peter
+
+@inproceedings{frew2008b,
+  address = {Salt Lake City, UT, USA},
+  author = {Frew, James and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  link = {https://pdfs.semanticscholar.org/e16f/7aa1b63e29255a2fe8f9fb1159fb50f90e61.pdf},
+  pages = {200--207},
+  publisher = {Springer},
+  title = {{E}s3: {A} demonstration of transparent provenance for scientific computation},
+  year = {2008}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="400" y="311"><title>Es3: A demonstration of transparent provenance for scientific computation
+Frew, James and Slaughter, Peter
+
+@inproceedings{frew2008b,
+  address = {Salt Lake City, UT, USA},
+  author = {Frew, James and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  link = {https://pdfs.semanticscholar.org/e16f/7aa1b63e29255a2fe8f9fb1159fb50f90e61.pdf},
+  pages = {200--207},
+  publisher = {Springer},
+  title = {{E}s3: {A} demonstration of transparent provenance for scientific computation},
+  year = {2008}
+}
+
+</title><tspan x="400" y="311">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="480" y="40">NBIS<title>acronym: NBIS
+name: International Conference on Network-Based Information Systems
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=1056289223691579585&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#C7EAE5" height="54" stroke="black" width="54" x="453" y="44"><title>Astro-wise: Tracing and using lineage for scientific data processing
+Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin
+
+@inproceedings{mwebaze2009a,
+  address = {Indianapolis, USA},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {International Conference on Network-Based Information Systems},
+  pages = {475--480},
+  publisher = {IEEE},
+  title = {{A}stro-wise: {T}racing and using lineage for scientific data processing},
+  year = {2009}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="480" y="71"><title>Astro-wise: Tracing and using lineage for scientific data processing
+Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin
+
+@inproceedings{mwebaze2009a,
+  address = {Indianapolis, USA},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {International Conference on Network-Based Information Systems},
+  pages = {475--480},
+  publisher = {IEEE},
+  title = {{A}stro-wise: {T}racing and using lineage for scientific data processing},
+  year = {2009}
+}
+
+</title><tspan x="480" y="65">Astro-</tspan><tspan x="480" y="77">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="560" y="40">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=11862961943781824582&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="533" y="44"><title>StarFlow: A script-centric data analysis environment
+Angelino, Elaine and Yamins, Daniel and Seltzer, Margo
+
+@inproceedings{angelino2010a,
+  address = {Troy, NY, USA},
+  author = {Angelino, Elaine and Yamins, Daniel and Seltzer, Margo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {236--250},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{S}tar{F}low: {A} script-centric data analysis environment},
+  year = {2010}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="560" y="71"><title>StarFlow: A script-centric data analysis environment
+Angelino, Elaine and Yamins, Daniel and Seltzer, Margo
+
+@inproceedings{angelino2010a,
+  address = {Troy, NY, USA},
+  author = {Angelino, Elaine and Yamins, Daniel and Seltzer, Margo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {236--250},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{S}tar{F}low: {A} script-centric data analysis environment},
+  year = {2010}
+}
+
+</title><tspan x="560" y="65">Star</tspan><tspan x="560" y="77">Flow</tspan></text></a><text fill="black" text-anchor="middle" x="560" y="160">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=7840681918141944089&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="533" y="164"><title>Automatic Provenance Collection and Publishing in a Science Data Production Environment -- Early Results
+Frew, James and Jan&#233;e, Greg and Slaughter, Peter
+
+@inproceedings{frew2010a,
+  address = {Troy, NY, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {27--33},
+  publisher = {Springer},
+  title = {{A}utomatic {P}rovenance {C}ollection and {P}ublishing in a {S}cience {D}ata {P}roduction {E}nvironment -- {E}arly {R}esults},
+  year = {2010}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="560" y="191"><title>Automatic Provenance Collection and Publishing in a Science Data Production Environment -- Early Results
+Frew, James and Jan&#233;e, Greg and Slaughter, Peter
+
+@inproceedings{frew2010a,
+  address = {Troy, NY, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {27--33},
+  publisher = {Springer},
+  title = {{A}utomatic {P}rovenance {C}ollection and {P}ublishing in a {S}cience {D}ata {P}roduction {E}nvironment -- {E}arly {R}esults},
+  year = {2010}
+}
+
+</title><tspan x="560" y="191">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="560" y="280">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10985424330395289899&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#8C510A" height="54" stroke="black" width="54" x="533" y="284"><title>Towards Practical Incremental Recomputation for Scientists: An Implementation for the Python Language
+Guo, Philip J and Engler, Dawson R
+
+@inproceedings{guo2010a,
+  address = {Troy, NY, USA},
+  author = {Guo, Philip J and Engler, Dawson R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--10},
+  publisher = {Springer},
+  title = {{T}owards {P}ractical {I}ncremental {R}ecomputation for {S}cientists: {A}n {I}mplementation for the {P}ython {L}anguage},
+  year = {2010}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="560" y="311"><title>Towards Practical Incremental Recomputation for Scientists: An Implementation for the Python Language
+Guo, Philip J and Engler, Dawson R
+
+@inproceedings{guo2010a,
+  address = {Troy, NY, USA},
+  author = {Guo, Philip J and Engler, Dawson R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--10},
+  publisher = {Springer},
+  title = {{T}owards {P}ractical {I}ncremental {R}ecomputation for {S}cientists: {A}n {I}mplementation for the {P}ython {L}anguage},
+  year = {2010}
+}
+
+</title><tspan x="560" y="311">IncPy</tspan></text></a><text fill="black" text-anchor="middle" x="560" y="400">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=1590597830262828179&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="533" y="404"><title>Provenance-awareness in R
+Silles, Chris A and Runnalls, Andrew R
+
+@inproceedings{silles2010a,
+  address = {Troy, NY, USA},
+  author = {Silles, Chris A and Runnalls, Andrew R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {64--72},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{P}rovenance-awareness in {R}},
+  year = {2010}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="560" y="431"><title>Provenance-awareness in R
+Silles, Chris A and Runnalls, Andrew R
+
+@inproceedings{silles2010a,
+  address = {Troy, NY, USA},
+  author = {Silles, Chris A and Runnalls, Andrew R},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {64--72},
+  proceedings = {LNCS 6378},
+  publisher = {Springer},
+  title = {{P}rovenance-awareness in {R}},
+  year = {2010}
+}
+
+</title><tspan x="560" y="431">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="640" y="40">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3342115350783415214&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="613" y="44"><title>Provenance Integration Requires Reconciliation
+Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W
+
+@inproceedings{angelino2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {I}ntegration {R}equires {R}econciliation},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="640" y="71"><title>Provenance Integration Requires Reconciliation
+Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W
+
+@inproceedings{angelino2011a,
+  address = {Heraklion, Crete, Greece},
+  author = {Angelino, Elaine and Braun, Uri and Holland, David A and Margo, Daniel W},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{P}rovenance {I}ntegration {R}equires {R}econciliation},
+  year = {2011}
+}
+
+</title><tspan x="640" y="65">Star</tspan><tspan x="640" y="77">Flow</tspan></text></a><text fill="black" text-anchor="middle" x="640" y="160">SSDBM<title>acronym: SSDBM
+name: Scientific and Statistical Database Management
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=12782350388288212085&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="613" y="164"><title>Provenance-enabled automatic data publishing
+Frew, James and Jan&#233;e, Greg and Slaughter, Peter
+
+@inproceedings{frew2011a,
+  address = {Portland, OR, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {Scientific and Statistical Database Management},
+  link = {http://ipaw2012.bren.ucsb.edu/images/3/39/68090244.pdf},
+  pages = {244--252},
+  publisher = {Springer},
+  title = {{P}rovenance-enabled automatic data publishing},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="640" y="191"><title>Provenance-enabled automatic data publishing
+Frew, James and Jan&#233;e, Greg and Slaughter, Peter
+
+@inproceedings{frew2011a,
+  address = {Portland, OR, USA},
+  author = {Frew, James and Jan{\'e}e, Greg and Slaughter, Peter},
+  booktitle = {Scientific and Statistical Database Management},
+  link = {http://ipaw2012.bren.ucsb.edu/images/3/39/68090244.pdf},
+  pages = {244--252},
+  publisher = {Springer},
+  title = {{P}rovenance-enabled automatic data publishing},
+  year = {2011}
+}
+
+</title><tspan x="640" y="191">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="640" y="280">Procedia<title>acronym: Procedia
+name: Procedia Computer Science
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5840438888439008219&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="613" y="284"><title>A universal identifier for computational results
+Gavish, Matan and Donoho, David
+
+@article{gavish2011a,
+  author = {Gavish, Matan and Donoho, David},
+  journal = {Procedia Computer Science},
+  pages = {637--647},
+  publisher = {Elsevier},
+  title = {{A} universal identifier for computational results},
+  volume = {4},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="640" y="311"><title>A universal identifier for computational results
+Gavish, Matan and Donoho, David
+
+@article{gavish2011a,
+  author = {Gavish, Matan and Donoho, David},
+  journal = {Procedia Computer Science},
+  pages = {637--647},
+  publisher = {Elsevier},
+  title = {{A} universal identifier for computational results},
+  volume = {4},
+  year = {2011}
+}
+
+</title><tspan x="640" y="311">VCR</tspan></text></a><text fill="black" text-anchor="middle" x="640" y="400">ISSTA<title>acronym: ISSTA
+name: ACM International Symposium on Software Testing and Analysis
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=6071085167494078934&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#8C510A" height="54" stroke="black" width="54" x="613" y="404"><title>Using automatic persistent memoization to facilitate data analysis scripting
+Guo, Philip J and Engler, Dawson
+
+@inproceedings{guo2011b,
+  address = {Toronto, ON, Canada},
+  author = {Guo, Philip J and Engler, Dawson},
+  booktitle = {ACM International Symposium on Software Testing and Analysis},
+  pages = {287--297},
+  publisher = {ACM},
+  title = {{U}sing automatic persistent memoization to facilitate data analysis scripting},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="640" y="431"><title>Using automatic persistent memoization to facilitate data analysis scripting
+Guo, Philip J and Engler, Dawson
+
+@inproceedings{guo2011b,
+  address = {Toronto, ON, Canada},
+  author = {Guo, Philip J and Engler, Dawson},
+  booktitle = {ACM International Symposium on Software Testing and Analysis},
+  pages = {287--297},
+  publisher = {ACM},
+  title = {{U}sing automatic persistent memoization to facilitate data analysis scripting},
+  year = {2011}
+}
+
+</title><tspan x="640" y="431">IncPy</tspan></text></a><text fill="black" text-anchor="middle" x="640" y="520">eSoN<title>acronym: eSoN
+name: IEEE International Conference on e-Science
+type: Conference</title></text><a target="_blank" xlink:href="https://scholar.google.com/scholar?cites=10363546509247293367&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#C7EAE5" height="54" stroke="black" width="54" x="613" y="524"><title>Dynamic Pipeline Changes in Scientific Data Processing
+Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin
+
+@inproceedings{mwebaze2011a,
+  address = {Stockholm, Sweden},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {263--270},
+  publisher = {IEEE},
+  title = {{D}ynamic {P}ipeline {C}hanges in {S}cientific {D}ata {P}rocessing},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="640" y="551"><title>Dynamic Pipeline Changes in Scientific Data Processing
+Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin
+
+@inproceedings{mwebaze2011a,
+  address = {Stockholm, Sweden},
+  author = {Mwebaze, Johnson and Boxhoorn, Danny and Valentijn, Edwin},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {263--270},
+  publisher = {IEEE},
+  title = {{D}ynamic {P}ipeline {C}hanges in {S}cientific {D}ata {P}rocessing},
+  year = {2011}
+}
+
+</title><tspan x="640" y="545">Astro-</tspan><tspan x="640" y="557">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="720" y="40">JSM<title>acronym: JSM
+name: Joint Statistical Meetings
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=6209326139203866173&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="693" y="44"><title>CXXR: An ideas hatchery for future R development
+Runnalls, Andrew R and Silles, Chris A
+
+@inproceedings{runnalls2011a,
+  address = {Miama Beach, FL, USA},
+  author = {Runnalls, Andrew R and Silles, Chris A},
+  booktitle = {Joint Statistical Meetings},
+  pages = {1--9},
+  publisher = {AMSTAT},
+  title = {C{X}XR: {A}n ideas hatchery for future {R} development},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="720" y="71"><title>CXXR: An ideas hatchery for future R development
+Runnalls, Andrew R and Silles, Chris A
+
+@inproceedings{runnalls2011a,
+  address = {Miama Beach, FL, USA},
+  author = {Runnalls, Andrew R and Silles, Chris A},
+  booktitle = {Joint Statistical Meetings},
+  pages = {1--9},
+  publisher = {AMSTAT},
+  title = {C{X}XR: {A}n ideas hatchery for future {R} development},
+  year = {2011}
+}
+
+</title><tspan x="720" y="71">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="720" y="160">Comp. Stat.<title>acronym: Comp. Stat.
+name: Computational Statistics
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=11017571925099666520&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="693" y="164"><title>Aspects of CXXR internals
+Runnalls, Andrew R
+
+@article{runnalls2011b,
+  author = {Runnalls, Andrew R},
+  journal = {Computational Statistics},
+  number = {3},
+  pages = {427--442},
+  publisher = {Springer},
+  title = {{A}spects of {C}XX{R} internals},
+  volume = {26},
+  year = {2011}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="720" y="191"><title>Aspects of CXXR internals
+Runnalls, Andrew R
+
+@article{runnalls2011b,
+  author = {Runnalls, Andrew R},
+  journal = {Computational Statistics},
+  number = {3},
+  pages = {427--442},
+  publisher = {Springer},
+  title = {{A}spects of {C}XX{R} internals},
+  volume = {26},
+  year = {2011}
+}
+
+</title><tspan x="720" y="191">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="800" y="40">CiSE<title>acronym: CiSE
+name: Computing in Science &amp; Engineering
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14563691115376114672&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="773" y="44"><title>Automated capture of experiment context for easier reproducibility in computational research
+Davison, Andrew
+
+@article{davison2012a,
+  author = {Davison, Andrew},
+  journal = {Computing in Science \&amp; Engineering},
+  number = {4},
+  pages = {48--56},
+  publisher = {AIP Publishing},
+  title = {{A}utomated capture of experiment context for easier reproducibility in computational research},
+  volume = {14},
+  year = {2012}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="800" y="71"><title>Automated capture of experiment context for easier reproducibility in computational research
+Davison, Andrew
+
+@article{davison2012a,
+  author = {Davison, Andrew},
+  journal = {Computing in Science \&amp; Engineering},
+  number = {4},
+  pages = {48--56},
+  publisher = {AIP Publishing},
+  title = {{A}utomated capture of experiment context for easier reproducibility in computational research},
+  volume = {14},
+  year = {2012}
+}
+
+</title><tspan x="800" y="71">Sumatra</tspan></text></a><text fill="black" text-anchor="middle" x="800" y="160">Thesis<title>acronym: Thesis
+name: Thesis
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3814339352044528543&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#8C510A" height="54" stroke="black" width="54" x="773" y="164"><title>Software tools to facilitate research programming
+Guo, Philip Jia
+
+@phdthesis{guo2012c,
+  address = {Stanford University},
+  author = {Guo, Philip Jia},
+  school = {Stanford University},
+  title = {{S}oftware tools to facilitate research programming},
+  year = {2012}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="800" y="191"><title>Software tools to facilitate research programming
+Guo, Philip Jia
+
+@phdthesis{guo2012c,
+  address = {Stanford University},
+  author = {Guo, Philip Jia},
+  school = {Stanford University},
+  title = {{S}oftware tools to facilitate research programming},
+  year = {2012}
+}
+
+</title><tspan x="800" y="185">Guo's</tspan><tspan x="800" y="197">Thesis</tspan></text></a><text fill="black" text-anchor="middle" x="800" y="280">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=18244032229335232391&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#C7EAE5" height="54" stroke="black" width="54" x="773" y="284"><title>A General-Purpose Provenance Library
+Macko, Peter and Seltzer, Margo
+
+@inproceedings{macko2012a,
+  address = {Boston, MA, USA},
+  author = {Macko, Peter and Seltzer, Margo},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{A} General-{P}urpose {P}rovenance {L}ibrary},
+  year = {2012}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="800" y="311"><title>A General-Purpose Provenance Library
+Macko, Peter and Seltzer, Margo
+
+@inproceedings{macko2012a,
+  address = {Boston, MA, USA},
+  author = {Macko, Peter and Seltzer, Margo},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{A} General-{P}urpose {P}rovenance {L}ibrary},
+  year = {2012}
+}
+
+</title><tspan x="800" y="311">CPL</tspan></text></a><text fill="black" text-anchor="middle" x="800" y="400">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=8106935947112612908&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="773" y="404"><title>Provenance tracking in R
+Runnalls, Andrew and Silles, Chris
+
+@inproceedings{runnalls2012a,
+  address = {Santa Barbara, CA, USA},
+  author = {Runnalls, Andrew and Silles, Chris},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {237--239},
+  publisher = {Springer},
+  title = {{P}rovenance tracking in {R}},
+  year = {2012}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="800" y="431"><title>Provenance tracking in R
+Runnalls, Andrew and Silles, Chris
+
+@inproceedings{runnalls2012a,
+  address = {Santa Barbara, CA, USA},
+  author = {Runnalls, Andrew and Silles, Chris},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {237--239},
+  publisher = {Springer},
+  title = {{P}rovenance tracking in {R}},
+  year = {2012}
+}
+
+</title><tspan x="800" y="431">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="800" y="520">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=13726362900673040372&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="773" y="524"><title>Towards Automated Collection of Application-Level Data Provenance
+Tariq, Dawood and Ali, Maisem and Gehani, Ashish
+
+@inproceedings{tariq2012a,
+  address = {Boston, MA, USA},
+  author = {Tariq, Dawood and Ali, Maisem and Gehani, Ashish},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--5},
+  publisher = {USENIX},
+  title = {{T}owards {A}utomated {C}ollection of {A}pplication-{L}evel {D}ata {P}rovenance},
+  year = {2012}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="800" y="551"><title>Towards Automated Collection of Application-Level Data Provenance
+Tariq, Dawood and Ali, Maisem and Gehani, Ashish
+
+@inproceedings{tariq2012a,
+  address = {Boston, MA, USA},
+  author = {Tariq, Dawood and Ali, Maisem and Gehani, Ashish},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--5},
+  publisher = {USENIX},
+  title = {{T}owards {A}utomated {C}ollection of {A}pplication-{L}evel {D}ata {P}rovenance},
+  year = {2012}
+}
+
+</title><tspan x="800" y="533">Tariq,</tspan><tspan x="800" y="545">Ali,</tspan><tspan x="800" y="557">and</tspan><tspan x="800" y="569">Gehani</tspan></text></a><text fill="black" text-anchor="middle" x="880" y="40">EDBT<title>acronym: EDBT
+name: International Conference on Extending Database Technology
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3093501048951704768&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="853" y="44"><title>ProvenanceCurious: a tool to infer data provenance from scripts
+Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas
+
+@inproceedings{huq2013a,
+  address = {Genoa, Italy},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  booktitle = {International Conference on Extending Database Technology},
+  pages = {765--768},
+  publisher = {ACM},
+  title = {{P}rovenance{C}urious: a tool to infer data provenance from scripts},
+  year = {2013}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="880" y="71"><title>ProvenanceCurious: a tool to infer data provenance from scripts
+Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas
+
+@inproceedings{huq2013a,
+  address = {Genoa, Italy},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  booktitle = {International Conference on Extending Database Technology},
+  pages = {765--768},
+  publisher = {ACM},
+  title = {{P}rovenance{C}urious: a tool to infer data provenance from scripts},
+  year = {2013}
+}
+
+</title><tspan x="880" y="59">Prove</tspan><tspan x="880" y="71">nance</tspan><tspan x="880" y="83">Curious</tspan></text></a><text fill="black" text-anchor="middle" x="880" y="160">Thesis<title>acronym: Thesis
+name: Thesis
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=7945919521799577096&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="853" y="164"><title>An inference-based framework for managing data provenance
+Huq, Mohammad Rezwanul
+
+@phdthesis{huq2013b,
+  author = {Huq, Mohammad Rezwanul},
+  school = {University of Twente},
+  title = {{A}n inference-based framework for managing data provenance},
+  year = {2013}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="880" y="191"><title>An inference-based framework for managing data provenance
+Huq, Mohammad Rezwanul
+
+@phdthesis{huq2013b,
+  author = {Huq, Mohammad Rezwanul},
+  school = {University of Twente},
+  title = {{A}n inference-based framework for managing data provenance},
+  year = {2013}
+}
+
+</title><tspan x="880" y="179">Prove</tspan><tspan x="880" y="191">nance</tspan><tspan x="880" y="203">Curious</tspan></text></a><text fill="black" text-anchor="middle" x="880" y="280">TGRS<title>acronym: TGRS
+name: IEEE Transactions on Geoscience and Remote Sensing
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=9665993040283176869&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="853" y="284"><title>An inference-based framework to manage data provenance in Geoscience Applications
+Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas
+
+@article{huq2013c,
+  address = {Washington, DC, USA},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  number = {11},
+  pages = {5113--5130},
+  publisher = {IEEE},
+  title = {{A}n inference-based framework to manage data provenance in {G}eoscience {A}pplications},
+  volume = {51},
+  year = {2013}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="880" y="311"><title>An inference-based framework to manage data provenance in Geoscience Applications
+Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas
+
+@article{huq2013c,
+  address = {Washington, DC, USA},
+  author = {Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas},
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  number = {11},
+  pages = {5113--5130},
+  publisher = {IEEE},
+  title = {{A}n inference-based framework to manage data provenance in {G}eoscience {A}pplications},
+  volume = {51},
+  year = {2013}
+}
+
+</title><tspan x="880" y="299">Prove</tspan><tspan x="880" y="311">nance</tspan><tspan x="880" y="323">Curious</tspan></text></a><text fill="black" text-anchor="middle" x="880" y="400">fninf<title>acronym: fninf
+name: Frontiers in Neuroinformatics
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=9618273160775972978&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="853" y="404"><title>An automated and reproducible workflow for running and analyzing neural simulations using Lancet and IPython Notebook
+Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A
+
+@article{stevens2013a,
+  author = {Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A},
+  journal = {Frontiers in Neuroinformatics},
+  link = {http://journal.frontiersin.org/article/10.3389/fninf.2013.00044/full},
+  number = {44},
+  pages = {44},
+  publisher = {Frontiers},
+  title = {{A}n automated and reproducible workflow for running and analyzing neural simulations using {L}ancet and {I}Python {N}otebook},
+  volume = {7},
+  year = {2013}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="880" y="431"><title>An automated and reproducible workflow for running and analyzing neural simulations using Lancet and IPython Notebook
+Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A
+
+@article{stevens2013a,
+  author = {Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A},
+  journal = {Frontiers in Neuroinformatics},
+  link = {http://journal.frontiersin.org/article/10.3389/fninf.2013.00044/full},
+  number = {44},
+  pages = {44},
+  publisher = {Frontiers},
+  title = {{A}n automated and reproducible workflow for running and analyzing neural simulations using {L}ancet and {I}Python {N}otebook},
+  volume = {7},
+  year = {2013}
+}
+
+</title><tspan x="880" y="431">Lancet</tspan></text></a><text fill="black" text-anchor="middle" x="960" y="40">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14776414362422361410&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="933" y="44"><title>RDataTracker: collecting provenance in an interactive scripting environment
+Lerner, Barbara and Boose, Emery
+
+@inproceedings{lerner2014a,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--4},
+  publisher = {USENIX},
+  title = {R{D}ata{T}racker: collecting provenance in an interactive scripting environment},
+  year = {2014}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="960" y="71"><title>RDataTracker: collecting provenance in an interactive scripting environment
+Lerner, Barbara and Boose, Emery
+
+@inproceedings{lerner2014a,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--4},
+  publisher = {USENIX},
+  title = {R{D}ata{T}racker: collecting provenance in an interactive scripting environment},
+  year = {2014}
+}
+
+</title><tspan x="960" y="65">RData</tspan><tspan x="960" y="77">Tracker</tspan></text></a><text fill="black" text-anchor="middle" x="960" y="160">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5630516626867858377&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="933" y="164"><title>POSTER: RDataTracker and DDG Explorer
+Lerner, Barbara and Boose, Emery
+
+@inproceedings{lerner2014b,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--3},
+  publisher = {Springer},
+  title = {P{O}ST{E}R: {R}Data{T}racker and {D}DG {E}xplorer},
+  year = {2014}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="960" y="191"><title>POSTER: RDataTracker and DDG Explorer
+Lerner, Barbara and Boose, Emery
+
+@inproceedings{lerner2014b,
+  address = {Cologne, Germany},
+  author = {Lerner, Barbara and Boose, Emery},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {1--3},
+  publisher = {Springer},
+  title = {P{O}ST{E}R: {R}Data{T}racker and {D}DG {E}xplorer},
+  year = {2014}
+}
+
+</title><tspan x="960" y="185">RData</tspan><tspan x="960" y="197">Tracker</tspan></text></a><text fill="black" text-anchor="middle" x="960" y="280">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5458343950729529273&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="933" y="284"><title>noWorkflow: capturing and analyzing provenance of scripts
+Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana
+
+@inproceedings{murta2014a,
+  address = {Cologne, Germany},
+  author = {Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {71--83},
+  publisher = {Springer},
+  title = {no{W}orkflow: capturing and analyzing provenance of scripts},
+  year = {2014}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="960" y="311"><title>noWorkflow: capturing and analyzing provenance of scripts
+Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana
+
+@inproceedings{murta2014a,
+  address = {Cologne, Germany},
+  author = {Murta, Leonardo and Braganholo, Vanessa and Chirigati, Fernando and Koop, David and Freire, Juliana},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {71--83},
+  publisher = {Springer},
+  title = {no{W}orkflow: capturing and analyzing provenance of scripts},
+  year = {2014}
+}
+
+</title><tspan x="960" y="299">no</tspan><tspan x="960" y="311">Work</tspan><tspan x="960" y="323">flow</tspan></text></a><text fill="black" text-anchor="middle" x="960" y="400">Thesis<title>acronym: Thesis
+name: Thesis
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=246808414964898615&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="933" y="404"><title>Provenance-aware CXXR
+Silles, Christopher Anthony
+
+@phdthesis{silles2014a,
+  address = {University of Kent},
+  author = {Silles, Christopher Anthony},
+  school = {University of Kent},
+  title = {{P}rovenance-aware {C}XX{R}},
+  year = {2014}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="960" y="431"><title>Provenance-aware CXXR
+Silles, Christopher Anthony
+
+@phdthesis{silles2014a,
+  address = {University of Kent},
+  author = {Silles, Christopher Anthony},
+  school = {University of Kent},
+  title = {{P}rovenance-aware {C}XX{R}},
+  year = {2014}
+}
+
+</title><tspan x="960" y="431">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="1040" y="40">CLOUD<title>acronym: CLOUD
+name: International Conference on Cloud Computing
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=16129242340949487527&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1013" y="44"><title>Instrumentation and Trace Analysis for Ad-Hoc Python Workflows in Cloud Environments
+Acu&#241;a, Ruben and Lacroix, Zo&#233; and Bazzi, Rida A
+
+@inproceedings{acuna2015a,
+  address = {New York, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e} and Bazzi, Rida A},
+  booktitle = {International Conference on Cloud Computing},
+  pages = {114--121},
+  publisher = {IEEE},
+  title = {{I}nstrumentation and {T}race {A}nalysis for {A}d-{H}oc {P}ython {W}orkflows in {C}loud {E}nvironments},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1040" y="71"><title>Instrumentation and Trace Analysis for Ad-Hoc Python Workflows in Cloud Environments
+Acu&#241;a, Ruben and Lacroix, Zo&#233; and Bazzi, Rida A
+
+@inproceedings{acuna2015a,
+  address = {New York, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e} and Bazzi, Rida A},
+  booktitle = {International Conference on Cloud Computing},
+  pages = {114--121},
+  publisher = {IEEE},
+  title = {{I}nstrumentation and {T}race {A}nalysis for {A}d-{H}oc {P}ython {W}orkflows in {C}loud {E}nvironments},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title><tspan x="1040" y="71">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="1040" y="160">Thesis<title>acronym: Thesis
+name: Thesis
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=7198120874817197049&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1013" y="164"><title>Understanding Legacy Workflows through Runtime Trace Analysis
+Acu&#241;a, Ruben
+
+@mastersthesis{acuna2015b,
+  author = {Acu{\~n}a, Ruben},
+  school = {ARIZONA STATE UNIVERSITY},
+  title = {{U}nderstanding {L}egacy {W}orkflows through {R}untime {T}race {A}nalysis},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1040" y="191"><title>Understanding Legacy Workflows through Runtime Trace Analysis
+Acu&#241;a, Ruben
+
+@mastersthesis{acuna2015b,
+  author = {Acu{\~n}a, Ruben},
+  school = {ARIZONA STATE UNIVERSITY},
+  title = {{U}nderstanding {L}egacy {W}orkflows through {R}untime {T}race {A}nalysis},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title><tspan x="1040" y="191">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="1040" y="280">JIB<title>acronym: JIB
+name: Journal of Integrative Bioinformatics
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14727599833713202964&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1013" y="284"><title>Managing and Documenting Legacy Scientific Workflows
+Acu&#241;a, Ruben and Chomilier, Jacques and Lacroix, Zo&#233;
+
+@article{acuna2015c,
+  author = {Acu{\~n}a, Ruben and Chomilier, Jacques and Lacroix, Zo{\'e}},
+  journal = {Journal of Integrative Bioinformatics},
+  number = {3},
+  pages = {277--277},
+  title = {{M}anaging and {D}ocumenting {L}egacy {S}cientific {W}orkflows},
+  volume = {12},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1040" y="311"><title>Managing and Documenting Legacy Scientific Workflows
+Acu&#241;a, Ruben and Chomilier, Jacques and Lacroix, Zo&#233;
+
+@article{acuna2015c,
+  author = {Acu{\~n}a, Ruben and Chomilier, Jacques and Lacroix, Zo{\'e}},
+  journal = {Journal of Integrative Bioinformatics},
+  number = {3},
+  pages = {277--277},
+  title = {{M}anaging and {D}ocumenting {L}egacy {S}cientific {W}orkflows},
+  volume = {12},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2015}
+}
+
+</title><tspan x="1040" y="311">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="1040" y="400">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=15030065999639303489&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1013" y="404"><title>Linking prospective and retrospective provenance in scripts
+Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud&#228;scher, Bertram
+
+@inproceedings{dey2015a,
+  address = {Edinburgh, Scotland},
+  author = {Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{L}inking prospective and retrospective provenance in scripts},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1040" y="431"><title>Linking prospective and retrospective provenance in scripts
+Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud&#228;scher, Bertram
+
+@inproceedings{dey2015a,
+  address = {Edinburgh, Scotland},
+  author = {Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{L}inking prospective and retrospective provenance in scripts},
+  year = {2015}
+}
+
+</title><tspan x="1040" y="431">YW*NW</tspan></text></a><text fill="black" text-anchor="middle" x="1040" y="520">OSR<title>acronym: OSR
+name: SIGOPS Operating Systems Review
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=17769532761506572989&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="1013" y="524"><title>The dataref versuchung: Saving time through better internal repeatability
+Dietrich, Christian and Lohmann, Daniel
+
+@article{dietrich2015a,
+  author = {Dietrich, Christian and Lohmann, Daniel},
+  journal = {SIGOPS Operating Systems Review},
+  number = {1},
+  pages = {51--60},
+  publisher = {ACM},
+  title = {{T}he dataref versuchung: {S}aving time through better internal repeatability},
+  volume = {49},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1040" y="551"><title>The dataref versuchung: Saving time through better internal repeatability
+Dietrich, Christian and Lohmann, Daniel
+
+@article{dietrich2015a,
+  author = {Dietrich, Christian and Lohmann, Daniel},
+  journal = {SIGOPS Operating Systems Review},
+  number = {1},
+  pages = {51--60},
+  publisher = {ACM},
+  title = {{T}he dataref versuchung: {S}aving time through better internal repeatability},
+  volume = {49},
+  year = {2015}
+}
+
+</title><tspan x="1040" y="545">versuch</tspan><tspan x="1040" y="557">ung</tspan></text></a><text fill="black" text-anchor="middle" x="1120" y="40">AutoML<title>acronym: AutoML
+name: AutoML Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=8959982030194134776&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="1093" y="44"><title>Introducing Sacred: A Tool to Facilitate Reproducible Research
+Greff, Klaus and Schmidhuber, J&#252;rgen
+
+@inproceedings{greff2015a,
+  address = {Lille, France},
+  author = {Greff, Klaus and Schmidhuber, J{\"u}rgen},
+  booktitle = {AutoML Workshop},
+  pages = {1--6},
+  publisher = {International Machine Learning Society},
+  title = {{I}ntroducing {S}acred: {A} Tool to {F}acilitate {R}eproducible {R}esearch},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1120" y="71"><title>Introducing Sacred: A Tool to Facilitate Reproducible Research
+Greff, Klaus and Schmidhuber, J&#252;rgen
+
+@inproceedings{greff2015a,
+  address = {Lille, France},
+  author = {Greff, Klaus and Schmidhuber, J{\"u}rgen},
+  booktitle = {AutoML Workshop},
+  pages = {1--6},
+  publisher = {International Machine Learning Society},
+  title = {{I}ntroducing {S}acred: {A} Tool to {F}acilitate {R}eproducible {R}esearch},
+  year = {2015}
+}
+
+</title><tspan x="1120" y="71">Sacred</tspan></text></a><text fill="black" text-anchor="middle" x="1120" y="160">IJDC<title>acronym: IJDC
+name: International Journal of Digital Curation
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5400517851889940246&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1093" y="164"><title>YesWorkflow: a user-oriented, language-independent tool for recovering workflow information from scripts
+McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others
+
+@article{mcphillips2015a,
+  author = {McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others},
+  doi = {10.2218/ijdc.v10i1.370},
+  journal = {International Journal of Digital Curation},
+  number = {1},
+  pages = {298--313},
+  title = {{Y}es{W}orkflow: a user-oriented, language-independent tool for recovering workflow information from scripts},
+  volume = {10},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1120" y="191"><title>YesWorkflow: a user-oriented, language-independent tool for recovering workflow information from scripts
+McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others
+
+@article{mcphillips2015a,
+  author = {McPhillips, Timothy and Song, Tianhong and Kolisnik, Tyler and Aulenbach, Steve and Belhajjame, Khalid and Bocinsky, Kyle and Cao, Yang and Chirigati, Fernando and Dey, Saumen and Freire, Juliana and others},
+  doi = {10.2218/ijdc.v10i1.370},
+  journal = {International Journal of Digital Curation},
+  number = {1},
+  pages = {298--313},
+  title = {{Y}es{W}orkflow: a user-oriented, language-independent tool for recovering workflow information from scripts},
+  volume = {10},
+  year = {2015}
+}
+
+</title><tspan x="1120" y="179">Yes</tspan><tspan x="1120" y="191">Work</tspan><tspan x="1120" y="203">flow</tspan></text></a><text fill="black" text-anchor="middle" x="1120" y="280">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=919541654029050469&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1093" y="284"><title>Retrospective provenance without a runtime provenance recorder
+McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud&#228;scher, Bertram
+
+@inproceedings{mcphillips2015b,
+  address = {Edinburgh, Scotland},
+  author = {McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{R}etrospective provenance without a runtime provenance recorder},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1120" y="311"><title>Retrospective provenance without a runtime provenance recorder
+McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud&#228;scher, Bertram
+
+@inproceedings{mcphillips2015b,
+  address = {Edinburgh, Scotland},
+  author = {McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Lud{\"a}scher, Bertram},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--7},
+  publisher = {USENIX},
+  title = {{R}etrospective provenance without a runtime provenance recorder},
+  year = {2015}
+}
+
+</title><tspan x="1120" y="299">Yes</tspan><tspan x="1120" y="311">Work</tspan><tspan x="1120" y="323">flow</tspan></text></a><text fill="black" text-anchor="middle" x="1120" y="400">Neuroscience<title>acronym: Neuroscience
+name: Neuroscience
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3407212500934222712&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="1093" y="404"><title>pypet: a python toolkit for simulations and numerical experiments
+Meyer, Robert and Obermayer, Klaus
+
+@article{meyer2015a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Neuroscience},
+  number = {Suppl 1},
+  pages = {P184},
+  publisher = {BioMed Central},
+  title = {pypet: a python toolkit for simulations and numerical experiments},
+  volume = {16},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1120" y="431"><title>pypet: a python toolkit for simulations and numerical experiments
+Meyer, Robert and Obermayer, Klaus
+
+@article{meyer2015a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Neuroscience},
+  number = {Suppl 1},
+  pages = {P184},
+  publisher = {BioMed Central},
+  title = {pypet: a python toolkit for simulations and numerical experiments},
+  volume = {16},
+  year = {2015}
+}
+
+</title><tspan x="1120" y="431">pypet</tspan></text></a><text fill="black" text-anchor="middle" x="1120" y="520">TaPP<title>acronym: TaPP
+name: Workshop on the Theory and Practice of Provenance
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=4219830629708722478&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1093" y="524"><title>Collecting and analyzing provenance on interactive notebooks: when IPython meets noWorkflow
+Pimentel, Jo&#227;o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana
+
+@inproceedings{pimentel2015a,
+  address = {Edinburgh, Scotland},
+  author = {Pimentel, Jo{\~a}o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{C}ollecting and analyzing provenance on interactive notebooks: when {I}Python meets no{W}orkflow},
+  year = {2015}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1120" y="551"><title>Collecting and analyzing provenance on interactive notebooks: when IPython meets noWorkflow
+Pimentel, Jo&#227;o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana
+
+@inproceedings{pimentel2015a,
+  address = {Edinburgh, Scotland},
+  author = {Pimentel, Jo{\~a}o Felipe Nicolaci and Braganholo, Vanessa and Murta, Leonardo and Freire, Juliana},
+  booktitle = {Workshop on the Theory and Practice of Provenance},
+  pages = {1--6},
+  publisher = {USENIX},
+  title = {{C}ollecting and analyzing provenance on interactive notebooks: when {I}Python meets no{W}orkflow},
+  year = {2015}
+}
+
+</title><tspan x="1120" y="539">no</tspan><tspan x="1120" y="551">Work</tspan><tspan x="1120" y="563">flow</tspan></text></a><text fill="black" text-anchor="middle" x="1200" y="40">ICSC<title>acronym: ICSC
+name: International Conference on Semantic Computing
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10756718796315871052&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1173" y="44"><title>Extracting Semantics from Legacy Scientific Workflows
+Acu&#241;a, Ruben and Lacroix, Zo&#233;
+
+@inproceedings{acuna2016a,
+  address = {Laguna Hills, California, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e}},
+  booktitle = {International Conference on Semantic Computing},
+  pages = {9--16},
+  publisher = {IEEE},
+  title = {{E}xtracting {S}emantics from {L}egacy {S}cientific {W}orkflows},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1200" y="71"><title>Extracting Semantics from Legacy Scientific Workflows
+Acu&#241;a, Ruben and Lacroix, Zo&#233;
+
+@inproceedings{acuna2016a,
+  address = {Laguna Hills, California, USA},
+  author = {Acu{\~n}a, Ruben and Lacroix, Zo{\'e}},
+  booktitle = {International Conference on Semantic Computing},
+  pages = {9--16},
+  publisher = {IEEE},
+  title = {{E}xtracting {S}emantics from {L}egacy {S}cientific {W}orkflows},
+  website = {http://bioinformatics.engineering.asu.edu/WISE/},
+  year = {2016}
+}
+
+</title><tspan x="1200" y="71">WISE</tspan></text></a><text fill="black" text-anchor="middle" x="1200" y="160">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=1405858849165435135&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="1173" y="164"><title>SisGExp: Rethinking Long-Tail Agronomic Experiments
+da Cruz, Sergio Manuel Serra and do Nascimento, Jos&#233; Antonio Pires
+
+@inproceedings{cruz2016a,
+  address = {McLean, VA, USA},
+  author = {da Cruz, Sergio Manuel Serra and do Nascimento, Jos{\'e} Antonio Pires},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {214--217},
+  publisher = {Springer},
+  title = {{S}is{G}Exp: {R}ethinking {L}ong-{T}ail {A}gronomic {E}xperiments},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1200" y="191"><title>SisGExp: Rethinking Long-Tail Agronomic Experiments
+da Cruz, Sergio Manuel Serra and do Nascimento, Jos&#233; Antonio Pires
+
+@inproceedings{cruz2016a,
+  address = {McLean, VA, USA},
+  author = {da Cruz, Sergio Manuel Serra and do Nascimento, Jos{\'e} Antonio Pires},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {214--217},
+  publisher = {Springer},
+  title = {{S}is{G}Exp: {R}ethinking {L}ong-{T}ail {A}gronomic {E}xperiments},
+  year = {2016}
+}
+
+</title><tspan x="1200" y="191">SisGExp</tspan></text></a><text fill="black" text-anchor="middle" x="1200" y="280">eSoN<title>acronym: eSoN
+name: IEEE International Conference on e-Science
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=6970310266072085334&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="1173" y="284"><title>Datatrack: An R package for managing data in a multi-stage experimental workflow
+Eichinski, Philip and Roe, Paul
+
+@inproceedings{eichinski2016a,
+  address = {Baltimore, Maryland, USA},
+  author = {Eichinski, Philip and Roe, Paul},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {1--8},
+  publisher = {IEEE},
+  title = {{D}atatrack: {A}n {R} package for managing data in a multi-stage experimental workflow},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1200" y="311"><title>Datatrack: An R package for managing data in a multi-stage experimental workflow
+Eichinski, Philip and Roe, Paul
+
+@inproceedings{eichinski2016a,
+  address = {Baltimore, Maryland, USA},
+  author = {Eichinski, Philip and Roe, Paul},
+  booktitle = {IEEE International Conference on e-Science},
+  pages = {1--8},
+  publisher = {IEEE},
+  title = {{D}atatrack: {A}n {R} package for managing data in a multi-stage experimental workflow},
+  year = {2016}
+}
+
+</title><tspan x="1200" y="305">Datatra</tspan><tspan x="1200" y="317">ck</tspan></text></a><text fill="black" text-anchor="middle" x="1200" y="400">fninf<title>acronym: fninf
+name: Frontiers in Neuroinformatics
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10634720128698949546&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="1173" y="404"><title>pypet: A Python Toolkit for Data Management of Parameter Explorations
+Meyer, Robert and Obermayer, Klaus
+
+@article{meyer2016a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Frontiers in Neuroinformatics},
+  link = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996826/},
+  pages = {1--16},
+  publisher = {Frontiers Media SA},
+  title = {pypet: {A} Python {T}oolkit for {D}ata {M}anagement of {P}arameter {E}xplorations},
+  volume = {10},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1200" y="431"><title>pypet: A Python Toolkit for Data Management of Parameter Explorations
+Meyer, Robert and Obermayer, Klaus
+
+@article{meyer2016a,
+  author = {Meyer, Robert and Obermayer, Klaus},
+  journal = {Frontiers in Neuroinformatics},
+  link = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4996826/},
+  pages = {1--16},
+  publisher = {Frontiers Media SA},
+  title = {pypet: {A} Python {T}oolkit for {D}ata {M}anagement of {P}arameter {E}xplorations},
+  volume = {10},
+  year = {2016}
+}
+
+</title><tspan x="1200" y="431">pypet</tspan></text></a><text fill="black" text-anchor="middle" x="1200" y="520">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14853632123069176016&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="1173" y="524"><title>Intermediate Notation for Provenance and Workflow Reproducibility
+Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc
+
+@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1200" y="551"><title>Intermediate Notation for Provenance and Workflow Reproducibility
+Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc
+
+@inproceedings{michaelides2016a,
+  address = {McLean, VA, USA},
+  author = {Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {83--94},
+  publisher = {Springer},
+  title = {{I}ntermediate {N}otation for {P}rovenance and {W}orkflow {R}eproducibility},
+  year = {2016}
+}
+
+</title><tspan x="1200" y="539">Michael</tspan><tspan x="1200" y="551">ides et</tspan><tspan x="1200" y="563">al.</tspan></text></a><text fill="black" text-anchor="middle" x="1280" y="40">SciPy<title>acronym: SciPy
+name: Python in Science Conference
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=11450193917748753420&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#01665E" height="54" stroke="black" width="54" x="1253" y="44"><title>Storing Reproducible Results from Computational Experiments using Scientific Python Packages
+Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben
+
+@inproceedings{oxvig2016a,
+  address = {Austin, TX, USA},
+  author = {Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben},
+  booktitle = {Python in Science Conference},
+  pages = {45--50},
+  publisher = {SciPy},
+  title = {{S}toring {R}eproducible {R}esults from {C}omputational {E}xperiments using {S}cientific {P}ython {P}ackages},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1280" y="71"><title>Storing Reproducible Results from Computational Experiments using Scientific Python Packages
+Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben
+
+@inproceedings{oxvig2016a,
+  address = {Austin, TX, USA},
+  author = {Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben},
+  booktitle = {Python in Science Conference},
+  pages = {45--50},
+  publisher = {SciPy},
+  title = {{S}toring {R}eproducible {R}esults from {C}omputational {E}xperiments using {S}cientific {P}ython {P}ackages},
+  year = {2016}
+}
+
+</title><tspan x="1280" y="71">Magni</tspan></text></a><text fill="black" text-anchor="middle" x="1280" y="160">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3783364081347190151&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1253" y="164"><title>Tracking and analyzing the evolution of provenance from scripts
+Pimentel, Jo&#227;o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo
+
+@inproceedings{pimentel2016a,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {16--28},
+  publisher = {Springer},
+  title = {{T}racking and analyzing the evolution of provenance from scripts},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1280" y="191"><title>Tracking and analyzing the evolution of provenance from scripts
+Pimentel, Jo&#227;o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo
+
+@inproceedings{pimentel2016a,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Braganholo, Vanessa and Murta, Leonardo},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {16--28},
+  publisher = {Springer},
+  title = {{T}racking and analyzing the evolution of provenance from scripts},
+  year = {2016}
+}
+
+</title><tspan x="1280" y="179">no</tspan><tspan x="1280" y="191">Work</tspan><tspan x="1280" y="203">flow</tspan></text></a><text fill="black" text-anchor="middle" x="1280" y="280">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=16620110626892658977&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1253" y="284"><title>Fine-grained provenance collection over scripts through program slicing
+Pimentel, Jo&#227;o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa
+
+@inproceedings{pimentel2016b,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {199--203},
+  publisher = {Springer},
+  title = {{F}ine-grained provenance collection over scripts through program slicing},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1280" y="311"><title>Fine-grained provenance collection over scripts through program slicing
+Pimentel, Jo&#227;o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa
+
+@inproceedings{pimentel2016b,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Freire, Juliana and Murta, Leonardo and Braganholo, Vanessa},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {199--203},
+  publisher = {Springer},
+  title = {{F}ine-grained provenance collection over scripts through program slicing},
+  year = {2016}
+}
+
+</title><tspan x="1280" y="299">no</tspan><tspan x="1280" y="311">Work</tspan><tspan x="1280" y="323">flow</tspan></text></a><text fill="black" text-anchor="middle" x="1280" y="400">IPAW<title>acronym: IPAW
+name: International Provenance and Annotation Workshop
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5514086202045212339&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#D8B365" height="54" stroke="black" width="54" x="1253" y="404"><title>Yin &amp; Yang: demonstrating complementary provenance from noWorkflow &amp; YesWorkflow
+Pimentel, Jo&#227;o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud&#228;scher, Bertram
+
+@inproceedings{pimentel2016c,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud{\"a}scher, Bertram},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {161--165},
+  publisher = {Springer},
+  title = {{Y}in \&amp; {Y}ang: demonstrating complementary provenance from no{W}orkflow \&amp; {Y}es{W}orkflow},
+  year = {2016}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="black" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1280" y="431"><title>Yin &amp; Yang: demonstrating complementary provenance from noWorkflow &amp; YesWorkflow
+Pimentel, Jo&#227;o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud&#228;scher, Bertram
+
+@inproceedings{pimentel2016c,
+  address = {McLean, VA, USA},
+  author = {Pimentel, Jo{\~a}o Felipe and Dey, Saumen and McPhillips, Timothy and Belhajjame, Khalid and Koop, David and Murta, Leonardo and Braganholo, Vanessa and Lud{\"a}scher, Bertram},
+  booktitle = {International Provenance and Annotation Workshop},
+  pages = {161--165},
+  publisher = {Springer},
+  title = {{Y}in \&amp; {Y}ang: demonstrating complementary provenance from no{W}orkflow \&amp; {Y}es{W}orkflow},
+  year = {2016}
+}
+
+</title><tspan x="1280" y="431">YW*NW</tspan></text></a><text fill="black" text-anchor="middle" x="1360" y="40">CHI<title>acronym: CHI
+name: Conference on Human Factors in Computing Systems
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=12665963803047105016&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect fill="#5AB4AC" height="54" stroke="black" width="54" x="1333" y="44"><title>Variolite: Supporting Exploratory Programming by Data Scientists
+Kery, Mary Beth and Horvath, Amber and Myers, Brad
+
+@inproceedings{kery2017a,
+  address = {Denver, USA},
+  author = {Kery, Mary Beth and Horvath, Amber and Myers, Brad},
+  booktitle = {Conference on Human Factors in Computing Systems},
+  pages = {1--12},
+  publisher = {ACM},
+  title = {{V}ariolite: {S}upporting {E}xploratory {P}rogramming by {D}ata {S}cientists},
+  year = {2017}
+}
+
+</title></rect><text alignment-baseline="middle" class="wrap" fill="white" style="font-size:12px;font-family:monospace" text-anchor="middle" x="1360" y="71"><title>Variolite: Supporting Exploratory Programming by Data Scientists
+Kery, Mary Beth and Horvath, Amber and Myers, Brad
+
+@inproceedings{kery2017a,
+  address = {Denver, USA},
+  author = {Kery, Mary Beth and Horvath, Amber and Myers, Brad},
+  booktitle = {Conference on Human Factors in Computing Systems},
+  pages = {1--12},
+  publisher = {ACM},
+  title = {{V}ariolite: {S}upporting {E}xploratory {P}rogramming by {D}ata {S}cientists},
+  year = {2017}
+}
+
+</title><tspan x="1360" y="65">Varioli</tspan><tspan x="1360" y="77">te</tspan></text></a><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="453" x2="434" y1="98" y2="157"><title>Astro-WISE2009 -&gt; ES32008
+
+ref: [6]
+contexts: ['Firstly, provenance models proposed include work&#64258;ow representation [3] [4], a description of data derivation and documentation of causal &#64258;ow of events [5] [6].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="613,551 603.5,551 603.5,133.66666666666666 480,133.66666666666666 480,105" stroke="black" stroke-opacity="0.3"><title>Astro-WISE2011 -&gt; Astro-WISE2009
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="613,551 603.5,551 603.5,133.66666666666666 480,133.66666666666666 480,105" stroke="black" stroke-opacity="0.3"><title>Astro-WISE2011 -&gt; Astro-WISE2009
+
+ref: [7]
+contexts: ['Through COVA, the speci&#64257;c class (and/or source code) is known to the object, likewise the processing parameters which are maintained by data lineage can also be retrieved from work described in [7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,431 922.4444444444445,431 922.4444444444445,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2014 -&gt; Becker and Chambers1988
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,311 761.125,311 761.125,128.88888888888889 640,128.88888888888889 640,105" stroke="black" stroke-opacity="0.3"><title>CPL2012 -&gt; Star  Flow2011
+
+ref: [3]
+contexts: ['Taking these and several other previously identi&#64257;ed lessons [3] into account, we developed the Core ProvenanceLibrary(CPL),whichcanbeintegratedeasilyinto existing scripts and applications.', 'Even though the manual instrumentation adds extra work, we &#64257;nd that such work requires little effort and the resulting system solves several problems that plague other systems [3], such as version disconnect and provenance integration', 'A critical characteristic of this approach is that applicationscandiscloseprovenancetotheCPLinawaythatis most logical and appropriate for them, eliminating several problems that plague other systems [3].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,311 761.125,311 761.125,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>CPL2012 -&gt; Star  Flow2010
+
+ref: [4]
+contexts: ['For example, PASS [9] and Story Book [10] require users to run a modi&#64257;ed version of the operating system, StarFlow [4] requires the use of Python, Kepler [2], VisTrails [5], and many other work&#64258;ow engines require the use of a particular engine &#8211; but users are often reluctant to change their work environment', 'Another problem that frequently arise is the disconnectbetweendifferentnotionsofprovenance: Forexample, StarFlow [4] statically analyzes a Python program to determine its call graph and the &#64257;les that it reads and writes, instead of capturing dynamic information at runtime']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="533,431 526.6666666666666,431 526.6666666666666,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2010 -&gt; Becker and Chambers1988
+
+ref: [7]
+contexts: ['S AUDIT. &#8216;New S&#8217; was released in 1988 sporting a new feature entitled S AUDIT [7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,311 839.7,311 839.7,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; CXXR2010
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="693,71 676.375,71 676.375,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2011 -&gt; Becker and Chambers1988
+
+ref: [Becker and Chambers (1988)]
+contexts: ['Interestingly one of the &#64257;rst provenance-aware applications was S, and [Becker and Chambers (1988)]isoftencitedasapioneerpaper']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="693,71 676.375,71 676.375,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>CXXR2011 -&gt; CXXR2010
+
+ref: [Silles and Runnalls (2010)]
+contexts: ['A preliminary report on this was given in [Silles and Runnalls (2010)].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="693,191 678.75,191 678.75,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2011 -&gt; Becker and Chambers1988
+
+ref: (Becker et al. 1988)
+contexts: ['An important motivation for the project was to provide a basis for introducing provenance tracking into R, so that for any R data object, an R user can determine exactlywhichprimarydatasourcesitisbasedon,andexactlywhichsequenceofoperations was used to produce it from the primary data, thus emulating and extending the AUDIT facility of S (Becker et al. 1988).1']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,431 763.5,431 763.5,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2012 -&gt; Becker and Chambers1988
+
+ref: [2]
+contexts: ['The AUDIT facilities [2] that once formed part of S and S-plus were an invaluablefeature, as one of the present authors can testify, and one motivation behindCXXR was to introduce similar but better facilities into the R interpreter. Earlywork on a provenance-enabled variant of CXXR was presented in [3].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,431 763.5,431 763.5,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>CXXR2012 -&gt; CXXR2010
+
+ref: [3]
+contexts: ['The AUDIT facilities [2] that once formed part of S and S-plus were an invaluablefeature, as one of the present authors can testify, and one motivation behindCXXR was to introduce similar but better facilities into the R interpreter. Earlywork on a provenance-enabled variant of CXXR was presented in [3].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,431 922.4444444444445,431 922.4444444444445,145.61111111111111 80,145.61111111111111 80,105" stroke="black" stroke-opacity="0.3"><title>CXXR2014 -&gt; Becker and Chambers1988
+
+ref: [11]
+contexts: ['dzNew S&#500; was the sequel to the &#501;S&#502; statistical language and environment, which wasreleased in 1988 and sported a new feature entitledS AUDIT[11].', 'Example S audit file [11]', 'S AUDIT audit plot for example session, reproduced from [11].', 'The follow-up to S, &#501;New S&#502; was released in 1988 (accompanied by the dzBlue Book&#500; [9])and it sported a new feature entitledS AUDIT[11], and in so doing it became one ofthe first provenance-aware applications.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,431 922.4444444444445,431 922.4444444444445,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>CXXR2014 -&gt; Sumatra2012
+
+ref: [31]
+contexts: ['Both Davison [31] and Peng [88] identify areproducibility spectrum, as shown in Fig-ure1.5.', 'Sumatra [31] is a Python library dzon which may be built interfaces adapted to indi-vidual scientists&#502; workflows&#500;; or, a method of constructing&#283;what Mesirov might call&#283;Reproducible Research Environments.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,431 922.4444444444445,431 922.4444444444445,126.5 720,126.5 720,105" stroke="black" stroke-opacity="0.3"><title>CXXR2014 -&gt; CXXR2011
+
+ref: [98]
+contexts: ['Thetrans-itionlayer consists of C code from CR redesignated as C++, which has been adaptedwhere necessary to work with the CXXR core but not yet comprehensively refactored toemploy CXXR or C++ idioms [98]']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,311 1159.1818181818182,311 1159.1818181818182,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>Datatrack2016 -&gt; no  Work  flow2014
+
+ref: [9]
+contexts: ['NoWorkflow [9] is a command line tool for recording detailed provenance metadata from python scripts. Its authors note that outside of a SWfMS, provenance capture is challenging due to the fact that the workflow sequence is encoded by the scripts themselves. NoWorkflow works by using software engineering techniques such as abstract syntax tree analysis, to determine this workflow from the scripts themselves and record provenance information during their execution.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1173" x2="1154" y1="284" y2="225"><title>Datatrack2016 -&gt; Yes  Work  flow2015
+
+ref: [10]
+contexts: ['The YesWorkflow [10] toolkit is another tool that offers some of the provenance recording functionality of a SWfMS to users of scripting languages such as R and Python. YesWorkflow allows the scientist to insert annotations as codecomments in the scripts that they write. The toolkit can then parse the codebase and interpret and convert these comments into a form that can be queried to answer questions about data objects created.']</title></line></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="213" x2="194" y1="71" y2="71"><title>ES32004 -&gt; ESSW2001
+
+ref: [3]
+contexts: ['The metadata management component is the heart of ES3, keeping track of everything that happens in the system &#8211; external data objects imported, processes run, data objects created, and data products delivered. Metadata about all these activities are captured by the &#8220;Lab Notebook&#8221; (LN) subsystem [3] (Figure 1).']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="293,71 280.3333333333333,71 280.3333333333333,143.22222222222223 160,143.22222222222223 160,105" stroke="black" stroke-opacity="0.3"><title>ES32005 -&gt; ESSW2001
+
+ref: [3]
+contexts: ['ESSW  [3]  is  a  system  designed  to  handle  linage  and  metadata  for  objects  in  scientific workflows. ']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="373,191 361.6,191 361.6,143.22222222222223 160,143.22222222222223 160,105" stroke="black" stroke-opacity="0.3"><title>ES32008 -&gt; ESSW2001
+
+ref: [1]
+contexts: ['Scientists are increasingly being called upon to publish data as well as conclusions[1].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="373" x2="354" y1="164" y2="105"><title>ES32008 -&gt; ES32005
+
+ref: [4]
+contexts: ['Broadly speaking, there are three strategies available for capturing provenance at execution time[4]: 1. Passive monitoring; 2. Overriding; 3. Instrumentation']</title></line></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="453" x2="434" y1="98" y2="157"><title>Astro-WISE2009 -&gt; ES32008
+
+ref: 
+contexts: []</title></line></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="400" x2="400" y1="284" y2="225"><title>ES32008 -&gt; ES32008
+
+ref: [1]
+contexts: ['The Earth System Science Server (ES3) is a software environment for dataintensive Earth science. ES3 has unique capabilities for automatically and transparently capturing, managing, and reconstructing the provenance of arbitrary, unmodi&#64257;ed computational sequences [1].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="533,191 520.3333333333334,191 520.3333333333334,191 434,191" stroke="black" stroke-opacity="0.3"><title>ES32010 -&gt; ES32008
+
+ref: [3]
+contexts: ['The ES3 system [3] collects provenance information from executing code, using a combination of system call tracing, transparent wrapping, and application environment instrumentation.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="613,191 597.8,191 597.8,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>ES32011 -&gt; ES32008
+
+ref: 3
+contexts: ['ES3 is a software system for automatically and transparently capturing, managing, and reconstructing the provenance of arbitrary, unmodi&#64257;ed computational sequences [3].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="613" x2="594" y1="404" y2="345"><title>IncPy2011 -&gt; IncPy2010
+
+ref: [10]
+contexts: ['In a 2010 workshop paper [10], we presented anecdotes from colleagues who also experienced similar frustrations throughout the data analysis scripting process', 'We introduced an early version of IncPy in a 2010 workshop paper [10], whose contents di&#64256;er from this paper in signi&#64257;cant ways: First, that paper focused on de&#64257;ning the problem space and establishing motivation using anecdotes from interviews with scientists']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,191 758.75,191 758.75,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>Guo's Thesis2012 -&gt; ES32008
+
+ref: [62]
+contexts: ['PASS [119, 121] collects such provenance by tracking Linux system calls within a modi&#64257;ed kernel and &#64257;lesystem, while ES3 [62] uses the Linux ptrace mechanism to accomplish a similar goal.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,191 758.75,191 758.75,380.1818181818182 560,380.1818181818182 560,345" stroke="black" stroke-opacity="0.3"><title>Guo's Thesis2012 -&gt; IncPy2010
+
+ref: [73]
+contexts: ['Its contents were adapted from a 2011 conference paper that I coauthored with Dawson Engler [75], which is an extended version of a 2010 workshop paper [73].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,191 758.75,191 758.75,431 674,431" stroke="black" stroke-opacity="0.3"><title>Guo's Thesis2012 -&gt; IncPy2011
+
+ref: [75]
+contexts: ['Chapter 5 presents a Python interpreter called IncPy [75], which speeds up the data analysis scripting cycle and helps researchers manage code and data dependencies. To the best of my knowledge, IncPy is the &#64257;rst attempt to integrate automatic memoization and persistent dependency management into a general-purpose programming language', 'Its contents were adapted from a 2011 conference paper that I coauthored with Dawson Engler [75], which is an extended version of a 2010 workshop paper [73].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1333,71 1317.1666666666667,71 1317.1666666666667,250.08333333333334 800,250.08333333333334 800,225" stroke="black" stroke-opacity="0.3"><title>Variolite2017 -&gt; Guo's Thesis2012
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,431 841.6,431 841.6,71 834,71" stroke="black" stroke-opacity="0.3"><title>Lancet2013 -&gt; Sumatra2012
+
+ref: (Davison, 2012)
+contexts: ['Lancet works well together with distributed version control systems like Git and Mercurial, or with management and tracking tools tailored towards scientific use, such as Sumatra (Davison, 2012).', 'Projects like Sumatra (Davison 2012) take a far more general approach for achieving reproducibility, tailoring functionality offered by version controls to the needs of the scientist']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,71 1235.9,71 1235.9,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>Magni2016 -&gt; Sumatra2012
+
+ref: [Dav12]
+contexts: ['Several communities have proposed best practices, rules, andtoolstohelpinmakingresultsreproducible,seee.g.[VKV09], [SNTH13], [SM14], [Dav12], [SLP14].', 'Several studies have given best practices for how to detail such metadata to make computational results reproducible, see e.g. [VKV09], [SNTH13], [SM14], [Dav12].', 'Several tools for keeping track of provenance and aiding in adhering to best practices for reproducible research already exist, e.g. Sumatra [Dav12], ActivePapers [Hin15], or Madagascar [Fom15].', 'E.g. when using Sumatra, one would replace python my_experiment.py with [Dav12]', 'For example, Sumatra by default stores all metadata in a SQLite database [Dav12] separate from simulation results (which may be stored in any format) whereas ActivePapers stores the metadata along with the results in an HDF5 database [Hin15].', 'We have already discussed ActivePapers [Hin15], Sumatra [Dav12], and Madagascar [Fom15] which are general reproducibility frameworks that allow for wrapping most tools - not only Python based computation']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,551 1162.6363636363637,551 1162.6363636363637,191 1154,191" stroke="black" stroke-opacity="0.3"><title>Michaelides et al.2016 -&gt; Yes  Work  flow2015
+
+ref: [6]
+contexts: ['Our approach is more akin toYesWorkflow[6] allowing multiple tools to be used in the scientific processes.', 'YesWorkflow[6]provides script authors with an annotation mechanism to describe prospectiveprovenance.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,551 1162.6363636363637,551 1162.6363636363637,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>Michaelides et al.2016 -&gt; no  Work  flow2014
+
+ref: [14]
+contexts: ['The noWorkflow system[14] captures provenance information from scriptswithout the need to instrument them']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: 1
+contexts: ['Bochner et al. [1] proposed an API and a client library to capture provenance for Python scripts.', 'Some of the existing approaches that do not require a WfMS rely on scientists to modify the experiment scripts to include annotations or calls to provenance capture functions [1,3,7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; Sumatra2012
+
+ref: 3
+contexts: ['Sumatra [3] collects provenance information from Python scripts. It is able to capture input and output data produced by each run (as long as they are explicitly specified by the user), parameters, module dependencies, and platform information. It is also able to detect when a module the script depends on has changed. The source code, however, needs to live in a version control system so that changes from one version to another can be detected', 'Others require scientists to use a version control system to track changes to the source code, or are not entirely automatic, requiring input from scientists [3,10].', 'Some of the existing approaches that do not require a WfMS rely on scientists to modify the experiment scripts to include annotations or calls to provenance capture functions [1,3,7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; ES32008
+
+ref: 6
+contexts: ['There are also approaches that capture provenance at the operating system level [6,8,17], which monitor system calls and track processes and data dependencies between these processes. These systems, however, do not have visibility into what happens inside the scripts underlying the processes.', 'Different mechanisms for provenance capture have been proposed, and some can be applied to scripts. Tools that capture provenance at the operating system level [6,8,17] monitor system calls and track processes and data dependencies between these processes. Because the dependencies are recorded at the process level, it can be difficult to reconcile the provenance with the script definition as these systems cannot see what happens inside the processes. The provenance captured by noWorkflow is of a different nature&#8212;it represents dependencies within processes at the function level', 'One alternative would be to use approaches that capture provenance at the operating system level [6,17]. Since these systems intercept system calls (e.g., file reads and writes, execution of binaries), they produce a high volume of very fine-grained information that represent data dependencies between processes. It can be difficult to explore this information and connect it to the underlying experiment specification. Consequently, identifying which experiment activity influenced the generation of a given data product can be challenging.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,376.27272727272725 640,376.27272727272725 640,345" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; VCR2011
+
+ref: 7
+contexts: ['Gavish and Donoho [7] introduce the notion of a Verifiable Computational Result (VCR), where every result is assigned a unique identifier and results produced under the exact same conditions have the same identifier to support reproducibility.', 'Some of the existing approaches that do not require a WfMS rely on scientists to modify the experiment scripts to include annotations or calls to provenance capture functions [1,3,7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,71 914,71" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; Prove  nance Curious2013
+
+ref: 10
+contexts: ['ProvenanceCurious [10] is another tool that can infer data provenance from Python scripts. It also uses AST analysis to capture every node of the syntax tree, and it uses a graph to provide query capabilities. However, for every operation, it requires input from the users regarding whether or not the operation reads or writes persistent data&#8212;this information is transparently captured by noWorkflow', 'Others require scientists to use a version control system to track changes to the source code, or are not entirely automatic, requiring input from scientists [3,10].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,311 920.3333333333334,311 920.3333333333334,551 834,551" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2014 -&gt; Tariq, Ali, and Gehani2012
+
+ref: 19
+contexts: ['The approach taken by Tariq et al. [19] makes use of the LLVM compiler framework to automatically insert provenance capture at each function entry and exit. Thus, similar to noWorkflow, their approach is transparent&#8212;users do not need to manually annotate their code. However, there are important differences between the two approaches. Since Tariq et al. rely on a compiler, they are  restricted to capturing static information. noWorkflow, on the other hand, captures both static and dynamic information']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; Star  Flow2010
+
+ref: [1]
+contexts: ['If  a  scientist  wants  to  capturemore provenance about an experiment, she must export or rewriteher experiment into an external script and run an external tool tocapture and analyze provenance from the script [1&#8211;4, 8, 11, 13].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [2]
+contexts: ['If  a  scientist  wants  to  capturemore provenance about an experiment, she must export or rewriteher experiment into an external script and run an external tool tocapture and analyze provenance from the script [1&#8211;4, 8, 11, 13].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; Sumatra2012
+
+ref: [4]
+contexts: ['If  a  scientist  wants  to  capturemore provenance about an experiment, she must export or rewriteher experiment into an external script and run an external tool tocapture and analyze provenance from the script [1&#8211;4, 8, 11, 13].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; no  Work  flow2014
+
+ref: [8]
+contexts: ['If  a  scientist  wants  to  capturemore provenance about an experiment, she must export or rewriteher experiment into an external script and run an external tool tocapture and analyze provenance from the script [1&#8211;4, 8, 11, 13].', 'We propose an approach that addresses this limitation and al-lows transparent provenance capture directly from the notebook. Inprevious work, we introduced noWorkflow [8], a tool that transpar-ently captures provenance from Python scripts and provides mech-anisms that allows users to explore this information', 'noWork&#64258;ow (not only Work&#64258;ow) [8] is an approach that automatically captures provenance from Python scripts without requiring any modi&#64257;cations to the script', 'Architecture of noWork&#64258;ow [8]', 'This line magic supports all arguments that the default now run command supports (see [8] for details on those commands).', 'This magic also loads Prolog rules that are automatically generated by noWork&#64258;ow (see [8]).']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,490.8 880,490.8 880,465" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; Lancet2013
+
+ref: [12]
+contexts: ['Lancet [12], on the other hand, allows scientists to perform exploratory research on IPython Notebook by capturing provenance and visualizing results']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,551 1082.6363636363637,551 1082.6363636363637,613.6666666666666 800,613.6666666666666 800,585" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2015 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [13]
+contexts: ['If  a  scientist  wants  to  capturemore provenance about an experiment, she must export or rewriteher experiment into an external script and run an external tool tocapture and analyze provenance from the script [1&#8211;4, 8, 11, 13].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Star  Flow2010
+
+ref: [2]
+contexts: ['In the last decade some approaches emerged for capturing provenance from experiments encoded in scripts [2, 3, 11, 14, 19].', 'StarFlow [2] and RDataTracker [11] collect provenance from scripts through dynamic analysis and annotations.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [3]
+contexts: ['In the last decade some approaches emerged for capturing provenance from experiments encoded in scripts [2, 3, 11, 14, 19].', 'Bochner et al. [3] collect provenance from scripts using a library to connect to a remote server and send annotated provenance data.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Sumatra2012
+
+ref: [7]
+contexts: ['An outstanding exception in this category is Sumatra [7]. It stores each trial in a configuration management tool (either Git or Mercurial) and allows users to tag them and to compare the collected information.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,119.33333333333333 960,119.33333333333333 960,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; R  Data  Tracker2014
+
+ref: [11]
+contexts: ['In the last decade some approaches emerged for capturing provenance from experiments encoded in scripts [2, 3, 11, 14, 19].', 'StarFlow [2] and RDataTracker [11] collect provenance from scripts through dynamic analysis and annotations.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,235.75 1120,235.75 1120,225" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Yes  Work  flow2015
+
+ref: [13]
+contexts: ['YesWorkflow [13] captures prospective provenance from scripts through annotations']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; no  Work  flow2014
+
+ref: [14]
+contexts: ['In the last decade some approaches emerged for capturing provenance from experiments encoded in scripts [2, 3, 11, 14, 19].', 'As a proof of concept, we implemented our version model on top of noWorkflow [14, 16, 17]', 'noWorkflow [14] collects provenance from scripts without requiring any modifications on the script.', 'Most of these approaches capture execution provenance (i.e., retrospective provenance) [14] with intermediate data, and support querying and visualizing provenance during analysis', 'File objects describe the structure of the experiment: that is, all files needed by the experiment, which includes the script itself (definition provenance [14]), imported modules (deployment provenance [14]), and accessed (read/write) files (execution provenance [14]).', 'We implemented the proposed approach on top of noWorkflow [14].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1280" x2="1280" y1="218" y2="277"><title>no  Work  flow2016 -&gt; no  Work  flow2016
+
+ref: [16]
+contexts: ['As a proof of concept, we implemented our version model on top of noWorkflow [14, 16, 17]']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,599.3333333333334 1120,599.3333333333334 1120,585" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; no  Work  flow2015
+
+ref: [17]
+contexts: ['As a proof of concept, we implemented our version model on top of noWorkflow [14, 16, 17]']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,191 1237.8,191 1237.8,613.6666666666666 800,613.6666666666666 800,585" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [19]
+contexts: ['In the last decade some approaches emerged for capturing provenance from experiments encoded in scripts [2, 3, 11, 14, 19].', 'Tariq et al. [19] collect provenance from code compiled with a LLVM compiler']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,311 1239.7,311 1239.7,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Star  Flow2010
+
+ref: [2]
+contexts: ['Scientists may use scripts to perform intensive computational tasks such as data analyses and explorations [2].', 'Some automatic approaches capture provenance at the function level [2, 5, 9].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,311 1239.7,311 1239.7,119.33333333333333 960,119.33333333333333 960,105" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; R  Data  Tracker2014
+
+ref: [4]
+contexts: ['In contrast, RDataTracker [4] captures the occurrence of variable bindings along with function level provenance.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,311 1239.7,311 1239.7,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; no  Work  flow2014
+
+ref: [5]
+contexts: ['However, collecting provenance of scripts is challenging [5].', 'Some automatic approaches capture provenance at the function level [2, 5, 9].', 'However, as the script calls process before show, function-based approaches [5, 9] would say that show depends on process.', 'As a preliminary proof of concept, we implemented this approach in noWorkflow [5&#8211;7], an open-source system that transparently captures provenance from Python scripts at the function activation level.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1280" x2="1280" y1="284" y2="225"><title>no  Work  flow2016 -&gt; no  Work  flow2016
+
+ref: [6]
+contexts: ['As a preliminary proof of concept, we implemented this approach in noWorkflow [5&#8211;7], an open-source system that transparently captures provenance from Python scripts at the function activation level.']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,311 1239.7,311 1239.7,599.3333333333334 1120,599.3333333333334 1120,585" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; no  Work  flow2015
+
+ref: [7]
+contexts: ['As a preliminary proof of concept, we implemented this approach in noWorkflow [5&#8211;7], an open-source system that transparently captures provenance from Python scripts at the function activation level.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,311 1239.7,311 1239.7,613.6666666666666 800,613.6666666666666 800,585" stroke="black" stroke-opacity="0.3"><title>no  Work  flow2016 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [9]
+contexts: ['Some automatic approaches capture provenance at the function level [2, 5, 9].', 'However, as the script calls process before show, function-based approaches [5, 9] would say that show depends on process.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,191 837.8,191 837.8,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; Star  Flow2010
+
+ref: [6]
+contexts: ['capture work&#64258;ow provenance automatically in a provenance-unaware platform such as a programming/scripting language [6].', 'Angelino et al. have proposed StarFlow [6] which can build a provenance trace at functional level for a Python program', 'Angelinoetal.[6]reportedthatthesescientistsusedtowriteprograms/scripts in a general purpose programming/scripting language.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,191 837.8,191 837.8,143.22222222222223 160,143.22222222222223 160,105" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; ESSW2001
+
+ref: [43]
+contexts: ['Another study by Frew et al. have proposed a data management infrastructure to track processing of satellite images [43].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,191 837.8,191 837.8,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; ES32008
+
+ref: [44]
+contexts: ['This technique has been used to build a prototype, called Earth System Science Server (ES3) [44].', 'This technique has been usedintheES3projectprovidingcomputationalprovenance[44]']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,191 837.8,191 837.8,384.0909090909091 400,384.0909090909091 400,345" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; ES32008
+
+ref: [45]
+contexts: ['Afterward, this technique has been extended by the study reported in [45].', 'Furthermore, documenting &#64257;ne-grained data provenance explicitly requires operator instrumentation that explicitly adds a few lines of code into the actual model itself to capture provenance [45].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="880" x2="880" y1="164" y2="105"><title>Prove  nance Curious2013 -&gt; Prove  nance Curious2013
+
+ref: [73]
+contexts: ['We have also built a prototype that demonstrates the complete framework based on this use case [73].', 'We have developed a prototype1 demonstrating the proposed framework [73]']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,191 837.8,191 837.8,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; CXXR2010
+
+ref: [113]
+contexts: ['In [113], authors proposed a variant of R interpreter, CXXR, which can maintain and represent collected provenance information.', 'generic data processing tools, general-purpose programming languages etc.Studiesreportedin[90,66,113]captureprovenanceinformationfroma program developed in a provenance-unaware platform.', 'Studies reported in [90, 113, 66] can extract provenance information from programs/scripts developed in different provenance-unaware environment such as Java, R, Microsoft Excel, respectively.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,311 839.7,311 839.7,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; Star  Flow2010
+
+ref: [18]
+contexts: ['However, there is a high demand in the scienti&#64257;c community to capture work&#64258;ow provenance automatically in a provenance-unaware platform like a scripting environment [18]', 'In StarFlow, Angelo et al. [18] proposed a method which can build provenance trace at functional level for a Python script.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,311 839.7,311 839.7,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; CXXR2010
+
+ref: [43]
+contexts: ['Silles and Runnalls [43] proposed a variant of R interpreter, CXXR, which can maintain and represent collected provenance information. Miles [44] proposed to document provenance by modifying the source code of a program automatically.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,431 1080.909090909091,431 1080.909090909091,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>pypet2015 -&gt; Sumatra2012
+
+ref: [4]
+contexts: ['For example, among these are multiprocessing for fast parallel simulations, dynamic loading of data, integration of Git version control, and supervision of experiments via the electronic lab notebook Sumatra [4].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,431 1160.909090909091,431 1160.909090909091,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>pypet2016 -&gt; Sumatra2012
+
+ref: Davison, 2012
+contexts: ['Sumatra integration, pypet can automatically add one&#8217;s simulations to the electronic lab notebook tool Sumatra (Davison, 2012)', 'The primary goal of Sumatra (Davison, 2012) is to enhance reproducible research.', '.Therefore,pypetcouldbecombinedwithGitPython17 for source code version control and with Sumatra (Davison, 2012) to track versions of all applied software.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,431 1160.909090909091,431 1160.909090909091,490.8 880,490.8 880,465" stroke="black" stroke-opacity="0.3"><title>pypet2016 -&gt; Lancet2013
+
+ref: 
+contexts: ['Lancet (Stevens et al., 2013) constitutes a more general approach to work&#64258;ow management and integrates with IPython notebooks (Perez and Granger, 2007)']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,71 916.1111111111111,71 916.1111111111111,495.1 800,495.1 800,465" stroke="black" stroke-opacity="0.3"><title>R  Data  Tracker2014 -&gt; CXXR2012
+
+ref: [7]
+contexts: ['CXXR [7,9]isanimplementationoftheRinterpreterthatcollects provenance by placing hooks within the read-eval-print loop of the interpreter.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,71 916.1111111111111,71 916.1111111111111,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>R  Data  Tracker2014 -&gt; CXXR2010
+
+ref: [9]
+contexts: ['CXXR [7,9]isanimplementationoftheRinterpreterthatcollects provenance by placing hooks within the read-eval-print loop of the interpreter.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="960" x2="960" y1="164" y2="105"><title>R  Data  Tracker2014 -&gt; R  Data  Tracker2014
+
+ref: [LB14]
+contexts: ['In this poster, we present two tools aimed at this audience: RDataTracker and DDG Explorer. RDataTracker [LB14] is used to collect data provenance during the execution of an R script.']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,191 918.2222222222222,191 918.2222222222222,495.1 800,495.1 800,465" stroke="black" stroke-opacity="0.3"><title>R  Data  Tracker2014 -&gt; CXXR2012
+
+ref: [RS12]
+contexts: ['This work di&#64256;ers from CXXR [SR10,RS12], an implementation of the R interpreter that includes automated provenance collection.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,191 918.2222222222222,191 918.2222222222222,503.7 560,503.7 560,465" stroke="black" stroke-opacity="0.3"><title>R  Data  Tracker2014 -&gt; CXXR2010
+
+ref: [SR10]
+contexts: ['This work di&#64256;ers from CXXR [SR10,RS12], an implementation of the R interpreter that includes automated provenance collection.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,71 1075.7272727272727,71 1075.7272727272727,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>Sacred2015 -&gt; Sumatra2012
+
+ref: (Davison, 2012)
+contexts: ['There are only a few projects that we are aware of that have a focus similar to Sacred with the closest one being Sumatra (Davison, 2012).']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1173" x2="1154" y1="191" y2="191"><title>SisGExp2016 -&gt; Yes  Work  flow2015
+
+ref: 4
+contexts: ['There are few mechanisms to collect provenance of statistical scripts without changing its source code [3, 4].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="533,71 517.1666666666666,71 517.1666666666666,311 526,311" stroke="black" stroke-opacity="0.3"><title>Star  Flow2010 -&gt; IncPy2010
+
+ref: [13]
+contexts: ['For example, provenance-aware storage systems (PASS) automatically track provenance at the level of &#64257;les and processes dynamically at runtime [21], while IncPy is a modi&#64257;ed Python interpreter that dynamically tracks &#64257;le I/O and computational results at the level of function calls [13].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="853,311 839.7,311 839.7,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>Prove  nance Curious2013 -&gt; Star  Flow2010
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="613" x2="594" y1="71" y2="71"><title>Star  Flow2011 -&gt; Star  Flow2010
+
+ref: [1]
+contexts: ['StarFlow [1] is a provenance-enabled Python environment for data analysis. It uses a combination of annotations, static analysis, and dynamic analysis to createdata and control &#64258;ow dependency graphs.']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,71 1075.7272727272727,71 1075.7272727272727,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>Sacred2015 -&gt; Sumatra2012
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="933,431 922.4444444444445,431 922.4444444444445,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>CXXR2014 -&gt; Sumatra2012
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="773,551 765.875,551 765.875,380.1818181818182 560,380.1818181818182 560,345" stroke="black" stroke-opacity="0.3"><title>Tariq, Ali, and Gehani2012 -&gt; IncPy2010
+
+ref: [3]
+contexts: ['Related research has been performed in a wide variety of domains under the rubrics of data &#64258;ow analysis, dynamic slicing, data provenance, database lineage, &#64257;lesystem lineage, and taint analysis. Some have focused on speci&#64257;c languages or paradigms, such as Python[3], network operations [2], or graphical interfaces [1],']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1333,71 1317.1666666666667,71 1317.1666666666667,250.08333333333334 800,250.08333333333334 800,225" stroke="black" stroke-opacity="0.3"><title>Variolite2017 -&gt; Guo's Thesis2012
+
+ref: 22
+contexts: ['Others who have studied data science and machine learning developers, such as Hill [7] and Guo [22] have described difficulties even for experts, struggling to create understandable and reproducible models during a process where they attempt many different things.', 'Guo previously studied people who program to gain insights from data, whom he called &#8220;research programmers&#8221; [22].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,551 1003.5,551 1003.5,376.27272727272725 640,376.27272727272725 640,345" stroke="black" stroke-opacity="0.3"><title>versuchung2015 -&gt; VCR2011
+
+ref: 
+contexts: []</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,551 1003.5,551 1003.5,376.27272727272725 640,376.27272727272725 640,345" stroke="black" stroke-opacity="0.3"><title>versuchung2015 -&gt; VCR2011
+
+ref: [10]
+contexts: ['Similar to the dataset-hash calculated by versuchung, Gavish and Donoho [10] identify veri&#64257;able computational results (VCRs)']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,71 995.9,71 995.9,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Prove  nance Curious2013
+
+ref: [8]
+contexts: ['Although methods for tracking provenancein ad-hoc workflow provide mechanisms to detect and recorddataflow (e.g., [8], [9]),']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,71 995.9,71 995.9,311 994,311" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; no  Work  flow2014
+
+ref: [9]
+contexts: ['Although methods for tracking provenancein ad-hoc workflow provide mechanisms to detect and recorddataflow (e.g., [8], [9]),']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,71 995.9,71 995.9,499.4 640,499.4 640,465" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; IncPy2011
+
+ref: [22]
+contexts: ['. Other work related to dataflow in Pythonprograms has taken the approach of creating an instrumentedinterpreter [22].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1013" x2="994" y1="311" y2="311"><title>WISE2015 -&gt; no  Work  flow2014
+
+ref: [26]
+contexts: ['Provenance tracking in ad-hoc work-flows has had success in applying run-time techniques (e.g., [26]) to record data but does notaddress workflow understanding', '. noWorkflow [26] provides a non-intrusive and systematic way tocollect provenance information in a general Python program. Like Starflow, noWorkflow isfile centric, but, unlike Starflow, it is based on programs instead of interactive development.', 'Tracing by WISE is similar todata provenance methods (e.g., [34, 26]), while dataflow abstraction is similar to methods forreducing workflow complexity (e.g., [38, 39]).']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,311 999.7,311 999.7,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [32]
+contexts: ['One wayto track provenance is by enabling the user to define explicitly the dataflow using a provenanceapplication programming interface (API) [32].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,311 999.7,311 999.7,499.4 640,499.4 640,465" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; IncPy2011
+
+ref: [33]
+contexts: ['IncPy [33] is a non-intrusive and low level approach whichreplaces the standard Python interpreter with one designed to catch automatically the result offunctions as they are called']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,311 999.7,311 999.7,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Star  Flow2010
+
+ref: [34]
+contexts: ['Starflow [34] provides a data analysis environment at the level of aPython&#8217;s interactive interpreter', 'Tracing by WISE is similar todata provenance methods (e.g., [34, 26]), while dataflow abstraction is similar to methods forreducing workflow complexity (e.g., [38, 39]).']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,311 999.7,311 999.7,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Prove  nance Curious2013
+
+ref: [35]
+contexts: ['ProvenanceCurious [35] provides a methodto extract provenance from a Python program for debugging.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1040" x2="1040" y1="284" y2="225"><title>WISE2015 -&gt; WISE2015
+
+ref: [36]
+contexts: ['Legacy workflows are first processed automaticallywith WISE [36].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,311 999.7,311 999.7,71 1006,71" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; WISE2015
+
+ref: [37]
+contexts: ['Steps one and two were presented in more details in [37].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,191 997.8,191 997.8,128.88888888888889 640,128.88888888888889 640,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Star  Flow2011
+
+ref: [7]
+contexts: ['StarFlow [8] also uses static analysis (withrun-time analysis) but acknowledges that a static dependency graph forms a supersetof all possible control  ow graphs instead of a provenance graph itself [7]', 'Unfortunately, the  le access overhead of the default Python interpretermakes  analyzing  such  a  trace  difficult  [7].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,191 997.8,191 997.8,131.27777777777777 560,131.27777777777777 560,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Star  Flow2010
+
+ref: [8]
+contexts: ["Star ow [8] addresses the issue of tracking provenance and data reuse in work ows authored in Python.  Star ow provides a data analysis environment at the level of Python's interactive interpreter.  Star ow takes a function view of programs - func- tions are versioned and their execution parameters recorded.  Using a combination of static analysis, dynamic analysis, and user annotations, Star ow builds a dependency graph of functions in terms of the  les and folders they use.  Based on the dependency graph, Star ow detects changes in functions or input and thus determines what functions must be reexecuted.", "A general  approach  would  inspect  a  work ow's  source  code  to  trackdependencies  among  code  reading  and  writing   les  (e.g.,  ProvenanceCurious  [55],Star ow [8], noWork ow [81]).", 'StarFlow [8] also uses static analysis (withrun-time analysis) but acknowledges that a static dependency graph forms a supersetof all possible control  ow graphs instead of a provenance graph itself [7]']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,191 997.8,191 997.8,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [18]
+contexts: ['One way to track provenance is by enabling the user to explicitly de ne the data ow using a provenance API (e.g., [18]).  However, this is intrusive since the work ow must be engineered to use the API']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,191 997.8,191 997.8,499.4 640,499.4 640,465" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; IncPy2011
+
+ref: [50]
+contexts: [' IncPy [50] is a non-intrusive and low level approach to the issue of data reuse; it involves the replacement of the standard Python interpreter with one which automatically catches the result of functions as they are called.', 'IncPy [50] provides automatic memoization (and potentially provenancetracking) at run-time and takes the approach of creating an instrumented interpreter']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,191 997.8,191 997.8,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>WISE2015 -&gt; Prove  nance Curious2013
+
+ref: [55]
+contexts: ["ProvenanceCurious [55] provides a method to extract provenance from a Python program for debugging.  Using an input Python  le, ProvenanceCurious constructs a provenance graph from the syntax of the program while interacting with the user to annotate elements with information on  le access.  The provenance graph, similar to a program dependency graph, is then re ned using a number of graph rewriting rules to propagate properties between nodes, thus making some redundant and so removable. Once a provenance graph has been extracted, ProvenanceCurious supports analyzing, and querying, the data ow of that program's execution.", "A general  approach  would  inspect  a  work ow's  source  code  to  trackdependencies  among  code  reading  and  writing   les  (e.g.,  ProvenanceCurious  [55],Star ow [8], noWork ow [81])."]</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1013" x2="994" y1="218" y2="277"><title>WISE2015 -&gt; no  Work  flow2014
+
+ref: [81]
+contexts: ['Run-time techniques have been used successfully for provenance tracking (e.g., [81]) but existing results do not apply to the more general problem of work ow understanding.', 'noWork ow [81] addresses the issue of providing a non-intrusive and systematic way to collect provenance information in a general Python program', "A general  approach  would  inspect  a  work ow's  source  code  to  trackdependencies  among  code  reading  and  writing   les  (e.g.,  ProvenanceCurious  [55],Star ow [8], noWork ow [81])."]</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,71 1155.7272727272727,71 1155.7272727272727,360.6363636363636 1040,360.6363636363636 1040,345" stroke="black" stroke-opacity="0.3"><title>WISE2016 -&gt; WISE2015
+
+ref: [3]
+contexts: ['The overall WISE method is presentedin details on several scientific workflows in [3].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,71 1155.7272727272727,71 1155.7272727272727,116.94444444444444 1040,116.94444444444444 1040,105" stroke="black" stroke-opacity="0.3"><title>WISE2016 -&gt; WISE2015
+
+ref: [4]
+contexts: ['Legacy workflows are first processed by the WISEmethod, first introduced in [4].', 'Then, an equivalence analysisnot presented in [4] and described in more details inSection IV in performed in order to identify and merge allsimilar events into a more abstract data dependency graph.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,71 1155.7272727272727,71 1155.7272727272727,499.4 640,499.4 640,465" stroke="black" stroke-opacity="0.3"><title>WISE2016 -&gt; IncPy2011
+
+ref: [13]
+contexts: ['n. The analysis of traces is also studied (e.g., [5]).Provenance tracking has been addressed for Python basedsystems in several ways (e.g., [13], [15], [24])']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,71 1155.7272727272727,71 1155.7272727272727,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>WISE2016 -&gt; Prove  nance Curious2013
+
+ref: [15]
+contexts: ['n. The analysis of traces is also studied (e.g., [5]).Provenance tracking has been addressed for Python basedsystems in several ways (e.g., [13], [15], [24])']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1173,71 1155.7272727272727,71 1155.7272727272727,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>WISE2016 -&gt; no  Work  flow2014
+
+ref: [24]
+contexts: ['Provenance trackingin ad-hoc workflows has had success in applying run-timetechniques (e.g., [24]) to record data but does not addressworkflow understanding', 'n. The analysis of traces is also studied (e.g., [5]).Provenance tracking has been addressed for Python basedsystems in several ways (e.g., [13], [15], [24])']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [BGS08]
+contexts: ['Some tools [BGS08, Dav12, HAW13, MBC+14] have been developed to capture runtimeprovenance for Python scripts: while Bochner et al. [BGS08] and Davison [Dav12] proposePython libraries and APIs that need to be added to the code to capture the executionsteps, ProvenanceCurious [HAW13] and noWorkflow [MBC+14] are transparent and donot require changes to the scripts.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; Sumatra2012
+
+ref: [Dav12]
+contexts: ['Some tools [BGS08, Dav12, HAW13, MBC+14] have been developed to capture runtimeprovenance for Python scripts: while Bochner et al. [BGS08] and Davison [Dav12] proposePython libraries and APIs that need to be added to the code to capture the executionsteps, ProvenanceCurious [HAW13] and noWorkflow [MBC+14] are transparent and donot require changes to the scripts.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; ES32008
+
+ref: [FMS08]
+contexts: ['Mechanismsthat capture provenance at the operating system level [FMS08, GS12, MRHBS06]monitor system calls to track the data dependencies between computational processes']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,376.27272727272725 640,376.27272727272725 640,345" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; VCR2011
+
+ref: [GD11]
+contexts: ['Gavish and Donoho [GD11] present the notion of a Verifiable ComputationalResult (VCR), where every result is assigned a unique identifier, and results producedunder the exact same conditions have the same identifier to support reproducibility']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; Prove  nance Curious2013
+
+ref: [HAW13]
+contexts: ['Some tools [BGS08, Dav12, HAW13, MBC+14] have been developed to capture runtimeprovenance for Python scripts: while Bochner et al. [BGS08] and Davison [Dav12] proposePython libraries and APIs that need to be added to the code to capture the executionsteps, ProvenanceCurious [HAW13] and noWorkflow [MBC+14] are transparent and donot require changes to the scripts.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,119.33333333333333 960,119.33333333333333 960,105" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; R  Data  Tracker2014
+
+ref: [LB14]
+contexts: ['For example, provenance libraries for R have only recentlybeen announced [LB14], while for Python, a new tool called noWorkflow has just beendeveloped [MBC+14].', 'Similarly, RDataTracker [LB14] captures provenancefrom the execution of R scripts, and the approach taken by Tariq et al. [TAG12] supportsall programming languages allowed by the LLVM compiler framework.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; no  Work  flow2014
+
+ref: [MBC + 14]
+contexts: ['For example, provenance libraries for R have only recentlybeen announced [LB14], while for Python, a new tool called noWorkflow has just beendeveloped [MBC+14].', 'Some tools [BGS08, Dav12, HAW13, MBC+14] have been developed to capture runtimeprovenance for Python scripts: while Bochner et al. [BGS08] and Davison [Dav12] proposePython libraries and APIs that need to be added to the code to capture the executionsteps, ProvenanceCurious [HAW13] and noWorkflow [MBC+14] are transparent and donot require changes to the scripts.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,191 1077.4545454545455,191 1077.4545454545455,613.6666666666666 800,613.6666666666666 800,585" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [TAG12]
+contexts: ['Similarly, RDataTracker [LB14] captures provenancefrom the execution of R scripts, and the approach taken by Tariq et al. [TAG12] supportsall programming languages allowed by the LLVM compiler framework.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1093" x2="1074" y1="338" y2="397"><title>Yes  Work  flow2015 -&gt; YW*NW2015
+
+ref: [DBK + 15]
+contexts: ['A complementary approach [DBK+15] combines prospective YWprovenance with retrospective provenance from a runtime recordersuch as noWorkflow [MBC+14]', 'Conversely, the noWorkflowprovenance approach used in [DBK+15] logs additional runtimeprovenance, typically at a much finer level of granularity']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,311 1079.1818181818182,311 1079.1818181818182,264.4166666666667 400,264.4166666666667 400,225" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; ES32008
+
+ref: [FMS08]
+contexts: ['The idea of using prospective and retrospective provenance for awide range of applications is not new (see, e.g., [ZWF06, MBZ+08,FMS08])']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1093,311 1079.1818181818182,311 1079.1818181818182,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>Yes  Work  flow2015 -&gt; no  Work  flow2014
+
+ref: [MBC + 14]
+contexts: ['Similarly, a number of approaches have been developedor are emerging that capture runtime provenance from scripts, e.g.,noWorkflow [MBC+14] and others [Gan13]', 'A complementary approach [DBK+15] combines prospective YWprovenance with retrospective provenance from a runtime recordersuch as noWorkflow [MBC+14]']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1120" x2="1120" y1="284" y2="225"><title>Yes  Work  flow2015 -&gt; Yes  Work  flow2015
+
+ref: [MSK + 15]
+contexts: ['The YesWorkflow (YW) toolkit [YW15, MSK+15] aims to providesuch users of scripting languages with many of the benefits of scientificworkflow automation.', 'In the following, we develop one part of this vision, i.e., theuse of YW to reveal prospective and retrospective provenance[ZWF06] from scripts, extending prior work that only providedthe former [MSK+15].', 'As described in [MSK+15], the script author beginsby annotating the computational blocks and dataflows in the scriptusing expressions of the form @tag value', 'For more details about the YW annotations used for declaringprospective provenance, see [MSK+15].', 'We have implemented and continue to improve theYWtoolkit[MSK+15, YW15].', 'The first author of [BK14] reported that creating the initial annotationsfor theYW-model depicted in [MSK+15] (for anRscript used in [BK14])took only half an hour.', 'Despite  being  a  grass-roots  effort  that  was  launched  only  re-cently,YWhas  already  been  successfully  applied  to  real-world,script-based workflows inR,MATLAB, and Python; applicationdomains include climate modeling, bioinformatics, and archaeol-ogy [MSK+15]']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,431 1001.6,431 1001.6,136.05555555555554 400,136.05555555555554 400,105" stroke="black" stroke-opacity="0.3"><title>YW*NW2015 -&gt; Bochner, Gude, and Schreiber2008
+
+ref: [4]
+contexts: ['To this end, several mechanisms have been recently proposed to capture the provenance traces of script execution[4,7,11,18].', 's. [4] relieson client libraries to capture traces of executions of scripts, whereas[20] make use of compilers that insert provenance capture withinthe script before and after function calls']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,431 1001.6,431 1001.6,124.11111111111111 800,124.11111111111111 800,105" stroke="black" stroke-opacity="0.3"><title>YW*NW2015 -&gt; Sumatra2012
+
+ref: [7]
+contexts: ['To this end, several mechanisms have been recently proposed to capture the provenance traces of script execution[4,7,11,18].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,431 1001.6,431 1001.6,121.72222222222223 880,121.72222222222223 880,105" stroke="black" stroke-opacity="0.3"><title>YW*NW2015 -&gt; Prove  nance Curious2013
+
+ref: [11]
+contexts: ['To this end, several mechanisms have been recently proposed to capture the provenance traces of script execution[4,7,11,18].']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1067" x2="1086" y1="404" y2="345"><title>YW*NW2015 -&gt; Yes  Work  flow2015
+
+ref: [14]
+contexts: ['We also note that the work reported in this paperis related to another ongoing (and complementary) work [14] thataims to capture the provenance of data artifacts used and generatedwithin scripts and stored on the file system using YesWorkflow.']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1067,431 1080.909090909091,431 1080.909090909091,191 1086,191" stroke="black" stroke-opacity="0.3"><title>YW*NW2015 -&gt; Yes  Work  flow2015
+
+ref: [15]
+contexts: ['YesWorkflow [15] uses an annotation language, which is similarto Javadoc&#8727;and Doxygen&#8224;, to generate workflow graphs thathelp users understand the building blocks (modules) that composethe script and their dataflow dependencies, a.k.a. prospective provenance.YesWorkflow is also related to the area of literate programming(e.g., Knitr [21] and IPython [19]).']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1013" x2="994" y1="404" y2="345"><title>YW*NW2015 -&gt; no  Work  flow2014
+
+ref: [18]
+contexts: ['To this end, several mechanisms have been recently proposed to capture the provenance traces of script execution[4,7,11,18].', 'o capture provenance information for Python scripts [18].', 'noWorkflow adopts a non-intrusive approach to capturing retrospectiveprovenance of scripts [18].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1013,431 1001.6,431 1001.6,551 834,551" stroke="black" stroke-opacity="0.3"><title>YW*NW2015 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [20]
+contexts: ['s. [4] relieson client libraries to capture traces of executions of scripts, whereas[20] make use of compilers that insert provenance capture withinthe script before and after function calls']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,431 1241.6,431 1241.6,482.2 1040,482.2 1040,465" stroke="black" stroke-opacity="0.3"><title>YW*NW2016 -&gt; YW*NW2015
+
+ref: [1]
+contexts: ['Given the contrasting aims of noWorkflow and YesWorkflow and the differencesin the approaches they take, it is not surprising that each supports queries and visualizationsthat the other cannot support on its own [1].']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,431 1241.6,431 1241.6,119.33333333333333 960,119.33333333333333 960,105" stroke="black" stroke-opacity="0.3"><title>YW*NW2016 -&gt; R  Data  Tracker2014
+
+ref: [2]
+contexts: ['Some of these approaches are language-specific, e.g., noWorkflow1[4,5](Python) and RDataTracker [2] (R scripts), while others are language-independent, e.g.,YesWorkflow2[3] and LLVM/SPADE [7].', 'Using such tools often entails annotating thescripts [2,3], monitoring executing scripts as they run [7,4], or both.']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,431 1241.6,431 1241.6,356.72727272727275 1120,356.72727272727275 1120,345" stroke="black" stroke-opacity="0.3"><title>YW*NW2016 -&gt; Yes  Work  flow2015
+
+ref: [3]
+contexts: ['Some of these approaches are language-specific, e.g., noWorkflow1[4,5](Python) and RDataTracker [2] (R scripts), while others are language-independent, e.g.,YesWorkflow2[3] and LLVM/SPADE [7].', 'Using such tools often entails annotating thescripts [2,3], monitoring executing scripts as they run [7,4], or both.', 'We use the Python script described by McPhillips et al. [3] to demonstrate the kinds ofprovenance queries NW, YW, and the combination of both support', 'The complete script, marked up with YW annotations,is available on GitHub [6]; a more complete explanation is provided in [3]', 'YW can also answer some retrospective provenance queries [3], including: Whatsamples did the run of the script collect images from? What energies were used duringcollection of images from sample DRT240? Where is the raw image from which correctedimage run/data/DRT322/DRT322_10000eV_001.img is derived? Are there anyraw images for which there are no corresponding corrected images?', 'This lineage graph can be constructedas a subgraph of the original YW model [3] (restricted to predecessors nodes upstreamof the corrected_image result node), which is then augmented with NW retrospectiveprovenance; see [6] for details and the YW*NW integration queries']</title></polyline></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,431 1241.6,431 1241.6,364.54545454545456 960,364.54545454545456 960,345" stroke="black" stroke-opacity="0.3"><title>YW*NW2016 -&gt; no  Work  flow2014
+
+ref: [4]
+contexts: ['Some of these approaches are language-specific, e.g., noWorkflow1[4,5](Python) and RDataTracker [2] (R scripts), while others are language-independent, e.g.,YesWorkflow2[3] and LLVM/SPADE [7].', 'Using such tools often entails annotating thescripts [2,3], monitoring executing scripts as they run [7,4], or both.']</title></polyline></g><g class="hoverable"><line marker-end="url(#id2)" stroke="black" stroke-opacity="0.3" x1="1280" x2="1280" y1="404" y2="345"><title>YW*NW2016 -&gt; no  Work  flow2016
+
+ref: [5]
+contexts: ['Some of these approaches are language-specific, e.g., noWorkflow1[4,5](Python) and RDataTracker [2] (R scripts), while others are language-independent, e.g.,YesWorkflow2[3] and LLVM/SPADE [7].']</title></line></g><g class="hoverable"><polyline fill="none" marker-end="url(#id2)" pointer-events="stroke" points="1253,431 1241.6,431 1241.6,613.6666666666666 800,613.6666666666666 800,585" stroke="black" stroke-opacity="0.3"><title>YW*NW2016 -&gt; Tariq, Ali, and Gehani2012
+
+ref: [7]
+contexts: ['Some of these approaches are language-specific, e.g., noWorkflow1[4,5](Python) and RDataTracker [2] (R scripts), while others are language-independent, e.g.,YesWorkflow2[3] and LLVM/SPADE [7].', 'Using such tools often entails annotating thescripts [2,3], monitoring executing scripts as they run [7,4], or both.']</title></polyline></g><text style="font-size:20px" text-anchor="middle" x="80" y="20">1988</text><text style="font-size:20px" text-anchor="middle" x="160" y="20">2001</text><text style="font-size:20px" text-anchor="middle" x="240" y="20">2004</text><text style="font-size:20px" text-anchor="middle" x="320" y="20">2005</text><text style="font-size:20px" text-anchor="middle" x="400" y="20">2008</text><text style="font-size:20px" text-anchor="middle" x="480" y="20">2009</text><text style="font-size:20px" text-anchor="middle" x="560" y="20">2010</text><text style="font-size:20px" text-anchor="middle" x="640" y="20">2011</text><text style="font-size:20px" text-anchor="middle" x="720" y="20">2011</text><text style="font-size:20px" text-anchor="middle" x="800" y="20">2012</text><text style="font-size:20px" text-anchor="middle" x="880" y="20">2013</text><text style="font-size:20px" text-anchor="middle" x="960" y="20">2014</text><text style="font-size:20px" text-anchor="middle" x="1040" y="20">2015</text><text style="font-size:20px" text-anchor="middle" x="1120" y="20">2015</text><text style="font-size:20px" text-anchor="middle" x="1200" y="20">2016</text><text style="font-size:20px" text-anchor="middle" x="1280" y="20">2016</text><text style="font-size:20px" text-anchor="middle" x="1360" y="20">2017</text></svg>

@@ -10,19 +10,19 @@ from snowballing.operations import reload, load_work
 
 
 class WebsiteGraph(Graph):
-    
+
     def display(self, *args):
         """ Displays interactive graph and creates HTML page """
         if not super(WebsiteGraph, self).display(*args):
             return False
-        
+
         background, color = {}, {}
         for key, value in self.toggle_widgets.items():
             background[key] = self.color_widgets[key].value
             color[key] = self.font_color_widgets[key].value
 
         legends = sorted(list(background.keys()))
-        
+
         graph_name = self.graph_name + ".svg"
         html = dedent("""\
             <!DOCTYPE html>
@@ -105,7 +105,7 @@ class WebsiteGraph(Graph):
                   <div class="loadsvg"></div>
               </div>
           </div>
-        </div> 
+        </div>
         <footer class="footer">
           <img height="50" alt="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o"  title="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o" src="images/ic.jpg">
           <img height="50" alt="New York University - Tandom School of Engineering" title="New York University - Tandom School of Engineering" src="images/nyu.png">
@@ -138,26 +138,27 @@ class WebsiteGraph(Graph):
             graph_name,
             '\n'.join(
                 ('    <li style="background-color:{};color:{}"><span>{}</span></li>'
-                 .format(background[name], color[name], 
+                 .format(background[name], color[name],
                          " ".join(name.split("_")).capitalize()))
                 for name in legends
             ),
             graph_name,
         )
         html_name = str(Path("output") / (self.graph_name + ".html"))
-        display(html_name)
+        with self.output_widget:
+          display(html_name)
         with open(html_name, "w") as html_file:
             html_file.write(html)
-        
+
         return True
 
 
 class GoalGraph(WebsiteGraph):
-   
+
     def create_widgets(self):
         """ Creates custom categories """
         color_generator = getsvgcolors()
-        
+
         work_list = load_work()
         goals = set()
         for work in work_list:
@@ -175,13 +176,13 @@ class GoalGraph(WebsiteGraph):
                 True,
                 color, textcolor,
             )
-            
+
     def work_key(self, work):
         """ Returns work goal """
         if not hasattr(work, "_meta"):
             return None
         return str(work._meta[0]["goal"])
-    
+
     def filter_work(self, work):
         """ Filters work """
         if work.category not in ("snowball", "ok"):
@@ -190,7 +191,7 @@ class GoalGraph(WebsiteGraph):
 
 
 class FullGraph(WebsiteGraph):
-    
+
     def create_widgets(self):
         """ Creates custom categories """
         for class_ in self.visible_classes():

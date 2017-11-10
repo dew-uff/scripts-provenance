@@ -1,38 +1,44 @@
 document
   default <http://example.org/>
 
-  activity(start, -, -)
-  entity(s0, [type="Set", length="9"])
-  wasGeneratedBy(g0; s0, start, -)
+  entity(s6, [type="Set", visited="1345", related="53"])
+  activity(forward6, -, -, [found="4", related="0"])
+  used(u0; forward6, s5, -)
+  wasGeneratedBy(g0; s6, forward6, -)
+  wasDerivedFrom(s6, s5, forward6, g0, u0, [prov:type="prov:Revision"])
 
+  entity(s5, [type="Set", visited="1341", related="53"])
+  activity(backward5, -, -, [found="68", related="0"])
+  used(u1; backward5, s4, -)
+  wasGeneratedBy(g1; s5, backward5, -)
+  wasDerivedFrom(s5, s4, backward5, g1, u1, [prov:type="prov:Revision"])
+
+  entity(s4, [type="Set", visited="1273", related="53"])
+  activity(forward4, -, -, [found="110", related="3"])
+  used(u2; forward4, s3, -)
+  wasGeneratedBy(g2; s4, forward4, -)
+  wasDerivedFrom(s4, s3, forward4, g2, u2, [prov:type="prov:Revision"])
+
+  entity(s3, [type="Set", visited="1163", related="50"])
+  activity(backward3, -, -, [found="675", related="3"])
+  used(u3; backward3, s2, -)
+  wasGeneratedBy(g3; s3, backward3, -)
+  wasDerivedFrom(s3, s2, backward3, g3, u3, [prov:type="prov:Revision"])
+
+  entity(s2, [type="Set", visited="488", related="47"])
+  activity(forward2, -, -, [found="360", related="28"])
+  used(u4; forward2, s1, -)
+  wasGeneratedBy(g4; s2, forward2, -)
+  wasDerivedFrom(s2, s1, forward2, g4, u4, [prov:type="prov:Revision"])
+
+  entity(s1, [type="Set", visited="128", related="19"])
   activity(backward1, -, -, [found="119", related="10"])
-  used(u0; backward1, s0, -)
-  entity(s1, [type="Set", length="19"])
-  wasGeneratedBy(g1; s1, backward1, -)
-  wasDerivedFrom(s1, s0, backward1, g1, u0, [prov:type="prov:Revision"])
+  used(u5; backward1, s0, -)
+  wasGeneratedBy(g5; s1, backward1, -)
+  wasDerivedFrom(s1, s0, backward1, g5, u5, [prov:type="prov:Revision"])
 
-  activity(forward1, -, -, [found="360", related="28"])
-  used(u1; forward1, s1, -)
-  entity(s2, [type="Set", length="47"])
-  wasGeneratedBy(g2; s2, forward1, -)
-  wasDerivedFrom(s2, s1, forward1, g2, u1, [prov:type="prov:Revision"])
-
-  activity(backward2, -, -, [found="675", related="3"])
-  used(u2; backward2, s2, -)
-  entity(s3, [type="Set", length="50"])
-  wasGeneratedBy(g3; s3, backward2, -)
-  wasDerivedFrom(s3, s2, backward2, g3, u2, [prov:type="prov:Revision"])
-
-  activity(forward2, -, -, [found="110", related="3"])
-  used(u3; forward2, s3, -)
-  entity(s4, [type="Set", length="53"])
-  wasGeneratedBy(g4; s4, forward2, -)
-  wasDerivedFrom(s4, s3, forward2, g4, u3, [prov:type="prov:Revision"])
-
-  activity(backward3, -, -, [found="68", related="0"])
-  used(u4; backward3, s4, -)
-
-  activity(forward3, -, -, [found="4", related="0"])
-  used(u5; forward3, s4, -)
+  entity(s0, [type="Set", visited="9", related="9"])
+  activity(start, -, -)
+  wasGeneratedBy(g6; s0, start, -)
 
 endDocument
