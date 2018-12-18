@@ -7,9 +7,11 @@ approach = Group(
     oxvig2016a,
     display="Magni",
     approach_name="Magni",
+    emails="cso@es.aau.dk; tha@es.aau.dk; tola@adm.aau.dk",
     _cite=False,
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[PYTHON],
 
@@ -20,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[VCS],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE], 
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
         deployment=[DURING_EXECUTION],
         definition=[READING, STATIC],
@@ -42,7 +44,7 @@ approach = Group(
         visplace=[],
         query=[],
         integration=[],
-        
+
         granularity=[USER_DEFINED, SELF_VERSION, OS_VERSION, VCS, SOURCE, STACK],
         granularity_text="User defined, Stack Trace, Platform, Source",
         management_text="Proprietary (JSON, HDF5)",
@@ -50,7 +52,7 @@ approach = Group(
         specific_query_text="",
         thread=YES,
         diff=[DATA.star("VCS")],
-                    
+
         limitations=[],
     )],
     _about="""

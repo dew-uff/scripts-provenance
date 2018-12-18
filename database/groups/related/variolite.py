@@ -1,15 +1,17 @@
 from snowballing.approaches import Group
 
 from ..constants import *
-from ...work.y2017 import kery2017a
+from ...work.y2017 import kery2017a, kery2017c
 
 approach = Group(
-    kery2017a,
+    kery2017a, kery2017c,
     display="Variolite",
     approach_name="Variolite",
+    emails="mkery@cs.cmu.edu; horvatha@oregonstate.edu; bam@cs.cmu.edu",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[AGNOSTIC],
 
@@ -20,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[], # AST, kernel, systemtap, vcs, and others that assist the collection
-        
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, PROVENANCE, OPTIONAL],
+
+        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, OPTIONAL, PROVENANCE],
         execution=[POST_MORTEM],
         deployment=[],
         definition=[READING, STATIC],
@@ -42,7 +44,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[COMMAND],
         integration=[],
-        
+
         granularity=[OUTPUT_DATA, ARGUMENTS,CONTENT, SOURCE],
         granularity_text="Arguments, Output, Source",
         management_text="Proprietary (JSON)",
@@ -50,7 +52,7 @@ approach = Group(
         specific_query_text="Command",
         thread=UNKNOWN,
         diff=[DATA.star("VCS")],
-                    
+
         limitations=[],
     )],
     _about="""

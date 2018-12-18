@@ -300,6 +300,21 @@ chacko2013a = DB(WorkUnrelated(
     scholar_ok=True,
 ))
 
+chebotko2013a = DB(WorkUnrelated(
+    2013, "Storing, indexing and querying large provenance data sets as RDF graphs in apache HBase",
+    due="Unrelated to scripts",
+    surveyhide="1",
+    display="chebotko",
+    authors="Chebotko, Artem and Abraham, John and Brazier, Pearl and Piazza, Anthony and Kashlev, Andrey and Lu, Shiyong",
+    place=SERVICES,
+    pp="1--8",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="chebotko2013storing",
+    file="chebotko2013a.pdf",
+    local="Santa Clara, USA",
+))
+
 chirigati2013a = DB(WorkBinarySnowball(
     2013, "Reprozip: Using provenance to support computational reproducibility",
     may_be_related_to=["reproducibility"],
@@ -1138,7 +1153,7 @@ missier2013c = DB(WorkUnrelated(
     scholar_ok=True,
 ))
 
-moore2013a = DB(WorkUnrelated(
+moore2013a = DB(WorkOk(
     2013, "Declaratively Processing Provenance Metadata",
     due="Unrelated to scripts",
     may_be_related_to=["logic"],

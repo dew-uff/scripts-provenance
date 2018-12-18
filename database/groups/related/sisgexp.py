@@ -2,14 +2,16 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2016 import cruz2016a
-    
+
 approach = Group(
     cruz2016a,
     display="SisGExp",
     approach_name="SisGExp",
+    emails="serra@ufrrj.br; joseantonio.pires@embrapa.br",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[R],
 
@@ -21,7 +23,7 @@ approach = Group(
 
         tools=["Kepler"],
 
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, PROVENANCE],
+        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, MANDATORY, PROVENANCE],
         execution=[INSTRUMENTATION],
         deployment=[],
         definition=[READING, STATIC],
@@ -42,7 +44,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[QUERY.such_as(["SQL"]), WEB],
         integration=["Kepler"],
-        
+
         granularity=[INPUT_FILES, OUTPUT_FILES, SOURCE],
         granularity_text="User defined, Files (I/O), Source",
         management_text="PostgreSQL, Repository",
@@ -50,7 +52,7 @@ approach = Group(
         specific_query_text="Web",
         thread=UNKNOWN, # Does Kepler support threads?
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""

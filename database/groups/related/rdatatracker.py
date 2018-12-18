@@ -2,15 +2,18 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2014 import lerner2014a, lerner2014b
-    
+from ...work.y2018 import lerner2018a
+
 approach = Group(
-    lerner2014a,
+    lerner2014a, lerner2018a,
     display="R  Data  Tracker",
     approach_name="RDataTracker",
+    emails="blerner@mtholyoke.edu; boose@fas.harvard.edu; luis.perez.live@gmail.com",
     _cite=False,
     dont_cite=[lerner2014b,],
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[R],
         goal=COMPREHENSION,
@@ -20,59 +23,51 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
-        execution=[PASSIVE_MONITORING, INSTRUMENTATION],
-        deployment=[],
-        definition=[],
+
+        annotations=[],
+        execution=[PASSIVE_MONITORING, OVERRIDING],
+        deployment=[BEFORE_EXECUTION, DURING_EXECUTION],
+        definition=[READING, DYNAMIC],
 
         execution_granularity=[VARIABLES, COMMANDS, VALUES],
         deployment_granularity=[],
-        definition_granularity=[],
+        definition_granularity=[CONTENT, SOURCE],
 
         cache=NO,
         replay=NO,
-        evolution=NO,
+        evolution=SEQUENCE,
         pipeline=NO,
-        summarization=[FILTERING.such_as(["annotations"]), CLUSTERING.such_as(["manual"])],
+        summarization=[FILTERING, CLUSTERING],
 
-        distribution=[GRAPH_FILE.such_as(["DDG"]), PROPRIETARY],
-        storage=[GRAPH_FILE.such_as(["DDG"]), PROPRIETARY],
-        visualization=[COMBINED_VIEW.such_as(["DDG"]), PROPRIETARY],
-        visplace=[INTERNAL],
-        query=[PROPRIETARY.such_as(["DDG"])],
+        distribution=[INTEROPERABLE.such_as(["PROV"])],
+        storage=[INTEROPERABLE.such_as(["PROV"])],
+        visualization=[COMBINED_VIEW.such_as(["DDG"])],
+        visplace=[EXTERNAL],
+        query=[INTEROPERABLE.such_as(["PROV"]), FUNCTIONS, PROPRIETARY.such_as(["DDG"])],
         integration=[],
-        
+
         granularity=[VARIABLES, COMMANDS, VALUES],
-        granularity_text="Commands, Variables, Values",
-        management_text="Proprietary (DDG)",
+        granularity_text="Commands, Variables, Values, Env. Var., Platform, Modules, Files (I/O)",
+        management_text="Interoperable (PROV)",
         generic_query_text="",
-        specific_query_text="DDG",
+        specific_query_text="DDG, PROV, Functions",
         thread=UNKNOWN,
-        diff=[],
-                    
+        diff=[PROVENANCE],
+
         limitations=[],
     )],
     _about="""
         <p>
-            RDataTracker (<a href="#lerner2014a" class="reference">lerner2014a</a>) is an R library that collects data provenance for <span class="goal">comprehension</span> in R scripts or console sessions.
+            RDataTracker (<a href="#lerner2014a" class="reference">lerner2014a</a>, <a href="#lerner2018a" class="reference">lerner2018a</a>) is an R library that collects data provenance for <span class="goal">comprehension</span> in R scripts or console sessions.
             <span class="collection">
-                <span title='source("ddg-library.r");ddg.init("daily-solar-radiation.r", "ddg", enable.console=TRUE);...;ddg.save()'>
-                    With RDataTracker, users need to annotate their scripts to specify when to start and finish the collection.
-                </span> 
-                When the library is active, it traces the execution and collects variables and statements dependencies. 
-                It combines the passive monitoring and the instrumentation strategies for execution provenance collection.
+                RDataTracker traces the execution and collects variables and statements dependencies.
+                It combines the passive monitoring and the overriding strategies for execution provenance collection.
+            </span>
+            <span class="storage">
+                RDataTracker stores provenance in PROV-JSON files.
             </span>
         </p>
-        <p>
-            <span class="collection">
-                RDataTracker traces the execution of commands and function calls. 
-                During the tracing, it collects the runtime state, including call stack and variables bindings to capture detailed provenance information. 
-                <span class="summarization" title='ddg.start("read.data");...;ddg.finish("read.data")'>
-                    In addition to the automatic collection, RDataTracker enables enhancing provenance with instrumentations that indicate important parts of the execution and instrumentations that create abstraction units for summarizations.
-                </span>
-            </span>
-        </p>
+
         <p>
             <span class="analysis">
                 The result of provenance collection in RDataTracker is a data derivation graph that presents procedural and data nodes.

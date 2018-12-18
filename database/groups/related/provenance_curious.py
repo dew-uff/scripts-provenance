@@ -2,15 +2,17 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2013 import huq2013a, huq2013b, huq2013c
-    
+
 approach = Group(
     huq2013a, huq2013c,
     display="Prove  nance Curious",
     approach_name="Provenance Curious",
+    emails="mrhuq@ewubd.edu; p.m.g.apers@utwente.nl; andreas.wombacher@aureliusenterprise.com",
     _cite=False,
     dont_cite=[huq2013b],
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[PYTHON],
         goal=COMPREHENSION,
@@ -20,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=["AST"],
-        
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE],
+
+        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[POST_MORTEM],
         deployment=[],
         definition=[PARSING, STATIC],
@@ -50,7 +52,7 @@ approach = Group(
             QUERY.such_as(["SQL"]),
         ],
         integration=[],
-        
+
         granularity=[FUNCTIONS],
         granularity_text="Language Constructs, Files (I/O)",
         management_text="SQLite, GraphML",
@@ -58,7 +60,7 @@ approach = Group(
         specific_query_text="Functions",
         thread=NO,
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""

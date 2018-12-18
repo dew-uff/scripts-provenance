@@ -4,14 +4,18 @@ from ..constants import *
 from ...work.y2014 import murta2014a
 from ...work.y2015 import pimentel2015a
 from ...work.y2016 import pimentel2016a, pimentel2016b
+from ...work.y2017 import pimentel2017a
 
 approach = Group(
     murta2014a, pimentel2015a, pimentel2016a, pimentel2016b,
+    pimentel2017a,
     display="no  Work  flow",
     approach_name="noWorkflow",
+    emails="leomurta@ic.uff.br; vanessa@ic.uff.br; fchirigati@nyu.edu; dakoop@nyu.edu; juliana.freire@nyu.edu; jpimentel@ic.uff.br",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=COMPREHENSION,
@@ -21,7 +25,7 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
+
         annotations=[],
         execution=[PASSIVE_MONITORING, OVERRIDING],
         deployment=[BEFORE_EXECUTION],
@@ -67,7 +71,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[QUERY.such_as([SQL, PROLOG, PYTHON]), FUNCTIONS, WEB.such_as([JUPYTER, "NowVis"])],
         integration=[],
-        
+
         granularity=[
             FUNC_ARGUMENTS, ARGUMENTS, RETURNS,
             VARIABLES, VAR_DEPENDENCIES
@@ -78,12 +82,12 @@ approach = Group(
         specific_query_text="Functions, Web",
         thread=NO,
         diff=[PROVENANCE],
-                    
+
         limitations=[],
     )],
     _about="""
         <p>
-            noWorkflow (<a href="#murta2014a" class="reference">murta2014a</a>; <a href="#pimentel2016a" class="reference">pimentel2016a</a>, <a href="#pimentel2016b" class="reference">pimentel2016b</a>, <a href="#pimentel2015a" class="reference">pimentel2015a</a>) captures provenance from Python scripts for <span class="goal">comprehension</span>.
+            noWorkflow (<a href="#murta2014a" class="reference">murta2014a</a>; <a href="#pimentel2016a" class="reference">pimentel2016a</a>, <a href="#pimentel2016b" class="reference">pimentel2016b</a>, <a href="#pimentel2015a" class="reference">pimentel2015a</a>, <a href="#pimentel2017a" class="reference">pimentel2017a</a>) captures provenance from Python scripts for <span class="goal">comprehension</span>.
             <span class="collection">
                 It requires no changes in the scripts for provenance collection. noWorkflow collects deployment, definition, and execution provenance.
             </span>

@@ -295,6 +295,19 @@ chirigati2016a = DB(WorkBinarySnowball(
     scholar_ok=True,
 ))
 
+correndo2016a = DB(WorkUnrelated(
+    2016, "Knowledge Base Service architecture Specification v1",
+    due="Unrelated to scripts",
+    surveyhide="1",
+    display="correndo",
+    authors="Correndo, Gianluca and Zigna, Jean-Michel and Haugommard, Anne",
+    place=TechReport,
+    entrytype="article",
+    publisher="EO4wildlife Consortium",
+    ID="correndo2016knowledge",
+    file="correndo2016a.pdf",
+))
+
 costa2016a = DB(WorkUnrelated(
     2016, "SPPV: Visualizing Software Process Provenance Data",
     due="Unrelated to scripts",
@@ -422,6 +435,20 @@ gammack2016a = DB(WorkUnrelated(
     entrytype="inproceedings",
     scholar_ok=True,
     local="McLean, VA, USA",
+))
+
+gehani2016a = DB(WorkOk(
+    2016, "Scaling spade to “big provenance”",
+    surveyhide="1",
+    due="Unrelated to scripts",
+    display="gehani",
+    authors="Gehani, Ashish and Kazmi, Hasanat and Irshad, Hassaan",
+    place=TaPP,
+    pp="26--33",
+    entrytype="inproceedings",
+    organization="USENIX Association",
+    ID="gehani2016scaling",
+    file="gehani2016a.pdf",
 ))
 
 geit2016a = DB(WorkUnrelated(

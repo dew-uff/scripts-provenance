@@ -146,7 +146,7 @@ class WebsiteGraph(Graph):
         )
         html_name = str(Path("output") / (self.graph_name + ".html"))
         with self.output_widget:
-          display(html_name)
+            display(html_name)
         with open(html_name, "w") as html_file:
             html_file.write(html)
 
@@ -162,7 +162,7 @@ class GoalGraph(WebsiteGraph):
         work_list = load_work()
         goals = set()
         for work in work_list:
-            if work.category not in ("snowball", "ok"):
+            if work.category not in ("snowball",):
                 continue
             if not hasattr(work, "_meta"):
                 continue
@@ -185,7 +185,7 @@ class GoalGraph(WebsiteGraph):
 
     def filter_work(self, work):
         """ Filters work """
-        if work.category not in ("snowball", "ok"):
+        if work.category not in ("snowball",):
             return False
         return super(GoalGraph, self).filter_work(work)
 

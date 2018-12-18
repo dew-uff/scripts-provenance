@@ -20,7 +20,7 @@ approach = Group(
 
         tools=["PRoot", "ptrace"],
         
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, EXCLUSIVE, OPTIONAL],
+        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[PASSIVE_MONITORING, INSTRUMENTATION],
         deployment=[BEFORE_EXECUTION, DURING_EXECUTION],
         definition=[EXECUTION],

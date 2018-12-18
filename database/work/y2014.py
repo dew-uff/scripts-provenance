@@ -482,8 +482,8 @@ garcia2014b = DB(WorkLang(
     scholar_ok=True,
 ))
 
-gehani2014a = DB(WorkUnrelated(
-    2014, "Provenance Integration",
+gehani2014a = DB(WorkOk(
+    2014, "Provenance-only Integration",
     due="Unrelated to scripts",
     display="gehani",
     authors="Gehani, Ashish and Tariq, Dawood",

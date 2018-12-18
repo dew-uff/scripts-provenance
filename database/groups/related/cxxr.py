@@ -10,10 +10,13 @@ approach = Group(
     silles2010a, runnalls2012a, silles2014a,
     display="CXXR",
     approach_name="CXXR",
+    emails="C.A.Silles@kent.ac.uk; A.R.Runnalls@kent.ac.uk",
+    # C.A.Silles@kent.ac.uk
     _cite=False,
     dont_cite=[runnalls2011a, runnalls2011b],
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[R],
         goal=COMPREHENSION,
@@ -23,7 +26,7 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
+
         annotations=[],
         execution=[OVERRIDING],
         deployment=[],
@@ -53,7 +56,7 @@ approach = Group(
             FUNCTIONS.such_as(["Command Provenance", "Data Provenance"])
         ],
         integration=[],
-        
+
         granularity=[COMMANDS, VARIABLES],
         granularity_text="Commands, Variables, Random Seed, Files (I)",
         management_text="Memory",
@@ -61,7 +64,7 @@ approach = Group(
         specific_query_text="Functions",
         thread=NO,
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""

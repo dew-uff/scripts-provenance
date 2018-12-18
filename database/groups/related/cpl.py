@@ -7,35 +7,28 @@ approach = Group(
     macko2012a,
     display="CPL",
     approach_name="Core Provenance Library",
+    emails="pmacko@eecs.harvard.edu; mseltzer@cs.ubc.ca",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
-        languages=[PYTHON, C, CPP, PERL, JAVA],
+        languages=[PYTHON, C, CPP, JAVA, R],
         goal=FRAMEWORK,
-        supports=[FRAMEWORK, COMPREHENSION],
-        categories=[COLLECTION, EVOLUTION, QUERY, STORAGE, VISUALIZATION],
+        supports=[FRAMEWORK],
+        categories=[QUERY, STORAGE],
 
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
-        execution=[INSTRUMENTATION],
-        deployment=[DURING_EXECUTION], #Optional
+
+        annotations=[],
+        execution=[],
+        deployment=[],
         definition=[],
 
-        execution_granularity=[
-            INPUT_FILES.star("*user"),
-            OUTPUT_FILES.star("*user"),
-            FUNC_ARGUMENTS.star("*user"),
-            FUNC_LINEAGE.star("*user"),
-            VARIABLE_LINEAGE.star("*user"),
-            COMMAND_LINEAGE.star("*user"),
-            STACK.star("*user"),
-            USER_DEFINED
-        ],
-        deployment_granularity=[ENV_VAR],
+        execution_granularity=[],
+        deployment_granularity=[],
         definition_granularity=[],
 
         cache=NO,
@@ -44,30 +37,29 @@ approach = Group(
         pipeline=NO,
         summarization=[],
 
-        distribution=[],
+        distribution=[PROPRIETARY.such_as(["JSON"])],
         storage=[
             RELATIONAL_DB.such_as(["MySQL", "PostgreSQL"]),
             GRAPH_DB.such_as(["4store"])
         ],
-        visualization=[COMBINED_VIEW.such_as(["Orbiter"])],
-        visplace=[EXTERNAL],
-        query=[QUERY.such_as([SPARQL, SQL])],
+        visualization=[],
+        visplace=[],
+        query=[QUERY.such_as([SPARQL, SQL, WEB]), FUNCTIONS],
         integration=[INSTRUMENTATION],
-        
-        granularity=[USER_DEFINED, ENV_VAR],
-        granularity_text="User defined, Env. Var.",
+
+        granularity=[],
+        granularity_text="N/A",
         management_text="MySQL, PostgreSQL, 4store",
         generic_query_text="SPARQL, SQL",
-        specific_query_text="",
+        specific_query_text="Functions",
         thread=YES.star("*user"),
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""
         <p>
-            Core Provenance Library (CPL) (<a href="#macko2012a" class="reference">macko2012a</a>) is a <span title="multi-lingual library that programmers can incorporate into a variaty of tools to collect and integrate provenance">library</span> with implementations for C, C++, Perl, Java and Python that programmers and scientists can <span class="goal">use to collect and integrate provenance in their tools and experiments</span>.
-            Thus, in order to capture provenance with CPL, it is necessary to <span class="strategy collection">instrument</span> the code.
+            Core Provenance Library (CPL) (<a href="#macko2012a" class="reference">macko2012a</a>) is a <span title="multi-lingual library that programmers can incorporate into a variaty of tools to integrate provenance">library</span> with implementations for C, C++, Perl, Java, Python, and R that programmers and scientists can <span class="goal">use to integrate provenance in their tools and experiments</span>.
         </p>
         <p>
             <span class="collection">
@@ -109,7 +101,7 @@ approach = Group(
                 CPL can store provenance on either on relational databases or on a graph database. It supports MySQL and PostgreSQL as relational databases and 4store as a graph database. 
             </span>
             <span class="analysis">
-                For analysis, it supports provenance visualization on Orbiter (<a href="#macko2011a" class="reference">macko2011a</a>), and provenance queries in SPARQL and SQL.
+                For analysis, it provides functions for accessing the provenance and supports provenance queries in SPARQL and SQL.
             </span>
         </p>
     """,

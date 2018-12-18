@@ -23,7 +23,7 @@ approach = Group(
 
         tools=["Kernel"],
         
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, OPTIONAL],
+        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, OPTIONAL, DEFINITION],
         execution=[OVERRIDING, PASSIVE_MONITORING],
         deployment=[DURING_EXECUTION],
         definition=[EXECUTION],

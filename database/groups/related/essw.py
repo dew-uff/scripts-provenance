@@ -7,9 +7,11 @@ approach = Group(
     frew2001a,
     display="ESSW",
     approach_name="Earth System Science Workbench (ESSW)",
+    emails="frew@bren.ucsb.edu; rbose@columbia.edu",
     _cite=False,
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[PERL],
         goal=MANAGEMENT,
@@ -19,8 +21,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
         deployment=[],
         definition=[READING, DYNAMIC],
@@ -46,7 +48,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[WEB, QUERY.such_as([SQL])],
         integration=[],
-        
+
         granularity=[FILES, PROCESSES],
         granularity_text="User defined, Processes, Files (I/O)",
         management_text="MySQL, Content DB, Graphviz",

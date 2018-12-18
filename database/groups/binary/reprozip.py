@@ -21,7 +21,7 @@ approach = Group(
 
         tools=["SystemTap (beta)", "ptrace (1.x)"],
         
-        annotations=[PARSEABLE, EXTERNAL, EXCLUSIVE, OPTIONAL],
+        annotations=[PARSEABLE, EXTERNAL, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[PASSIVE_MONITORING, INSTRUMENTATION],
         deployment=[BEFORE_EXECUTION, DURING_EXECUTION],
         definition=[EXECUTION],

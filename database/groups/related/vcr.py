@@ -7,9 +7,11 @@ approach = Group(
     gavish2011a,
     display="VCR",
     approach_name="Verifiable Computational Result (VCR)",
+    emails="gavish@stanford.edu; donoho@stanford.edu; vcr@stat.stanford.edu",
     _cite=False,
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[R, PYTHON, MATLAB],
         goal=REPRODUCIBILITY,
@@ -19,8 +21,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
         deployment=[],
         definition=[],

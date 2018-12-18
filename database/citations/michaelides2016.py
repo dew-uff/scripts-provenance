@@ -20,6 +20,11 @@ from ..work.y2014 import murta2014a
 from ..work.y2014 import stodden2014a
 from ..work.y2015 import mcphillips2015a
 from ..work.y2016 import michaelides2016a
+from ..work.y2016 import correndo2016a
+from ..work.y2017 import correndo2017a
+from ..work.y2018 import moreau2018a
+from ..work.y2018 import lerner2018a
+from ..work.y2018 import moreau2018b
 
 
 DB(Citation(
@@ -151,5 +156,40 @@ DB(Citation(
     contexts=[
         "To guarantee losslessness in the conversion fromOPM back into a valid Taverna workflows additional annotations are needed[16].",
         
+    ],
+))
+
+DB(Citation(
+    moreau2018a, michaelides2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    correndo2017a, michaelides2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    lerner2018a, michaelides2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    correndo2016a, michaelides2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    moreau2018b, michaelides2016a, ref="",
+    contexts=[
+
     ],
 ))

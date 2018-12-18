@@ -62,7 +62,9 @@ with description("annotations"):
     PARSEABLE = Item("Parseable")
     EXECUTABLE = Item("Executable")
     OPTIONAL = Item("Optional")
+    MANDATORY = Item("Mandatory")
     PROVENANCE = Item("Provenance")
+    DEFINITION = Item("Definition")
 
 with description("diff"):
     DATA = Item("Data")

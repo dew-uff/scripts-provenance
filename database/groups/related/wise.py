@@ -8,9 +8,11 @@ approach = Group(
     acuna2015a, acuna2015b, acuna2015c, acuna2016a,
     display="WISE",
     approach_name="Workflow Instrumentation for Structure Extraction (WISE)",
+    emails="ruben.acuna@asu.edu; zoe.lacroix@asu.edu; bazzi@asu.edu; Jacques.Chomilier@impmc.jussieu.fr",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=COMPREHENSION,
@@ -20,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=["AST"],
-        
-        annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, OPTIONAL],
+
+        annotations=[],
         execution=[OVERRIDING, POST_MORTEM.star("every activity")],
         deployment=[BEFORE_EXECUTION],
         definition=[READING, STATIC],
@@ -31,7 +33,7 @@ approach = Group(
             PROC_LINEAGE.star("*only if it receives a file as parameter"),
             PROC_ARGUMENTS,
             PROC_PIPE,
-            INPUT_FILES.star("*user"),
+            INPUT_FILES,
             OUTPUT_FILES,
 
         ],
@@ -88,7 +90,7 @@ approach = Group(
                 Internal events represent the script accessing a file. External events represent system calls or data operations (e.g. copying a file). 
                 External events allow identifying which tools the script use. 
                 During the collection of these events, WISE also performs the post-mortem strategy, by comparing files that existed before the events to files found after. 
-                Thus, it is possible to define the outputs of these tools for the provenance graph. WISE requires users to define input files for each tool manually, should the tool do not use the filename in its arguments.
+                Thus, it is possible to define the outputs of these tools for the provenance graph. WISE requires the tools to state the filename in their arguments.
             </span>
         </p>
         <p>

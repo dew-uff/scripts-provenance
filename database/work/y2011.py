@@ -761,7 +761,7 @@ gebser2011b = DB(WorkUnrelated(
     scholar_ok=True,
 ))
 
-gehani2011a = DB(WorkUnrelated(
+gehani2011a = DB(WorkOk(
     2011, "Policy-based integration of provenance metadata",
     due="Unrelated to scripts",
     display="gehani",

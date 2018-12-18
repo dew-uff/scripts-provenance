@@ -35,6 +35,45 @@ bastos2017a = DB(WorkUnrelated(
 ))
 
 
+cambronero2017a = DB(WorkUnrelated(
+    2017, "Generating Component-based Supervised Learning Programs From Crowdsourced Examples",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="cambronero",
+    authors="Cambronero, Jose and Rinard, Martin",
+    place=TechReport,
+    entrytype="article",
+    ID="cambronero2017generating",
+    file="cambronero2017a.pdf",
+))
+
+correndo2017a = DB(WorkUnrelated(
+    2017, "EO4Wildlife: D3. 2 Knowledge Base Service Architecture Specification v2: WP3--Advanced Analytics and Knowledge Base",
+    surveyhide="1",
+    due="Unrelated to scripts",
+    display="correndo",
+    authors="Correndo, Gianluca",
+    place=Thesis,
+    entrytype="article",
+    ID="correndo2017eo4wildlife",
+    file="correndo2017a.pdf",
+))
+
+cruz2017a = DB(WorkNoFile(
+    2017, "Enriching Agronomic Experiments with Data Provenance",
+    surveyhide="1",
+    display="cruz",
+    authors="da Cruz, Sergio Manuel Serra and do Nascimento, Jose Antonio Pires",
+    place=IJAEIS,
+    pp="21--38",
+    entrytype="article",
+    request="done",
+    volume="8",
+    number="3",
+    publisher="IGI Global",
+    ID="da2017enriching",
+))
+
 hellerstein2017a = DB(WorkUnrelated(
     2017, "Ground: A Data Context Service",
     due="Unrelated to scripts. Unrelated to provenance",
@@ -63,12 +102,94 @@ kery2017a = DB(WorkSnowball(
     pp="1--12",
     file="Kery2017a.pdf",
     ID="keryvariolite",
-    cluster_id="12665963803047105016",
-    scholar="http://scholar.google.com/scholar?cites=12665963803047105016&as_sdt=2005&sciodt=0,5&hl=en",
+    cluster_id="17995470844046725135",
+    scholar="http://scholar.google.com/scholar?cites=17995470844046725135&as_sdt=2005&sciodt=0,5&hl=en",
     tracking="alert",
     entrytype="inproceedings",
     scholar_ok=True,
     citation_file="variolite2017",
+))
+
+kery2017b = DB(WorkUnrelated(
+    2017, "Exploring exploratory programming",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="kery b",
+    authors="Kery, Mary Beth and Myers, Brad A",
+    place=VLHCC,
+    pp="25--29",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="kery2017exploring",
+    file="kery2017b.pdf",
+))
+
+kery2017c = DB(WorkOk(
+    2017, "Tools to support exploratory programming with data",
+    surveyhide="1",
+    display="Variolite",
+    authors="Kery, Mary Beth",
+    place=VLHCC,
+    pp="321--322",
+    entrytype="inproceedings",
+    organization="IEEE",
+    ID="kery2017tools",
+    file="kery2017c.pdf",
+))
+
+lee2017a = DB(WorkUnrelated(
+    2017, "Accelerating Scientific Data Exploration via Visual Query Systems",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="lee",
+    authors="Lee, Doris Jung-Lin and Lee, John and Siddiqui, Tarique and Kim, Jaewoo and Karahalios, Karrie and Parameswaran, Aditya",
+    place=arXiv,
+    entrytype="article",
+    ID="lee2017accelerating",
+    file="lee2017a.pdf",
+))
+
+meyer2017a = DB(WorkUnrelated(
+    2017, "The Influence of Mexican Hat Recurrent Connectivity on Noise Correlations and Stimulus Encoding",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="meyer",
+    authors="Meyer, Robert and Ladenbauer, Josef and Obermayer, Klaus",
+    place=FNCom,
+    pp="34",
+    entrytype="article",
+    volume="11",
+    publisher="Frontiers",
+    ID="meyer2017influence",
+    file="meyer2017a.pdf",
+))
+
+myers2017a = DB(WorkUnrelated(
+    2017, "Making End User Development More Natural",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="myers",
+    authors="Myers, Brad A and Ko, Andrew J and Scaffidi, Chris and Oney, Stephen and Yoon, YoungSeok and Chang, Kerry and Kery, Mary Beth and Li, Toby Jia-Jun",
+    place=Book,
+    booktitle="New Perspectives in End-User Development",
+    pp="1--22",
+    entrytype="incollection",
+    publisher="Springer",
+    ID="myers2017making",
+    file="myers2017a.pdf",
+))
+
+nelson2017a = DB(WorkUnrelated(
+    2017, "Problem-Solving Applications in Developer Environments",
+    surveyhide="1",
+    alias=(0, "Problem-Solving Applications in Developer Environments",),
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="nelson",
+    authors="Nelson, Nicholas",
+    place=PPIG,
+    entrytype="article",
+    ID="nelsonproblem",
+    file="nelson2017a.pdf",
 ))
 
 oliveira2017a = DB(WorkUnrelated(
@@ -102,6 +223,20 @@ oxvig2017a = DB(WorkUnrelated(
     scholar_ok=True,
 ))
 
+pimentel2017a = DB(WorkOk(
+    2017, "noWorkflow: a tool for collecting, analyzing, and managing provenance from python scripts",
+    surveyhide="1",
+    display="pimentel",
+    authors="Pimentel, Joao Felipe and Murta, Leonardo and Braganholo, Vanessa and Freire, Juliana",
+    place=VLDB,
+    pp="1841--1844",
+    entrytype="article",
+    volume="10",
+    number="12",
+    publisher="VLDB Endowment",
+    ID="pimentel2017noworkflow",
+))
+
 reimann2017a = DB(WorkUnrelated(
     2017, "Data provisioning in simulation workflows",
     due="Unrelated to scripts",
@@ -116,6 +251,19 @@ reimann2017a = DB(WorkUnrelated(
     file="Reimann2017a.pdf",
     scholar_ok=True,
     excerpt="Computer-based simulations become more and more important, eg, to imitate real-world experiments such as crash tests, which would otherwise be too expensive or not feasible at all. Thereby, simulation workflows may be used to control the interaction with simulation ",
+))
+
+romano2017a = DB(WorkUnrelated(
+    2017, "The joint NETTAB/Integrative Bioinformatics 2015 Meeting: aims, topics and outcomes",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="romano",
+    authors="Romano, Paolo and Hofestädt, Ralf and Lange, Matthias and D’Elia, Domenica",
+    place=bioinformatics,
+    entrytype="misc",
+    publisher="BioMed Central",
+    ID="romano2017joint",
+    file="Romano2017a.pdf",
 ))
 
 samuel2017a = DB(WorkUnrelated(
@@ -161,4 +309,20 @@ wilson2017a = DB(WorkUnrelated(
     link="https://github.com/recipy/recipy",
     scholar_ok='impossible',
     tracking="impossible"
+))
+
+zhang2017a = DB(WorkUnrelated(
+    2017, "DS. js: Turn Any Webpage into an Example-Centric Live Programming Environment for Learning Data Science",
+    surveyhide="1",
+    due="Unrelated to scripts. Unrelated to provenance",
+    display="zhang",
+    authors="Zhang, Xiong and Guo, Philip J",
+    place=UIST,
+    pp="691--702",
+    entrytype="inproceedings",
+    organization="ACM",
+    ID="zhang2017ds",
+    cluster_id="6129900332389804285",
+    scholar="http://scholar.google.com/scholar?cites=6129900332389804285&as_sdt=2005&sciodt=0,5&hl=en",
+    file="zhang2017a.pdf",
 ))

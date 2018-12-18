@@ -3,28 +3,33 @@ from snowballing.approaches import Group
 from ..constants import *
 from ...work.y2010 import angelino2010a
 from ...work.y2011 import angelino2011a
-    
+
 approach = Group(
     angelino2010a, angelino2011a,
     display="Star  Flow",
     approach_name="StarFlow",
+    emails="elaine@eecs.harvard.edu; mseltzer@cs.ubc.ca",
+    # Invalid: yamins@fas.harvard.edu;
+
+    to="Angelino, Elaine and Seltzer, Margo",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=MANAGEMENT,
-        supports=[MANAGEMENT, COMPREHENSION, CACHE],
+        supports=[MANAGEMENT, COMPREHENSION, CACHE, REPRODUCIBILITY],
         categories=[CACHE, COLLECTION, QUERY, STORAGE, VISUALIZATION, PARALLEL],
 
         mode=USER_LEVEL,
 
         tools=["AST"],
-        
-        annotations=[PARSEABLE, EXECUTABLE, INTERNAL, INCLUSIVE, OPTIONAL],
-        execution=[PASSIVE_MONITORING],
+
+        annotations=[PARSEABLE, EXECUTABLE, INTERNAL, INCLUSIVE, OPTIONAL, DEFINITION],
+        execution=[PASSIVE_MONITORING, OVERRIDING, INSTRUMENTATION],
         deployment=[BEFORE_EXECUTION],
-        definition=[PARSING, STATIC],
+        definition=[PARSING, STATIC, DYNAMIC],
 
         execution_granularity=[
             INPUT_FILES,
@@ -53,17 +58,14 @@ approach = Group(
             INTEROPERABLE.such_as([OPM]),
             PROPRIETARY.such_as([XML, "CSV"]),
         ],
-        visualization=[
-            COMBINED_VIEW,
-            INTEROPERABLE.such_as([OPM])
-        ], #VIEW
-        visplace=[INTERNAL, EXTERNAL],
+        visualization=[],
+        visplace=[EXTERNAL],
         query=[
             FUNCTIONS.such_as(["Navigation", "Cache"]),
             INTEROPERABLE.such_as([OPM])
         ],
         integration=["PASS through layering system"],
-        
+
         granularity=[FUNCTIONS, FILES],
         granularity_text="Functions, Modules, Files (I/O), Stack Trace",
         management_text="OPM, Proprietary (CSV)",
@@ -71,7 +73,7 @@ approach = Group(
         specific_query_text="Functions, OPM",
         thread=YES,
         diff=[PROVENANCE, DATA.star("cache")],
-                    
+
         limitations=[],
         extra=dict(
             applications="distribute"
@@ -105,6 +107,9 @@ approach = Group(
                 During dynamic analysis, StarFlow applies the passive monitoring strategy by setting a <span title="sys.settrace">Python tracing function</span> that walks the function stack to collect execution provenance.
                 The tracing function extract function calls with their stack and identifies which files each function access. 
                 StarFlow supports logging the execution provenance, comparing to results of static analysis to check for consistency, or creating dependencies not captured by annotations.
+            </span>
+            <span class="collection">
+                StarFlow also applies the overriding strategy for execution provenance collection by overriding the open function into an enriched version that collects the provenance.
             </span>
         </p>
         <p>
@@ -141,8 +146,7 @@ approach = Group(
                 It supports storing CSV, XML and RDF consistent with the OPM format. 
             </span>
             <span class="analysis">
-                For analysis, StarFlow provides a set of Python command-line tools for navigating dependencies <span title="DownstreamLinks()">downstream</span> and <span title="UpstreamLinks()">upstream</span>, <span title="ShowUpdates(): Describes what Python funtions to execute, and in what order, to update dependency targets relative to the source">determining the script pipeline</span> and producing provenance graphs.
-                Provenance graphs in StarFlow show files, annotated functions and non-annotated function (i.e. functions collected through dynamic analysis) as nodes.
+                For analysis, StarFlow provides a set of Python command-line tools for navigating dependencies <span title="DownstreamLinks()">downstream</span> and <span title="UpstreamLinks()">upstream</span>, <span title="ShowUpdates(): Describes what Python funtions to execute, and in what order, to update dependency targets relative to the source">determining the script pipeline</span>.
             </span>
         </p>
         <p>

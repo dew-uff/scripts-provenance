@@ -8,9 +8,11 @@ approach = Group(
     mwebaze2009a, mwebaze2011a,
     display="Astro-WISE",
     approach_name="Astro-WISE",
+    emails="Jmwebaze@gmail.com; d.r.boxhoorn@astro.rug.nl; valentyn@astro.rug.nl",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
 
@@ -21,8 +23,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
         deployment=[],
         definition=[READING, DYNAMIC],
@@ -43,7 +45,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[QUERY.such_as(["SQL"]), FUNCTIONS, WEB],
         integration=[],
-        
+
         granularity=[INPUT_FILES, OUTPUT_FILES, ARGUMENTS, VARIABLES, CONTENT],
         granularity_text="User defined, Attributes, Files (I/O), Parameters, Source",
         management_text="Oracle",
@@ -51,7 +53,7 @@ approach = Group(
         specific_query_text="Functions, Web",
         thread=UNKNOWN,
         diff=[PROVENANCE],
-                    
+
         limitations=[],
     )],
     _about="""

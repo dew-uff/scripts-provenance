@@ -15,6 +15,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -54,7 +55,6 @@
             <button type="button" class="download btn btn-default">Download svg</button>
           </div>
         </div>
-        <svg width="1150" height="1130" id="taxonomy"></svg>
       </div>
     </div> 
     <footer class="footer">
@@ -63,89 +63,126 @@
     </footer>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="js/downloadSVG.js"></script>
     <script>
+      var stratify = d3.stratify()
+        .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
 
-function project(x, y) {
-  var angle = (x - 90) / 180 * Math.PI, radius = y;
-  return [radius * Math.cos(angle), radius * Math.sin(angle)];
-}
-var svg = d3.select("svg"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height"),
-    g = svg.append("g").attr("transform", "translate(" + (width / 2 + 40) + "," + (height / 2) + ")");
+      var vWidth = 1350;
+      var vHeight = 1100;
 
-var stratify = d3.stratify()
-    .parentId(function(d) { return d.id.substring(0, d.id.lastIndexOf(".")); });
+      var svg = d3.select(".starter-template").append("svg")
+        .attr('class', 'downloadsvg')
+        .attr('width', vWidth).attr('height', vHeight);
 
-var tree = d3.tree()
-    .size([360, 460])
-    .separation(function(a, b) { 
-      return (a.parent == b.parent ? 1 : 2) / a.depth; });
+      var g = svg.append("g")
+        .attr('transform', 'translate(' + vWidth/2 + ',' + vHeight/2 + ')');
 
-d3.csv("data/taxonomy.csv", function(error, data) {
-  if (error) throw error;
 
-  var root = tree(stratify(data));
-  console.log(root)
+      var vData;
 
-  var link = g.selectAll(".link")
-    .data(root.descendants().slice(1))
-    .enter().append("path")
-      .attr("class", "link")
-      .attr("stroke", "#555")
-      .attr("stroke-width", "1.5px")
-      .attr("stroke-opacity", "0.4")
-      .attr("fill", "none")
-      .attr("d", function(d) {
-        if (d.depth > 1) {
-                return "M" + project(d.x, d.y)
-                    + "C" + project(d.x, (d.y + d.parent.y) / 2)
-                    + " " + project(d.parent.x, (d.y + d.parent.y) / 2)
-                    + " " + project(d.parent.x, d.parent.y);
-        }
-        return "M" + project(d.x, d.y)
-            + "L" + project(d.parent.x, d.parent.y);
-
+      d3.csv("data/taxonomy.csv", function(error, data) {
+        if (error) throw error;
+        vData = stratify(data);
+        update(vData);
       });
 
-  var node = g.selectAll(".node")
-    .data(root.descendants())
-    .enter().append("g")
-      .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
-      .attr("transform", function(d) { return "translate(" + project(d.x, d.y) + ")"; });
+      function project(x, y) {
+        var angle = (x - 90) / 180 * Math.PI, radius = y;
+        return [radius * Math.cos(angle), radius * Math.sin(angle)];
+      }
 
-  node.append("circle")
-      .attr("r", 4)
-      .attr("fill", function(d) {
-        if (d.children) {
-          return "#555";
-        }
-        return "#999";
-      });
+      function update(vData) {
+        // Declare d3 layout
+        var vLayout = d3.cluster().size([2 * Math.PI, Math.min(vWidth, vHeight)/2 - 100]); // margin!
 
-  node.append("text")
-      .attr("dy", ".31em")
-      .attr("x", function(d) { return d.x < 180 === !d.children ? 6 : -6; })
-      .attr("y", function(d) { return !d.children ? 0 : 8; })
-      .attr("font-family", "sans-serif")
-      .attr("font-size", "16px")
-      .attr("fill", function(d) { 
-        if (d.depth <= 1) {
-          return "blue";
-        }
-        return "black" 
-      })
-      .style("text-anchor", function(d) { return d.x < 180 === !d.children ? "start" : "end"; })
-      .attr("transform", function(d) { return "rotate(" + (d.x < 180 ? d.x - 90 : d.x + 90) + ")"; })
-      .html(function(d) { 
-        if (d.depth <= 0) {
-          return "";
-        }
-        return d.id.substring(d.id.lastIndexOf(".") + 1);
-      });
-      });
+        // Layout + Data
+        var vRoot = d3.hierarchy(vData);
+        var vNodes = vRoot.descendants();
+        var vLinks = vLayout(vRoot).links();
+
+        // Draw on screen
+        g.selectAll('.link')
+          .data(vLinks)
+          .enter().append('path')
+            .attr("class", "link")
+            .attr("stroke", "#555")
+            .attr("stroke-width", "1.5px")
+            .attr("stroke-opacity", "0.4")
+            .attr("fill", "none")
+            .attr('d', function(d) {
+              if (d.source.depth >= 1) {
+                return (d3.linkRadial()
+                  .angle(function(d){ return d.x})
+                  .radius(function(d){ return d.y})
+                )(d)
+              } else {
+                var y1 = Math.cos(d.source.x) * d.source.y;
+                var x1 = Math.sin(d.source.x) * d.source.y;
+                var dx = (d.target.x >= Math.PI) ? -0.05 : 0.05;
+                var y2 = Math.cos(d.target.x + dx) * d.target.y;
+                var x2 = Math.sin(d.target.x + dx) * d.target.y;
+                return "M" + x1 + "," + y1
+                  + "L" + x2 + "," + y2;
+              }
+            });
+
+
+
+        var node = g.selectAll('.node')
+          .data(vNodes)
+          .enter().append('g')
+            .attr("class", function(d) { return "node" + (d.children ? " node--internal" : " node--leaf"); })
+            .attr("transform", function (d) { return "translate(" + d3.pointRadial(d.x, d.y) + ")"; });
+
+        node.append("circle")
+          .attr('r', 4)
+          //.attr('stroke', '#05668D')
+          //.attr('opacity', "0.6")
+         // .attr('stroke-width', "2px")
+          .attr("fill", function(d) {
+            if (d.children) {
+              return "#555";
+            }
+            return "#999";
+          });
+
+        node.append("text")
+          .attr("dy", ".33em")
+          .attr("x", function(d) {
+            var angle = d.x * 180/Math.PI;
+            return angle < 180 === !d.children ? 6 : -6;
+          })
+          .attr("y", function(d) {
+             if (d.depth > 1) {
+              return !d.children ? 0 : 0;
+            }
+            return d.x < Math.PI ? 6 : -6;
+          })
+          .attr("font-family", "sans-serif")
+          .attr("font-size", "16px")
+          .attr("fill", function(d) {
+            if (d.depth <= 1) {
+              return "blue";
+            }
+            return "black"
+          })
+          .style("text-anchor", function(d) {
+            var angle = d.x * 180/Math.PI;
+            return angle < 180 === !d.children ? "start" : "end";
+          })
+          .attr("transform", function(d) {
+            var angle = d.x * 180/Math.PI;
+            return "rotate(" + (angle < 180 ? angle - 90 : angle + 90) + ")";
+          })
+          .html(function(d) {
+            if (d.depth <= 0) {
+              return "";
+            }
+            return d.data.id.substring(d.data.id.lastIndexOf(".") + 1);
+          });
+      }
       $(".regular").click(function(){
         window.location.href = "taxonomy.html";
       })
@@ -155,7 +192,6 @@ d3.csv("data/taxonomy.csv", function(error, data) {
       $(".download").click(function(){
         downloadSVG()
       })
-
     </script>
   </body>
 </html>

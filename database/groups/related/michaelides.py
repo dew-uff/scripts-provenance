@@ -2,14 +2,16 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2016 import michaelides2016a
-    
+
 approach = Group(
     michaelides2016a,
     display="Michaelides et al.",
     approach_name="Intermediate Notation for Provenance and Workflow Reproducibility (INPWR)",
+    emails="dtm@ecs.soton.ac.uk; Richard.Parker@bristol.ac.uk; C.Charlton@bristol.ac.uk; William.Browne@bristol.ac.uk; luc.moreau@kcl.ac.uk",
     _cite=True,
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[BLOCKLY],
         goal=REPRODUCIBILITY,
@@ -19,7 +21,7 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
+
         annotations=[],
         execution=[OVERRIDING],
         deployment=[],
@@ -54,7 +56,7 @@ approach = Group(
         visplace=[EXTERNAL],
         query=[INTEROPERABLE.such_as([PROV])],
         integration=[],
-        
+
         granularity=["Blocks", FUNCTION_CALLS],
         granularity_text="Blocks, Calls, Random Seed, User Input",
         management_text="Proprietary (INPWR), PROV, Source",
@@ -62,7 +64,7 @@ approach = Group(
         specific_query_text="PROV",
         thread=NO,
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""

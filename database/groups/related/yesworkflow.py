@@ -7,9 +7,12 @@ approach = Group(
     mcphillips2015a, mcphillips2015b,
     display="Yes  Work  flow",
     approach_name="YesWorkflow",
+    emails="tmcphillips@absoluteflow.org; bowers@gonzaga.edu; Khalid.Belhajjame@dauphine.fr; ludaesch@illinois.edu",
+    to="McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Ludäscher, Bertram",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[AGNOSTIC],
         goal=COMPREHENSION,
@@ -19,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[PARSEABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[PARSEABLE, INTERNAL, EXTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION, POST_MORTEM],
         deployment=[],
         definition=[],

@@ -35,6 +35,9 @@ from ..work.y2015 import stockton2015a
 from ..work.y2015 import topalidou2015a
 from ..work.y2016 import meyer2016a
 from ..work.y2016 import geit2016a
+from ..work.y2017 import meyer2017a
+from ..work.y2017 import pimentel2017a
+from ..work.y2018 import antolik2018a
 
 DB(Citation(
     meyer2016a, antolik2013a, ref="Antolik and Davison, 2013",
@@ -263,5 +266,26 @@ DB(Citation(
     meyer2016a, wolfram2002a, ref="Wolfram, 2002",
     contexts=[
         "We will simulate one dimensional elementary cellular automata (Wolfram, 2002).",
+    ],
+))
+
+DB(Citation(
+    meyer2017a, meyer2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    pimentel2017a, meyer2016a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    antolik2018a, meyer2016a, ref="",
+    contexts=[
+
     ],
 ))

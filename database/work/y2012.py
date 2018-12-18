@@ -621,7 +621,7 @@ gebser2012c = DB(WorkUnrelated(
     scholar_ok="aprox",
 ))
 
-gehani2012a = DB(WorkBinaryOk(
+gehani2012a = DB(WorkOk(
     2012, "SPADE: support for provenance auditing in distributed environments",
     display="gehani",
     authors="Gehani, Ashish and Tariq, Dawood",
@@ -1700,6 +1700,7 @@ yoon2012a = DB(WorkUnrelated(
 
 zhao2012a = DB(WorkUnrelated(
     2012, "Recovering Linkage Between Seismic Images and Velocity Models",
+    metakey='zhao2012a',
     aliases=[
         (2012, "SPE-153272-PP", "Zhao, Jing and Chelmis, Charalampos and Sorathia, Vikram and Prasanna, Viktor and Goel, Abhay"),
         (0, "SPE-153272-PP SPE-153272-PP", "Zhao, Jing and Chelmis, Charalampos and Sorathia, Vikram and Prasanna, Viktor and Goel, Abhay"),

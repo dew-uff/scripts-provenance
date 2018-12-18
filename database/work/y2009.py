@@ -1119,6 +1119,21 @@ lin2009a = DB(WorkUnrelated(
     scholar_ok=True,
 ))
 
+lin2009b = DB(WorkUnrelated(
+    2009, "A reference architecture for scientific workflow management systems and the VIEW SOA solution",
+    surveyhide="1",
+    due="Unrelated to scripts",
+    display="lin",
+    authors="Lin, Cui and Lu, Shiyong and Fei, Xubo and Chebotko, Artem and Pai, Darshan and Lai, Zhaoqiang and Fotouhi, Farshad and Hua, Jing",
+    place=TSC,
+    file="Lin2009b.pdf",
+    pp="79--92",
+    volume="2",
+    number="1",
+    entrytype="article",
+    organization="IEEE",
+))
+
 loeliger2009a = DB(WorkUnrelated(
     2009, "Version Control with Git",
     due="Unrelated to provenance",

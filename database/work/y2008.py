@@ -1971,3 +1971,17 @@ zhao2008b = DB(WorkUnrelated(
     cluster_id="4755704745275140949",
     scholar_ok=True,
 ))
+
+zhao2008c = DB(WorkUnrelated(
+    2008, "A logic programming approach to scientific workflow provenance querying",
+    surveyhide="1",
+    display="zhao",
+    authors="Zhao, Yong and Lu, Shiyong",
+    file="Zhao2008c.pdf",
+    entrytype="inproceedings",
+    place=IPAW,
+    due="Unrelated to scripts",
+    pp="31--44",
+    publisher="Springer",
+    local="Salt-Lake City, USA",
+))

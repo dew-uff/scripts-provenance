@@ -7,22 +7,24 @@ approach = Group(
     greff2015a,
     display="Sacred",
     approach_name="Sacred",
+    emails="klaus@idsia.ch; juergen@idsia.ch",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
 
-        goal=REPRODUCIBILITY,
-        supports=[REPRODUCIBILITY, MANAGEMENT, COMPREHENSION],
+        goal=MANAGEMENT,
+        supports=[MANAGEMENT, COMPREHENSION],
         categories=[COLLECTION, EVOLUTION, REPRODUCIBILITY, MANAGEMENT, FRAMEWORK],
 
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[INTERNAL, EXECUTABLE, INCLUSIVE],
-        execution=[INSTRUMENTATION],
+
+        annotations=[INTERNAL, EXECUTABLE, INCLUSIVE, OPTIONAL, DEFINITION],
+        execution=[INSTRUMENTATION, OVERRIDING],
         deployment=[BEFORE_EXECUTION],
         definition=[READING, STATIC, DYNAMIC],
 
@@ -36,26 +38,26 @@ approach = Group(
         pipeline=NO,
         summarization=[],
 
-        distribution=[],
-        storage=[NOSQL.such_as(["MongoDB"])],
+        distribution=[PROPRIETARY.such_as(["JSON"])],
+        storage=[RELATIONAL_DB, NOSQL.such_as(["MongoDB"]), PROPRIETARY.such_as(["JSON"])],
         visualization=[LOG_VIEW],
-        visplace=[INTERNAL],
-        query=[WEB],
+        visplace=[INTERNAL, EXTERNAL],
+        query=[WEB, QUERY.such_as([SQL, PROLOG, PYTHON])],
         integration=[],
-        
+
         granularity=[VALUES, OUTPUT_DATA, INPUT_FILES, OUTPUT_FILES, MODULES, OS_VERSION],
         granularity_text="User defined, Output, Modules, Host, Source, Files (I/O)",
-        management_text="MongoDB",
-        generic_query_text="",
+        management_text="MongoDB, Relational, JSON",
+        generic_query_text="SQL",
         specific_query_text="Web",
         thread=UNKNOWN,
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""
         <p>
-            Sacred (<a href="#greff2015a" class="reference">greff2015a</a>) is a Python library for <span class="goal">configuring, organizing, logging and reproducing experiments</span>.
+            Sacred (<a href="#greff2015a" class="reference">greff2015a</a>) is a Python library for <span class="goal">configuring, organizing, and logging experiments</span>.
             Sacred requires users to <span class="strategy collection">instrument</span> the code specifying config parameters and main functions.
         </p>
         <p>
@@ -69,7 +71,7 @@ approach = Group(
         </p>
         <p>
             <span class="storage evolution">
-                Sacred stores the provenance in MongoDB.
+                Sacred stores the provenance in MongoDB, Relationa Database, or JSON files.
                 It has a simple integrated version control system that stores all file contents and keeps references to them through MD5 hashes and name in collections of MongoDB.
             </span>
             <span class="analysis">

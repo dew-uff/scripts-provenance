@@ -8,10 +8,13 @@ approach = Group(
     dey2015a, pimentel2016c,
     display="YW*NW",
     approach_name="YW*NW",
+    emails="leomurta@ic.uff.br; vanessa@ic.uff.br; jpimentel@ic.uff.br; tmcphillips@absoluteflow.org; Khalid.Belhajjame@dauphine.fr; ludaesch@illinois.edu",
+    to="McPhillips, Timothy and Bowers, Shawn and Belhajjame, Khalid and Ludäscher, Bertram",
     _cite=False,
     dont_cite=[pimentel2016d,],
 
      _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=COMPREHENSION,
@@ -21,8 +24,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[PARSEABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[PARSEABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[PASSIVE_MONITORING, OVERRIDING, INSTRUMENTATION, POST_MORTEM],
         deployment=[BEFORE_EXECUTION],
         definition=[PARSING, READING, STATIC, DYNAMIC],

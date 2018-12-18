@@ -35,6 +35,17 @@ from ..work.y2015 import yoon2015a
 from ..work.y2016 import hill2016a
 from ..work.y2016 import ragavan2016a
 from ..work.y2017 import kery2017a
+from ..work.y2017 import zhang2017a
+from ..work.y2017 import cambronero2017a
+from ..work.y2017 import myers2017a
+from ..work.y2017 import kery2017b
+from ..work.y2017 import nelson2017a
+from ..work.y2017 import lee2017a
+from ..work.y2018 import wang2018a
+from ..work.y2018 import abdul2018a
+from ..work.y2018 import fast2018a
+from ..work.y2018 import kery2018a
+from ..work.y2018 import rule2018a
 
 DB(Citation(
     kery2017a, Site("Atom Editor", "https://atom.io/"), ref="1",
@@ -329,6 +340,83 @@ DB(Citation(
     kery2017a, bar2003a, ref="35",
     contexts=[
         "For example, developing a new algorithm for computational biology may take considerable trial-and-error on both the code and the concepts behind it [35].",
+
+    ],
+))
+
+DB(Citation(
+    wang2018a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    abdul2018a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    fast2018a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    zhang2017a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    kery2018a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    cambronero2017a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    myers2017a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    kery2017b, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    rule2018a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    nelson2017a, kery2017a, ref="",
+    contexts=[
+
+    ],
+))
+
+DB(Citation(
+    lee2017a, kery2017a, ref="",
+    contexts=[
 
     ],
 ))

@@ -2,15 +2,18 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2013 import stevens2013a
-    
+
 approach = Group(
     stevens2013a,
     display="Lancet",
     approach_name="Lancet",
     categories=["notebook", "collection", "reproducibility"],
+    emails="jlrstevens@gmail.com; me@marcoelver.com; jbednar@inf.ed.ac.uk",
+    # Invalid email: jlstevens@inf.ed.ac.uk;
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=REPRODUCIBILITY,
@@ -20,19 +23,18 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
-        execution=[],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
+        execution=[INSTRUMENTATION],
         deployment=[BEFORE_EXECUTION],
         definition=[PARSING, STATIC],
 
-        execution_granularity=[],
+        execution_granularity=[PROC_ARGUMENTS],
         deployment_granularity=[
             OS_VERSION, PYTHON_VERSION, SELF_VERSION
         ],
         definition_granularity=[
             PROC_NAME,
-            PROC_ARGUMENTS,
             "Launcher repr"
         ],
 
@@ -48,7 +50,7 @@ approach = Group(
         visplace=[],
         query=[],
         integration=[],
-        
+
         granularity=[ARGUMENTS, COMMANDS, ENV_VAR],
         granularity_text="Arguments, Commands, Platform, Env. Var.",
         management_text="Log",
@@ -56,7 +58,7 @@ approach = Group(
         specific_query_text="",
         thread=YES,
         diff=[DATA.star("VCS")],
-                    
+
         limitations=[],
     )],
     _about="""

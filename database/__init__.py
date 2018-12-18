@@ -68,7 +68,9 @@ config.BIBTEX_IGNORE_FIELDS = [
     "resumo", "star2",  "scholar_id2", "see",
     "define", "summarization", "visualization", "categories", "todo",
     "tool_summary", "collection", "lab", "note", "query", "storage",
-    "acm",  
+    "acm",
+
+    "emails", "to", "surveyhide",
 ]
 
 ### Map Work to BibTeX

@@ -44,6 +44,7 @@ claerbout1992a = DB(WorkUnrelated(
 fitzgerald1992a = DB(WorkUnrelated(
     1992, "A New Windows-Based Statistical Analysis",
     due="Unrelated to provenance. Unrelated to scripts",
+    metakey='fitzgerald1992a',
     aliases=[
         (2012, "A New Windows-Based Statistical Analysis", "FitzGerald, GC and Hurley, TA"),
         (1992, "A New Windows-Based Statistical Analysis Environment", "FitzGerald, GC and Hurley, TA"),

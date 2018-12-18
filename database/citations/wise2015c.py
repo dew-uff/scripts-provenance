@@ -112,6 +112,8 @@ from ..work.y2015 import hanson2015a
 from ..work.y2015 import khan2015a
 from ..work.y2015 import pienta2015a
 from ..work.y2015 import acuna2015b
+from ..work.y2015 import acuna2015c
+from ..work.y2017 import romano2017a
 
 
 DB(Citation(
@@ -1011,5 +1013,12 @@ DB(Citation(
     acuna2015b, zhao2007a, ref="[108]",
     contexts=[
         "Swift  [108]  provides  a  scripting  language  for  describing  processes  made  of  loosely coupled and data-centric elements, together with an execution engine for distributed environments",
+    ],
+))
+
+DB(Citation(
+    romano2017a, acuna2015c, ref="",
+    contexts=[
+
     ],
 ))

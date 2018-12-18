@@ -9,10 +9,12 @@ approach = Group(
     guo2010a, guo2011b,
     display="IncPy",
     approach_name="Incremental Python",
+    emails="philip@pgbovine.net; engler@cs.stanford.edu",
     _cite=False,
     dont_cite=[guo2012c],
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=CACHE,
@@ -22,8 +24,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, EXCLUSIVE, OPTIONAL],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[OVERRIDING, INSTRUMENTATION],
         deployment=[],
         definition=[PARSING, READING, STATIC, DYNAMIC],
@@ -53,7 +55,7 @@ approach = Group(
         visplace=[],
         query=[],
         integration=[],
-        
+
         granularity=[FILES, FUNCTION_CALLS, VARIABLE_LINEAGE.star("*global")],
         granularity_text="Functions, Globals, Stack, Output, Files (I/O)",
         management_text="Content DB",

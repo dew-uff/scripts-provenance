@@ -7,9 +7,11 @@ approach = Group(
     bochner2008a,
     display="Bochner, Gude, and Schreiber",
     approach_name="-",
+    emails="arsten@bochner.de; roland.gude@yoochoose.com; Andreas.Schreiber@dlr.de",
     _cite=True,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
 
@@ -20,11 +22,11 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
-        deployment=[],
-        definition=[],
+        deployment=[DURING_EXECUTION],
+        definition=[READING, DYNAMIC],
 
         execution_granularity=[
             INPUT_FILES.star("*user"),
@@ -46,8 +48,8 @@ approach = Group(
         summarization=[],
 
         meta_distribution=[],
-        distribution=[],
-        storage=[NOSQL.such_as([XML_SERVER])],
+        distribution=[WEB.such_as(["PReServ"])],
+        storage=[],
         visualization=[],
         visplace=[],
         query=[
@@ -55,15 +57,15 @@ approach = Group(
             WEB.such_as(["SOAP messages"])
         ],
         integration=[],
-        
+
         granularity=[USER_DEFINED],
-        granularity_text="User defined",
-        management_text="XML Server",
+        granularity_text="User defined, Files, Platform",
+        management_text="PReServ",
         generic_query_text="XQuery, XPath",
         specific_query_text="Web",
         thread=YES.star("*user"),
         diff=[],
-                    
+
         limitations=[],
     )],
     _about="""
@@ -71,7 +73,7 @@ approach = Group(
             Bochner, Gude, and Scheireber (<a href="#bochner2008a" class="reference">bochner2008a</a>) propose a library to collect provenance in Python scripts to <span class="goal">check for compliance with applicable regulations</span>.
             <span class="collection">
                 This library requires users to <span title="Defines a recording protocol to record the process documentation">annotate</span> what and how they want to capture.
-                Thus, it applies the instrumentation strategy for gathering execution provenance.
+                Thus, it applies the instrumentation strategy for gathering execution provenance. These annotations can also be used for gathering definition and deployment provenance dynamically.
             </span>
         </p>
         <p>

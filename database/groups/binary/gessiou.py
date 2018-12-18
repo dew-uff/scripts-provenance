@@ -20,7 +20,7 @@ approach = Group(
 
         tools=["DTrace"],
         
-        annotations=[EXECUTABLE, EXTERNAL, INCLUSIVE],
+        annotations=[EXECUTABLE, EXTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[OVERRIDING, INSTRUMENTATION],
         deployment=[],
         definition=[],

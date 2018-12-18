@@ -62,7 +62,7 @@
     </footer>
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="js/downloadSVG.js"></script>
     <script>
       var stratify = d3.stratify()
@@ -76,7 +76,8 @@
 
       var svg = d3.select(".starter-template").append("svg")
         .attr("width", width + margin.right + margin.left)
-        .attr("height", height + margin.top + margin.bottom),
+        .attr("height", height + margin.top + margin.bottom)
+        .attr('class', 'downloadsvg'),
         g = svg.append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 

@@ -7,9 +7,12 @@ approach = Group(
     becker1988a,
     display="Becker and Chambers",
     approach_name="-",
+    emails="rab@research.att.com; jmc@stat.stanford.edu",
+    # rab@research.att.com
     _cite=True,
 
     _meta=[dict(
+        reply=False,
         binary=NO,
         languages=[S],
 

@@ -21,7 +21,7 @@ approach = Group(
 
         tools=["FUSE"],
         
-        annotations=[EXECUTABLE, EXTERNAL, INCLUSIVE, OPTIONAL],
+        annotations=[EXECUTABLE, EXTERNAL, INCLUSIVE, OPTIONAL, DEFINITION],
         execution=[PASSIVE_MONITORING, INSTRUMENTATION],
         deployment=[],
         definition=[],

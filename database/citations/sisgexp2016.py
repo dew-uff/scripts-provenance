@@ -8,6 +8,7 @@ from ..work.y2014 import driemeier2014a
 from ..work.y2015 import mcphillips2015a
 from ..work.y2015 import nascimento2015a
 from ..work.y2016 import cruz2016a
+from ..work.y2017 import cruz2017a
 
 DB(Citation(
     cruz2016a, driemeier2014a, ref="1",
@@ -36,5 +37,12 @@ DB(Citation(
     cruz2016a, mcphillips2015a, ref="4",
     contexts=[
     	"There are few mechanisms to collect provenance of statistical scripts without changing its source code [3, 4].",
+    ],
+))
+
+DB(Citation(
+    cruz2017a, cruz2016a, ref="",
+    contexts=[
+
     ],
 ))

@@ -2,14 +2,16 @@ from snowballing.approaches import Group
 
 from ..constants import *
 from ...work.y2015 import dietrich2015a
-    
+
 approach = Group(
     dietrich2015a,
     display="versuchung",
     approach_name="versuchung",
+    emails="dietrich@sra.uni-hannover.de; lohmann@sra.uni-hannover.de",
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
 
@@ -20,8 +22,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=[],
-        
-        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE],
+
+        annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
         deployment=[],
         definition=[READING, STATIC, DYNAMIC],
@@ -43,20 +45,20 @@ approach = Group(
         summarization=[],
 
         distribution=[CONTENT_DATABASE, PROPRIETARY.such_as(["Dict"])],
-        storage=[CONTENT_DATABASE, PROPRIETARY.such_as(["Dict"])],
-        visualization=[], 
+        storage=[RELATIONAL_DB.such_as(["SQLite"]), CONTENT_DATABASE, PROPRIETARY.such_as(["Dict"])],
+        visualization=[],
         visplace=[],
         query=[FUNCTIONS],
         integration=['dataref'],
-        
+
         granularity=[FILES, USER_DEFINED],
         granularity_text="User defined, Files (I/O), Source",
         management_text="Content DB, Proprietary (Dict)",
-        generic_query_text="",
+        generic_query_text="SQL",
         specific_query_text="Functions",
         thread=UNKNOWN,
         diff=[DATA.star("VCS")],
-                    
+
         limitations=[],
     )],
     _about="""
@@ -72,7 +74,7 @@ approach = Group(
             Versuchung provides functions for monitoring shell commands and the machine environment, such as the network activity, and the processor utilization.
         </p>
         <p class="storage">
-            Versuchung calculates a hash based on the input parameters and creates a metadata file named after this hash in a artifact directory. This metadata file contains a plain-text representation of a Python data structure with all the collected information.
+            Versuchung calculates a hash based on the input parameters and creates a metadata file named after this hash in a artifact directory. This metadata file contains a plain-text representation of a Python data structure with all the collected information. Versuchung supports storing the data into SQLite databases as well.
         </p>
         <p class="analysis">
             The framework itself can be used to load the metadata file for analysis. Thus, its execution creates a chained Experiment.

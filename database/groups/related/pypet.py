@@ -3,15 +3,19 @@ from snowballing.approaches import Group
 from ..constants import *
 from ...work.y2015 import meyer2015a
 from ...work.y2016 import meyer2016a
-    
+
 approach = Group(
     meyer2015a, meyer2016a,
     display="pypet",
     approach_name="pypet",
+    emails="robert.meyer@ni.tu-berlin.de",
+    to="Robert Meyer",
+    # Invalid: oby@cs.tu-berlin.de
     categories=["collection", "parameter"],
     _cite=False,
 
     _meta=[dict(
+        reply=True,
         binary=NO,
         languages=[PYTHON],
         goal=MANAGEMENT,
@@ -21,11 +25,14 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=["Sumatra"],
-        
+
         annotations=[
             EXECUTABLE,
             INTERNAL,
             INCLUSIVE,
+
+            MANDATORY, DEFINITION, # Default
+            PROVENANCE, OPTIONAL, # For provenance
         ],
         execution=[INSTRUMENTATION],
         deployment=[BEFORE_EXECUTION],
@@ -51,7 +58,7 @@ approach = Group(
         visplace=[],
         query=[],
         integration=["Sumatra"],
-        
+
         granularity=[ARGUMENTS, OUTPUT_DATA],
         granularity_text="Arguments, Output, Sumatra",
         management_text="Proprietary (HDF5)",
@@ -59,7 +66,7 @@ approach = Group(
         specific_query_text="",
         thread=YES,
         diff=[DATA.star("VCS")],
-                    
+
         limitations=[],
     )],
     _about="""

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PinS - Taxonomy Glossary </title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+        ul {
+          list-style-type: none;
+        }
+        body {
+            counter-reset: h2counter;
+            padding-top: 0px;
+        }
+        h1 {
+            counter-reset: h2counter;
+        }
+        h2 {
+            counter-reset: h3counter;
+        }
+        h3 {
+            counter-reset: h4counter;
+        }
+        h2:before {
+            content: counter(h2counter) ".\0000a0\0000a0";
+            counter-increment: h2counter;
+        }
+        h3:before {
+            content: counter(h2counter) "." counter(h3counter) ".\0000a0\0000a0";
+            counter-increment: h3counter;
+        }
+        h4:before {
+            content: counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0\0000a0";
+            counter-increment: h4counter;
+        }
+    </style>
+  </head>
+  <body>
+  
+    <div class="container">
+      <div class="starter-template">
+        <h1> Provenance in Scripts - Taxonomy Glossary </h1>
+
+        <div class="index">
+            <ul>
+                <li>
+                    <a href="#collection" title="View definition of Collection"> Collection </a>
+                    <ul>
+                        <li>
+                            <a href="#annotations" title="View definition of Annotations"> (&nbsp;&nbsp;) Annotations </a>
+                            <ul>
+                                <li> <a href="#placement" title="View definition of Placement"> Placement: (&nbsp;&nbsp;) Internal; (&nbsp;&nbsp;) External</a> </li>
+                                <li> <a href="#extraction" title="View definition of Extraction"> Extraction: (&nbsp;&nbsp;) Parseable; (&nbsp;&nbsp;) Execution</a> </li>
+                                <li> <a href="#inclusiveness" title="View definition of Inclusiveness"> Inclusiveness: (&nbsp;&nbsp;) Inclusive; (&nbsp;&nbsp;) Exclusive</a> </li>
+                                <li> <a href="#target" title="View definition of Target"> Target: (&nbsp;&nbsp;) Definition; (&nbsp;&nbsp;) Provenance</a> </li>
+                                <li> <a href="#necessity" title="View definition of Necessity"> Necessity: (&nbsp;&nbsp;) Optional; (&nbsp;&nbsp;) Mandatory</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#execution" title="View definition of Execution"> (&nbsp;&nbsp;) Execution </a>
+                            <ul>
+                                <li> <a href="#passive-monitoring" title="View definition of Passive Monitoring"> (&nbsp;&nbsp;) Passive Monitoring</a> </li>
+                                <li> <a href="#overriding" title="View definition of Overriding"> (&nbsp;&nbsp;) Overriding</a> </li>
+                                <li> <a href="#post-mortem" title="View definition of Post-Mortem"> (&nbsp;&nbsp;) Post-Mortem</a> </li>
+                                <li> <a href="#instrumentation" title="View definition of Instrumentation"> (&nbsp;&nbsp;) Instrumentation</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#deployment" title="View definition of Deployment"> (&nbsp;&nbsp;) Deployment </a>
+                            <ul>
+                                <li> <a href="#deployment" title="View definition of Before"> (&nbsp;&nbsp;) Before</a> </li>
+                                <li> <a href="#deployment" title="View definition of During"> (&nbsp;&nbsp;) During</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#definition" title="View definition of Definition"> (&nbsp;&nbsp;) Definition </a>
+                            <ul>
+                                <li> <a href="#how" title="View definition of How"> How: (&nbsp;&nbsp;) Reading; (&nbsp;&nbsp;) Parsing</a> </li>
+                                <li> <a href="#when" title="View definition of When"> When: (&nbsp;&nbsp;) Static; (&nbsp;&nbsp;) Dynamic</a> </li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </li>
+                <li>
+                    <a href="#management" title="View definition of Management"> Management </a>
+                    <ul>
+                    <li>
+                        <a href="#storage" title="View definition of Storage"> (&nbsp;&nbsp;) Storage </a>
+                        <ul>
+                            <li> <a href="#database" title="View definition of Database"> (&nbsp;&nbsp;) Database. Specify: _____________ </a> </li>
+                            <li> <a href="#memory" title="View definition of Transient Memory"> (&nbsp;&nbsp;) Transient Memory</a> </li>
+                            <li> <a href="#file" title="View definition of File"> (&nbsp;&nbsp;) File. Specify: _____________ </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#distribution" title="View definition of Distribution"> (&nbsp;&nbsp;) Distribution </a>
+                        <ul>
+                            <li> <a href="#file-dist" title="View definition of File"> (&nbsp;&nbsp;) File. Specify: _____________ </a> </li>
+                            <li> <a href="#repository" title="View definition of Repository"> (&nbsp;&nbsp;) Repository</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a href="#reproducibility" title="View definition of Reproducibility"> (&nbsp;&nbsp;) Reproducibility</a> </li>
+                    <li>
+                        <a href="#versioning" title="View definition of Versioning"> (&nbsp;&nbsp;) Versioning </a>
+                        <ul>
+                            <li> <a href="#trialid" title="View definition of Trial ID"> (&nbsp;&nbsp;) Trial ID</a> </li>
+                            <li> <a href="#sequence" title="View definition of Sequence"> (&nbsp;&nbsp;) Sequence</a> </li>
+                            <li> <a href="#intention" title="View definition of Intention"> (&nbsp;&nbsp;) Intention</a> </li>
+                        </ul>
+                    </li>
+                    </ul>
+                 </li>
+                <li>
+                    <a href="#analysis" title="View definition of Analysis"> Analysis </a>
+                    <ul>
+                    <li>
+                        <a href="#query" title="View definition of Query"> (&nbsp;&nbsp;) Query </a>
+                        <ul>
+                            <li> <a href="#generic" title="View definition of Generic"> (&nbsp;&nbsp;) Generic. Specify: _____________ </a> </li>
+                            <li> <a href="#specific" title="View definition of Specific"> (&nbsp;&nbsp;) Specific. Specify: _____________ </a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#visualization" title="View definition of Visualization"> (&nbsp;&nbsp;) Visualization </a>
+                        <ul>
+                            <li> <a href="#place" title="View definition of Place"> Place: (&nbsp;&nbsp;) Internal; (&nbsp;&nbsp;) External</a> </li>
+                            <li> <a href="#type" title="View definition of Type"> Type: (&nbsp;&nbsp;) Log; (&nbsp;&nbsp;) Data; (&nbsp;&nbsp;) Process; (&nbsp;&nbsp;) Combined</a> </li>
+                            <li> <a href="#completeness" title="View definition of Completeness"> Completeness: (&nbsp;&nbsp;) Complete; (&nbsp;&nbsp;) Clustering; (&nbsp;&nbsp;) Filtering</a> </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#comparison" title="View definition of Comparison"> (&nbsp;&nbsp;) Comparison </a>
+                        <ul>
+                            <li> <a href="#comparison" title="View definition of Data"> (&nbsp;&nbsp;) Data</a> </li>
+                            <li> <a href="#comparison" title="View definition of Provenance"> (&nbsp;&nbsp;) Provenance</a> </li>
+                        </ul>
+                    </li>
+                    </ul>
+                 </li>
+            </ul>
+        </div>
+
+
+        <h2 id="collection">Collection</h2>
+        <p>This category classifies the provenance collection in 4 types: annotations, definition, deployment, and execution. These types are not mutually exclusive. For instance, many approaches use annotations as instrumentation to collect execution provenance. The following figure presents the collection taxonomy.</p>
+        <img src="data/collection_taxonomy.svg">
+
+        <h3 id="annotations">Annotations</h3>
+        <p>Users can make annotations on procedures or on data. We classify annotations in 5 axis as following: placement, extraction, inclusiveness, target, and necessity.</p>
+
+        <h4 id="placement">Placement</h4>
+        <p>This axis assumes two values: internal annotations and external annotations. <b>Internal annotations</b> occur inside the script definition. <b>External annotations</b> occur outside.</p>
+
+        <h4 id="extraction">Extraction</h4>
+        <p>This axis assumes two values: parseable annotations and executable annotations. <b>Parseable annotations</b> can be extracted statically, without the execution of the script. <b>Executable annotations</b> are executable code used to inform provenance.</p>
+
+        <h4 id="inclusiveness">Inclusiveness</h4>
+        <p>This axis assumes two values: inclusive annotations and exclusive annotations. <b>Inclusive annotations</b> indicate the inclusion of data. <b>Exclusive annotations</b> filter data out of the collection.</p>
+
+        <h4 id="target">Target</h4>
+        <p>This axis assumes two values: definition and provenance. An annotation can describe the program <b>definition</b> by stating the relationships among structures and data. An annotation can also enrich the <b>provenance</b> itself by adding more data to it.</p>
+
+        <h4 id="necessity">Necessity</h4>
+        <p>This axis assumes two values: optional and mandatory. <b>Mandatory annotations</b> occur when the annotations are required to collect the provenance. <b>Optional annotations</b> occur when the approach can collect provenance without the annotations, but support annotations to enrich the collection.</p>
+
+        <h3 id="execution">Execution</h3>
+        <p>Execution provenance corresponds to runtime logs and restrospective provenance. We identified 4 strategies of execution provenance collection: passive monitoring, overriding, post-mortem, and instrumentation.  </p>
+
+        <h4 id="passive-monitoring">Passive Monitoring</h4>
+        <p>The <b>passive monitoring</b> strategy uses a tracer to observe the execution and log all low-level events during the execution. It imposes the biggest performance overhead, but it is also able to collect more provenance data.</p>
+
+        <h4 id="overriding">Overriding</h4>
+        <p>The <b>overriding</b> strategy automatically instruments the code to collect provenance. It finds patterns in the script (such as function calls), and replaces it to enriched versions that collect provenance.</p>
+
+        <h4 id="post-mortem">Post-Mortem</h4>
+        <p>The <b>post-mortem</b> strategy infers provenance from execution results after the execution. In order to collect this type of provenance, users need to specify the locations of output data and how it relates to input data. One way to apply the post-mortem strategy is to store all data files in a specific directory and collect all files before and after the execution.</p>
+
+        <h4 id="instrumentation">Instrumentation</h4>
+        <p>The <b>instrumentation</b> strategy requires users to change their code specifying what they want to collect.</p>
+
+
+        <h3 id="deployment">Deployment</h3>
+        <p>Deployment provenance represents the execution environment. It refers to operating system version, interpreter version, environment variables, dependencies to programs and modules, and all the remaining deployment information that describes the environment. Tools can collect this type of provenance <b>before</b> or <b>during</b> the execution.</p>
+
+        <h3 id="definition">Definition</h3>
+        <p>Definition provenance refers to the project structure with scripts and input data. We classify definition provenance according to how and when it is collected.</p>
+
+        <h4 id="how">How</h4>
+        <p>Definition provenance can be collected by <b>reading</b> whole files or <b>parsing</b> files and extracting information from them.</p>
+
+        <h4 id="when">When</h4>
+        <p>Definition provenance can be collected <b>statically</b>, before or after the execution, or <b>dynamically</b>, during the execution.</p>
+
+        <h2 id="management">Management</h2>
+        <p>This category classifies provenance management features of the approaches in terms of storage, distribution, reproducibility, and versioning. The following figure presents the management taxonomy.</p>
+        <img src="data/management_taxonomy.svg">
+
+        <h3 id="storage">Storage</h3>
+        <p>Provenance can be stored in database systems, transient memory, or files.</p>
+
+        <h4 id="database">Database</h4>
+        <p>As <b>database systems</b>, we found approaches that use Relational databases, Graph databases, and NoSQL databases.</p>
+
+        <h4 id="memory">Transient Memory</h4>
+        <p>Approaches that use only the <b>transient memory</b>, consume the provenance during the script execution and do not store it.</p>
+
+        <h4 id="file">File</h4>
+        <p>As <b>file</b> storage, we found approaches that store provenance in interoperable files (e.g., PROV, OPM), log files, logic programming files (e.g., Prolog, Datalog facts), graph files (e.g., graphviz files), content databases (e.g., version control repositories), and proprietary file formats.</p>
+
+        <h3 id="distribution">Distribution</h3>
+        <p>After storing the provenance, the approaches can use files or repositories to distribute the provenance.</p>
+
+        <h4 id="file-dist">File</h4>
+        <p>Approaches use the same <b>file</b> formats of <a href="#file"> file storage</a> to distribute the provenance.</p>
+
+        <h4 id="repository">Repository</h4>
+        <p>Repositories implement mechanisms for sharing the provenance and experiment definitions, encouraging the reuse of experiments of other people.</p>
+
+        <h3 id="reproducibility">Reproducibility</h3>
+        <p>This category indicates whether the approach supports reproducing an execution.</p>
+
+        <h3 id="versioning">Versioning</h3>
+        <p>Some approaches only collect the provenance of a single execution. Others consider that a script can evolve and collect the provenance of multiple executions. We identified three types of versioning support: Trial ID, Sequence, and Intention.</p>
+
+        <h4 id="trialid">Trial ID</h4>
+        <p>Approaches that support versioning by <b>Trial ID</b> only assign IDs to each execution, but provide no order of execution.</p>
+
+        <h4 id="sequence">Sequence</h4>
+        <p>Approaches that support versioning by Sequence describe the sequence of executions.</p>
+
+        <h4 id="intention">Intention</h4>
+        <p>Approaches that support versioning by Intention support describing why and how the script and the provenance evolved.</p>
+
+
+        <h2 id="analysis">Analysis</h2>
+        <p>Provenance analysis aims at supporting the comprehension of data and processes. Analyzing provenance involves querying, visualizing, and comparing provenance data. The following figure presents the analysis taxonomy.</p>
+        <img src="data/analysis_taxonomy.svg">
+
+        <h3 id="query">Query</h3>
+        <p>We identified two types of queries: generic or specific.</p>
+
+        <h4 id="generic">Generic</h4>
+        <p>This category indicates whether the approach supports a <b>generic</b> language for querying provenance, such as SQL, SPARQL, XQuery, Prolog, and Datalog.</p>
+
+        <h4 id="specific">Specific</h4>
+        <p>This category indicates whether the approach supports a <b>specific</b> querying system for provenance, such as commands, functions, proprietary files, web interfaces, and interoperable formats (PROV/OPM) that can be queried in other provenance tools.</p>
+
+        <h3 id="visualization">Visualization</h3>
+        <p>We classify provenance visualization according to 3 axis: place, type, and completeness.</p>
+
+        <h4 id="place">Place</h4>
+        <p>The visualization can be internal or external. <b>Internal visualization</b> is implemented by the approach itself. <b>External visualization</b> occurs when the approach delegates the provenance visualization to an external tool, such as PROV visualizer.</p>
+
+        <h4 id="type">Type</h4>
+        <p>We identified four types of provenance visualizations: log, process, data, and combined.</p>
+
+        <p><b>Logs</b> are usually a textual representation of the provenance data.</p>
+
+        <p>In a <b>process graph</b>, nodes represent processes/operations and arrows represent data.</p>
+
+        <p>In a <b>data graph</b>, nodes represent data and arrows represent processes/operations.</p>
+
+        <p>In a <b>combined graph</b>, nodes represent both processes/operations and data. Arrows represent their relationships.</p>
+
+        <h4 id="completeness">Completeness</h4>
+        <p>Some approaches present the <b>complete</b> provenance data. Others support summarizing it by <b>clustering</b> or <b>filtering</b> the data.</p>
+
+        <h3 id="comparison">Comparison</h3>
+        <p>Some provenance approaches support <b>comparing data</b> to present differences between results and for cache invalidation. Others support <b>comparing provenance</b> graphs to understand differences between executions.</p>
+      </div>
+    </div>
+    <footer class="footer">
+      <img height="50" alt="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o"  title="Universidade Federal Fluminense - Instituto da Computa&ccedil;&atilde;o" src="images/ic.jpg">
+      <img height="50" alt="New York University - Tandom School of Engineering" title="New York University - Tandom School of Engineering" src="images/nyu.png">
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

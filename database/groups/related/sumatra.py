@@ -5,13 +5,15 @@ from ...work.y2012 import davison2012a
 from ...work.y2014 import davison2014a
 
 approach = Group(
-    davison2012a, 
+    davison2012a,
     display="Sumatra",
     approach_name="Sumatra",
+    emails="andrew.davison@unic.cnrs-gif.fr; mattions@gmail.com; samarkanov@gmail.com; telenczuk@unic.cnrs-gif.fr",
     _cite=False,
     dont_cite=[davison2014a,],
 
     _meta=[dict(
+        reply=None,
         binary=NO,
         languages=[AGNOSTIC, PYTHON],
         goal=REPRODUCIBILITY,
@@ -21,7 +23,7 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=["VCS"],
-        
+
         annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, PROVENANCE, OPTIONAL],
         execution=[POST_MORTEM],
         deployment=[BEFORE_EXECUTION],
@@ -59,7 +61,7 @@ approach = Group(
             WEB.such_as(["Textual listing"]),
         ],
         integration=["Plugins"],
-        
+
         granularity=[FILES],
         granularity_text="Modules, Files (I/O)",
         management_text="SQLite, VCS",
@@ -67,7 +69,7 @@ approach = Group(
         specific_query_text="Command, Web",
         thread=YES,
         diff=[DATA.star("VCS"), PROVENANCE],
-                    
+
         limitations=[],
     )],
     _about="""

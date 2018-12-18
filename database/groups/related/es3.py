@@ -11,11 +11,14 @@ approach = Group(
     frew2008a,
     display="ES3",
     approach_name="Earth System Science Server (ES3)",
+    emails="frew@bren.ucsb.edu; peter@eri.ucsb.edu; gjanee@ucop.edu",
+    to="Frew, James and Slaughter, Peter and Janée, Greg",
     _cite=False,
     dont_cite=[frew2004a, frew2008b, valeur2005a, frew2010a, frew2011a],
     # janee2012a
 
     _meta=[dict(
+        reply=None,
         repr="default",
         binary=YES,
         languages=[AGNOSTIC],
@@ -26,8 +29,8 @@ approach = Group(
         mode=USER_LEVEL,
 
         tools=["strace"],
-        
-        annotations=[PARSEABLE, EXTERNAL, EXCLUSIVE, OPTIONAL],
+
+        annotations=[PARSEABLE, EXTERNAL, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[PASSIVE_MONITORING, INSTRUMENTATION],
         deployment=[],
         definition=[],
@@ -56,7 +59,7 @@ approach = Group(
         visplace=[INTERNAL],
         query=[QUERY.such_as([XQUERY])],
         integration=["Logger Pluggins"],
-        
+
         granularity=[FILES, PROCESSES, ARGUMENTS],
         granularity_text="Files (I/O - metadata), Processes",
         management_text="XML Server, GraphML, Graphviz",
@@ -64,7 +67,7 @@ approach = Group(
         specific_query_text="",
         thread=YES,
         diff=[],
-                    
+
         limitations=[],
     ),dict(
         repr="script",
