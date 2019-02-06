@@ -30,7 +30,7 @@ approach = Group(
 
         annotations=[PARSEABLE, EXTERNAL, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[OVERRIDING],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[],
 
         execution_granularity=[
@@ -68,12 +68,12 @@ approach = Group(
             COMBINED_VIEW,
         ],
         visplace=[INTERNAL, EXTERNAL],
-        query=[INTEROPERABLE.such_as([PROV])],
+        query=[QUERY.such_as(["SQL", "Cypher", "Datalog"]), INTEROPERABLE.such_as([PROV])],
         integration=[],
 
         granularity=[FUNCTION_CALLS, ARGUMENTS, RETURNS],
         granularity_text="Functions, Returns, Arguments, Stack Trace, Env. Var.",
-        management_text="DB, PROV",
+        management_text="PostgreSQL, MySQL, H2, Neo4j, Datalog, GraphViz, PROV",
         generic_query_text="SQL, Cypher, Datalog",
         specific_query_text="PROV, Functions",
         thread=YES,

@@ -25,7 +25,7 @@ approach = Group(
 
         annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
-        deployment=[DURING_EXECUTION],
+        deployment=[CONTINUOUS],
         definition=[READING, DYNAMIC],
 
         execution_granularity=[

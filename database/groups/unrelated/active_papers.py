@@ -23,7 +23,7 @@ approach = Group(
         
         annotations=[EXECUTABLE, EXTERNAL, INCLUSIVE],
         execution=[],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[ASKS, READING],
 
         execution_granularity=[],

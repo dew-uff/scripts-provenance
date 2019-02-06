@@ -22,7 +22,7 @@ approach = Group(
         
         annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, EXCLUSIVE, OPTIONAL, DEFINITION],
         execution=[PASSIVE_MONITORING, INSTRUMENTATION],
-        deployment=[BEFORE_EXECUTION, DURING_EXECUTION],
+        deployment=[SNAPSHOT, CONTINUOUS],
         definition=[EXECUTION],
 
         execution_granularity=[INPUT_FILES, OUTPUT_FILES],

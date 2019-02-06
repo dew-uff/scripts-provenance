@@ -25,7 +25,7 @@ approach = Group(
         
         annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, OPTIONAL, DEFINITION],
         execution=[OVERRIDING, PASSIVE_MONITORING],
-        deployment=[DURING_EXECUTION],
+        deployment=[CONTINUOUS],
         definition=[EXECUTION],
 
         execution_granularity=[

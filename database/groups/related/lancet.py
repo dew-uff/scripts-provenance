@@ -26,7 +26,7 @@ approach = Group(
 
         annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[INSTRUMENTATION],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[PARSING, STATIC],
 
         execution_granularity=[PROC_ARGUMENTS],

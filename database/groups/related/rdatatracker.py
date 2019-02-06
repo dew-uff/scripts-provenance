@@ -26,7 +26,7 @@ approach = Group(
 
         annotations=[],
         execution=[PASSIVE_MONITORING, OVERRIDING],
-        deployment=[BEFORE_EXECUTION, DURING_EXECUTION],
+        deployment=[SNAPSHOT, CONTINUOUS],
         definition=[READING, DYNAMIC],
 
         execution_granularity=[VARIABLES, COMMANDS, VALUES],
@@ -35,7 +35,7 @@ approach = Group(
 
         cache=NO,
         replay=NO,
-        evolution=SEQUENCE,
+        evolution=TRIAL_ID,
         pipeline=NO,
         summarization=[FILTERING, CLUSTERING],
 
@@ -48,7 +48,7 @@ approach = Group(
 
         granularity=[VARIABLES, COMMANDS, VALUES],
         granularity_text="Commands, Variables, Values, Env. Var., Platform, Modules, Files (I/O)",
-        management_text="Interoperable (PROV)",
+        management_text="PROV-JSON",
         generic_query_text="",
         specific_query_text="DDG, PROV, Functions",
         thread=UNKNOWN,

@@ -26,7 +26,7 @@ approach = Group(
 
         annotations=[PARSEABLE, EXTERNAL, INCLUSIVE, PROVENANCE, OPTIONAL],
         execution=[POST_MORTEM],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[READING, STATIC],
 
         execution_granularity=[

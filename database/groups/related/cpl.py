@@ -22,10 +22,10 @@ approach = Group(
 
         tools=[],
 
-        annotations=[],
-        execution=[],
-        deployment=[],
-        definition=[],
+        annotations=[NA],
+        execution=[NA],
+        deployment=[NA],
+        definition=[NA],
 
         execution_granularity=[],
         deployment_granularity=[],

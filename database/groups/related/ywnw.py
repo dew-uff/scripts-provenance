@@ -27,7 +27,7 @@ approach = Group(
 
         annotations=[PARSEABLE, INTERNAL, INCLUSIVE, MANDATORY, DEFINITION],
         execution=[PASSIVE_MONITORING, OVERRIDING, INSTRUMENTATION, POST_MORTEM],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[PARSING, READING, STATIC, DYNAMIC],
 
         execution_granularity=[

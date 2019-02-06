@@ -25,7 +25,7 @@ approach = Group(
 
         annotations=[],
         execution=[OVERRIDING, POST_MORTEM.star("every activity")],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[READING, STATIC],
 
         execution_granularity=[

@@ -10,6 +10,7 @@ with description("generic"):
     BOTH = Item(u"\u2713\u2717", _bool=True)
     TODO = Item("?", _bool=False)
     USER_DEFINED = Item("User defined")
+    NA = Item("—", _bool=False)
 
 with description("languages"):
     AGNOSTIC = Item("*")
@@ -77,8 +78,8 @@ with description("execution"):
     POST_MORTEM = Item("Post-Mortem")
 
 with description("deployment"):
-    BEFORE_EXECUTION = Item("Before")
-    DURING_EXECUTION = Item("During")
+    SNAPSHOT = Item("Snapshot")
+    CONTINUOUS = Item("Continuous")
     ANNOTATIONS = Item("Annotations")
 
 with description("definition"):

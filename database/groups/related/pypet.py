@@ -35,7 +35,7 @@ approach = Group(
             PROVENANCE, OPTIONAL, # For provenance
         ],
         execution=[INSTRUMENTATION],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[READING, STATIC],
 
         execution_granularity=[

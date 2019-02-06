@@ -25,7 +25,7 @@ approach = Group(
 
         annotations=[EXECUTABLE, INTERNAL, INCLUSIVE, MANDATORY, OPTIONAL, DEFINITION, PROVENANCE],
         execution=[INSTRUMENTATION],
-        deployment=[DURING_EXECUTION],
+        deployment=[CONTINUOUS],
         definition=[],
 
         execution_granularity=[COMMANDS, USER_DEFINED, STACK],
@@ -34,7 +34,7 @@ approach = Group(
 
         cache=NO,
         replay=NO,
-        evolution=SEQUENCE,
+        evolution=TRIAL_ID,
         pipeline=YES,
         summarization=[CLUSTERING.such_as(["Combines all data accesses in nodes"])],
 

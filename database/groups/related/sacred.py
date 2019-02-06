@@ -25,7 +25,7 @@ approach = Group(
 
         annotations=[INTERNAL, EXECUTABLE, INCLUSIVE, OPTIONAL, DEFINITION],
         execution=[INSTRUMENTATION, OVERRIDING],
-        deployment=[BEFORE_EXECUTION],
+        deployment=[SNAPSHOT],
         definition=[READING, STATIC, DYNAMIC],
 
         execution_granularity=[VALUES, OUTPUT_DATA, INPUT_FILES, OUTPUT_FILES],

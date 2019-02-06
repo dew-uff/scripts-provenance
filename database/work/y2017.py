@@ -192,6 +192,20 @@ nelson2017a = DB(WorkUnrelated(
     file="nelson2017a.pdf",
 ))
 
+neves2017a = DB(WorkUnrelated(
+    2017, "Managing provenance of implicit data flows in scientific experiments",
+    due="Unrelated to scripts",
+    display="neves",
+    authors="Neves, Vitor C and Oliveira, Daniel De and Ocaña, Kary ACS and Braganholo, Vanessa and Murta, Leonardo",
+    place=TOIT,
+    pp="36",
+    entrytype="article",
+    volume="17",
+    number="4",
+    publisher="ACM",
+    ID="neves2017managing",
+))
+
 oliveira2017a = DB(WorkUnrelated(
     2017, "Provenance Analytics for Workflow-based Computational Experiments: a Survey",
     due="Unrelated to scripts",

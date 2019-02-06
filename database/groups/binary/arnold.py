@@ -22,7 +22,7 @@ approach = Group(
         
         annotations=[],
         execution=[OVERRIDING],
-        deployment=[DURING_EXECUTION],
+        deployment=[CONTINUOUS],
         definition=[EXECUTION],
 
         execution_granularity=[
