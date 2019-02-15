@@ -1,4 +1,4 @@
-# PinS - Provenance in Scripts
+# Scripts Provenance
 
 This repository contains the source code of the survey "A Survey on Collecting, Managing, and Analyzing Provenance from Scripts".
 
@@ -6,7 +6,7 @@ We applied forward and backward snowballing using the [snowballing library](http
 
 Based on the obtained approaches, we propose a taxonomy to classify provenance in scripts. We also provide a small description of each approach. 
 
-Please, visit our the survey website at [http://dew-uff.github.io/pins/](http://dew-uff.github.io/pins/).
+Please, visit our the survey website at [http://dew-uff.github.io/scripts-provenance](http://dew-uff.github.io/scripts-provenance).
 
 ## Authors
 
