@@ -297,7 +297,7 @@ Frew, James and Jan&#233;e, Greg and Slaughter, Peter
 
 </title><tspan x="590" y="151">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="590" y="200">IPAW<title>acronym: IPAW
 name: International Provenance and Annotation Workshop
-type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10985424330395289899&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2010a" fill="#8C510A" height="54" id="guo2010a" stroke="black" width="54" x="563" y="204"><title>Towards Practical Incremental Recomputation for Scientists: An Implementation for the Python Language
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10985424330395289899&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2010a" fill="#89500A" height="54" id="guo2010a" stroke="black" width="54" x="563" y="204"><title>Towards Practical Incremental Recomputation for Scientists: An Implementation for the Python Language
 Guo, Philip J and Engler, Dawson R
 
 @inproceedings{guo2010a,
@@ -413,7 +413,7 @@ Frew, James and Jan&#233;e, Greg and Slaughter, Peter
 
 </title><tspan x="675" y="151">ES3</tspan></text></a><text fill="black" text-anchor="middle" x="675" y="200">Procedia<title>acronym: Procedia
 name: Procedia Computer Science
-type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5840438888439008219&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="gavish2011a" fill="#01665E" height="54" id="gavish2011a" stroke="black" width="54" x="648" y="204"><title>A universal identifier for computational results
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=5840438888439008219&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="gavish2011a" fill="#012925" height="54" id="gavish2011a" stroke="black" width="54" x="648" y="204"><title>A universal identifier for computational results
 Gavish, Matan and Donoho, David
 
 @article{gavish2011a,
@@ -441,7 +441,7 @@ Gavish, Matan and Donoho, David
 
 </title><tspan x="675" y="231">VCR</tspan></text></a><text fill="black" text-anchor="middle" x="675" y="280">ISSTA<title>acronym: ISSTA
 name: ACM International Symposium on Software Testing and Analysis
-type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=6071085167494078934&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2011b" fill="#8C510A" height="54" id="guo2011b" stroke="black" width="54" x="648" y="284"><title>Using automatic persistent memoization to facilitate data analysis scripting
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=6071085167494078934&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2011b" fill="#89500A" height="54" id="guo2011b" stroke="black" width="54" x="648" y="284"><title>Using automatic persistent memoization to facilitate data analysis scripting
 Guo, Philip J and Engler, Dawson
 
 @inproceedings{guo2011b,
@@ -555,7 +555,7 @@ Runnalls, Andrew R
 
 </title><tspan x="760" y="151">CXXR</tspan></text></a><text fill="black" text-anchor="middle" x="845" y="40">CiSE<title>acronym: CiSE
 name: Computing in Science &amp; Engineering
-type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14563691115376114672&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="davison2012a" fill="#01665E" height="54" id="davison2012a" stroke="black" width="54" x="818" y="44"><title>Automated capture of experiment context for easier reproducibility in computational research
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14563691115376114672&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="davison2012a" fill="#012925" height="54" id="davison2012a" stroke="black" width="54" x="818" y="44"><title>Automated capture of experiment context for easier reproducibility in computational research
 Davison, Andrew
 
 @article{davison2012a,
@@ -585,7 +585,7 @@ Davison, Andrew
 
 </title><tspan x="845" y="71">Sumatra</tspan></text></a><text fill="black" text-anchor="middle" x="845" y="120">Thesis<title>acronym: Thesis
 name: Thesis
-type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3814339352044528543&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2012c" fill="#8C510A" height="54" id="guo2012c" stroke="black" width="54" x="818" y="124"><title>Software tools to facilitate research programming
+type: Thesis</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=3814339352044528543&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="guo2012c" fill="#89500A" height="54" id="guo2012c" stroke="black" width="54" x="818" y="124"><title>Software tools to facilitate research programming
 Guo, Philip Jia
 
 @phdthesis{guo2012c,
@@ -773,9 +773,9 @@ Huq, Mohammad Rezwanul and Apers, Peter MG and Wombacher, Andreas
   year = {2013}
 }
 
-</title><tspan x="930" y="219">Prove</tspan><tspan x="930" y="231">nance</tspan><tspan x="930" y="243">Curious</tspan></text></a><text fill="black" text-anchor="middle" x="930" y="280">fninf<title>acronym: fninf
+</title><tspan x="930" y="219">Prove</tspan><tspan x="930" y="231">nance</tspan><tspan x="930" y="243">Curious</tspan></text></a><text fill="black" text-anchor="middle" x="930" y="280">FNINF<title>acronym: FNINF
 name: Frontiers in Neuroinformatics
-type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=9618273160775972978&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="stevens2013a" fill="#01665E" height="54" id="stevens2013a" stroke="black" width="54" x="903" y="284"><title>An automated and reproducible workflow for running and analyzing neural simulations using Lancet and IPython Notebook
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=9618273160775972978&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="stevens2013a" fill="#012925" height="54" id="stevens2013a" stroke="black" width="54" x="903" y="284"><title>An automated and reproducible workflow for running and analyzing neural simulations using Lancet and IPython Notebook
 Stevens, Jean-Luc Richard and Elver, Marco and Bednar, James A
 
 @article{stevens2013a,
@@ -1027,7 +1027,7 @@ Dey, Saumen and Belhajjame, Khalid and Koop, David and Raul, Meghan and Lud&#228
 
 </title><tspan x="1100" y="311">YW*NW</tspan></text></a><text fill="black" text-anchor="middle" x="1100" y="360">OSR<title>acronym: OSR
 name: SIGOPS Operating Systems Review
-type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=17769532761506572989&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="dietrich2015a" fill="#01665E" height="54" id="dietrich2015a" stroke="black" width="54" x="1073" y="364"><title>The dataref versuchung: Saving time through better internal repeatability
+type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=17769532761506572989&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="dietrich2015a" fill="#012925" height="54" id="dietrich2015a" stroke="black" width="54" x="1073" y="364"><title>The dataref versuchung: Saving time through better internal repeatability
 Dietrich, Christian and Lohmann, Daniel
 
 @article{dietrich2015a,
@@ -1285,7 +1285,7 @@ Eichinski, Philip and Roe, Paul
   year = {2016}
 }
 
-</title><tspan x="1270" y="225">Datatra</tspan><tspan x="1270" y="237">ck</tspan></text></a><text fill="black" text-anchor="middle" x="1270" y="280">fninf<title>acronym: fninf
+</title><tspan x="1270" y="225">Datatra</tspan><tspan x="1270" y="237">ck</tspan></text></a><text fill="black" text-anchor="middle" x="1270" y="280">FNINF<title>acronym: FNINF
 name: Frontiers in Neuroinformatics
 type: Journal</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=10634720128698949546&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="meyer2016a" fill="#5AB4AC" height="54" id="meyer2016a" stroke="black" width="54" x="1243" y="284"><title>pypet: A Python Toolkit for Data Management of Parameter Explorations
 Meyer, Robert and Obermayer, Klaus
@@ -1317,7 +1317,7 @@ Meyer, Robert and Obermayer, Klaus
 
 </title><tspan x="1270" y="311">pypet</tspan></text></a><text fill="black" text-anchor="middle" x="1270" y="360">IPAW<title>acronym: IPAW
 name: International Provenance and Annotation Workshop
-type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14853632123069176016&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="michaelides2016a" fill="#01665E" height="54" id="michaelides2016a" stroke="black" width="54" x="1243" y="364"><title>Intermediate Notation for Provenance and Workflow Reproducibility
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=14853632123069176016&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="michaelides2016a" fill="#012925" height="54" id="michaelides2016a" stroke="black" width="54" x="1243" y="364"><title>Intermediate Notation for Provenance and Workflow Reproducibility
 Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, William J and Moreau, Luc
 
 @inproceedings{michaelides2016a,
@@ -1345,7 +1345,7 @@ Michaelides, Danius T and Parker, Richard and Charlton, Chris and Browne, Willia
 
 </title><tspan x="1270" y="379">Michael</tspan><tspan x="1270" y="391">ides et</tspan><tspan x="1270" y="403">al.</tspan></text></a><text fill="black" text-anchor="middle" x="1355" y="40">SciPy<title>acronym: SciPy
 name: Python in Science Conference
-type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=11450193917748753420&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="oxvig2016a" fill="#01665E" height="54" id="oxvig2016a" stroke="black" width="54" x="1328" y="44"><title>Storing Reproducible Results from Computational Experiments using Scientific Python Packages
+type: Conference</title></text><a target="_blank" xlink:href="http://scholar.google.com/scholar?cites=11450193917748753420&amp;as_sdt=2005&amp;sciodt=0,5&amp;hl=en"><rect class="oxvig2016a" fill="#012925" height="54" id="oxvig2016a" stroke="black" width="54" x="1328" y="44"><title>Storing Reproducible Results from Computational Experiments using Scientific Python Packages
 Oxvig, Christian Schou and Arildsen, Thomas and Larsen, Torben
 
 @inproceedings{oxvig2016a,
